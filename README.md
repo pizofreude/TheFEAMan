@@ -1,12 +1,16 @@
 # TheFEAMan
 
-FEA knowledge database and Know-How [documentation](https://github.com/pizofreude/TheFEAMan/tree/main/docs).
+This repository contains lecture notes, code examples, calculation resources, and tutorials related to Technical Mechanics and Finite Element Analysis. It's designed to be a learning resource for students and professionals interested in these fields. The subject cover topics such as linear and nonlinear FEA, technical mechanics, and topology optimization. The resources section includes reference to books, papers, and websites that can help you deepen your knowledge of Technical Mechanics and Finite Element Analysis. We welcome contributions from the community, so please feel free to submit pull requests or issues if you'd like to add your own code or resources to the repository.
 
-## TM_Formelsammlung
+It serves as FEA knowledge database and Know-How [documentation](https://github.com/pizofreude/TheFEAMan/tree/main/docs).
+
+## Contents Under Docs
+
+### TM_Formelsammlung
 
 Databank for applied technical mechanics 1-3 formulary.
 
-## Literature
+### Literature
 
 Lecture notes from various FEA Professors and third party sources.
 
@@ -50,7 +54,7 @@ Lecture notes from various FEA Professors and third party sources.
 - [DE] "Lineare und nichtlineare FEM: Eine Einführung mit Anwendungen in der Umformsimulation mit LS-DYNA®" von Marcus Wagner
 - [DE] "Nichtlineare Finite-Element-Methoden" von Peter Wriggers
 
-## FEA Website Resources
+## FEA Online Resources
 
 ### Theory
 
@@ -97,3 +101,11 @@ Lecture notes from various FEA Professors and third party sources.
 - ANSYS: [Preloaded Bolted Joint Analysis](https://courses.ansys.com/index.php/courses/bolted-connections-2/)
 - ANSYS: [Intro to Heat Transfer in Mechanical Structures](https://courses.ansys.com/index.php/courses/heat-transfer/)
 - ANSYS: [Solid Modeling With Ansys SpaceClaim](https://courses.ansys.com/index.php/courses/solid-modeling-with-ansys-spaceclaim/)
+
+## Contributing
+
+Contributions to this repository are welcome. If you find a bug or have a suggestion for improvement, please submit an issue or pull request.
+
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE file](https://github.com/pizofreude/TheFEAMan/blob/main/LICENSE) for more information.
