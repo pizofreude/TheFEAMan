@@ -102,6 +102,28 @@ Lecture notes from various FEA Professors and third party sources.
 - ANSYS: [Intro to Heat Transfer in Mechanical Structures](https://courses.ansys.com/index.php/courses/heat-transfer/)
 - ANSYS: [Solid Modeling With Ansys SpaceClaim](https://courses.ansys.com/index.php/courses/solid-modeling-with-ansys-spaceclaim/)
 
+## FEA Software Packages
+
+| FEA Software | Company | Platform | Commercial/Open Source | Features |
+| --- | --- | --- | --- | --- |
+| ANSYS Workbench | ANSYS Inc. | Windows, Linux, Unix | Commercial | Static and dynamic analysis, Multiphysics simulation, heat transfer, structural mechanics, electromagnetics, meshing tools, optimization |
+| Abaqus | Dassault Systemes | Windows, Linux | Commercial | Nonlinear analysis, contact analysis, dynamic analysis, heat transfer, fluid-structure interaction, multiphysics, optimization, meshing tools |
+| COMSOL | COMSOL Inc. | Windows, Linux, Unix | Commercial | Multiphysics simulation, heat transfer, structural mechanics, electromagnetics, acoustics, chemical reactions, meshing tools, optimization |
+| LS-DYNA | Livermore Software Technology Corp. | Windows, Linux, Unix | Commercial | Nonlinear analysis, explicit dynamics, crashworthiness, impact analysis, fluid-structure interaction, multiphysics, optimization |
+| Nastran | Siemens PLM Software | Windows, Linux, Unix | Commercial | Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, multiphysics, optimization, meshing tools |
+| SolidWorks Simulation | Dassault Systemes | Windows | Commercial | Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, multiphysics, optimization, meshing tools |
+| Femap | Siemens PLM Software | Windows | Commercial | Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, meshing tools, optimization |
+| SimScale | SimScale GmbH | Web-based | Commercial/Open Source | Multiphysics simulation, heat transfer, structural mechanics, electromagnetics, acoustics, meshing tools, optimization |
+| HyperWorks | Altair Engineering Inc. | Windows, Linux | Commercial | Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, optimization, meshing tools |
+| Autodesk Nastran | Autodesk Inc. | Windows | Commercial | Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics |
+| CalculiX | CalculiX | Windows, Linux | Open Source | Linear and nonlinear analysis, heat transfer, fluid-structure interaction, contact analysis, optimization |
+| Elmer | CSC - IT Center for Science Ltd. | Windows, Linux, Unix | Open Source | Multiphysics simulation, fluid dynamics, heat transfer, electromagnetics, structural mechanics |
+| ADINA | ADINA R&D Inc. | Windows, Linux, Unix | Commercial | Multiphysics simulation, linear and nonlinear analysis, heat transfer, fluid dynamics, structural mechanics, electromagnetics, optimization |
+| z88 | z88.de | Windows, Linux, Unix | Open Source | Linear and nonlinear analysis, structural mechanics, optimization |
+| OnScale | OnScale Inc. | Windows, Linux, Cloud-based | Commercial | Multiphysics simulation, structural mechanics, acoustics, electromagnetics, thermal analysis |
+| Simuleon | Simuleon B.V. | Windows | Commercial | Nonlinear analysis, structural mechanics, heat transfer, electromagnetics, multiphysics, optimization, meshing tools |
+| CloudCalc | CloudCalc Inc. | Web-based | Commercial | Structural analysis, code compliance, optimization, real-time collaboration |
+
 ## Contributing
 
 Contributions to this repository are welcome. If you find a bug or have a suggestion for improvement, please submit an issue or pull request.
