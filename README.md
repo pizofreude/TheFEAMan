@@ -4,7 +4,11 @@ This repository contains lecture notes, code examples, calculation resources, an
 
 It serves as FEA knowledge database and Know-How [documentation](https://github.com/pizofreude/TheFEAMan/tree/main/docs) as well as community processes.
 
+Finite Element Analysis (FEA) is a powerful tool for solving complex engineering problems. But sometimes, it can also be a source of frustration for engineers who struggle to set up the simulation correctly and obtain reliable results. Plus, FEA can be a frustrating process of trial and error to get the simulation to converge and produce accurate results. That’s why some people jokingly call FEA “Frustration Engineering Algorithm”. In this repository, we will share some tips and tricks to make FEA less frustrating and hopefully more rewarding.
+
 ## Contents Under Docs
+
+The "docs" directory typically contains documentation related to the Finite Element Analysis software, analysis methods, or code. This may include user guides, installation instructions, API documentation, release notes, and other resources that help users understand and use the FEA software & simulation effectively. The "docs" folder is structured in a way that allows users to easily navigate and find the information they need, and may include subfolders and markdown files for better organization and readability. Overall, the "docs" folder is an important part of TheFEAMan repository aiming to help users get started with and use the software effectively.
 
 ### TM_Formelsammlung
 
@@ -15,6 +19,8 @@ Databank for applied technical mechanics 1-3 formulary.
 Lecture notes from various FEA Professors and third party sources.
 
 ## Bibliography Recommendation: Methods and Applications
+
+Bibliography Recommendation is a curated list of resources related to Finite Element Analysis (FEA). This list include books, research papers, articles, and other publications that provide insights and guidance on various aspects of FEA, such as theory, numerical methods, simulation techniques, and applications. The list is compiled by experts in the field of FEA, and serves as a valuable resource for researchers, students, and professionals who want to stay up-to-date with the latest developments and best practices in FEA. The bibliography is organized according to user expertise levels, making it easy for users to find relevant resources quickly and efficiently. All in all, it is a useful source of references for anyone interested in advancing their knowledge and expertise in FEA.
 
 ### Beginner Levels
 
