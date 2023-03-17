@@ -55,6 +55,8 @@ Bibliography Recommendation is a curated list of resources related to Finite Ele
 * [EN] "Computational Contact and Impact Mechanics: Fundamentals of Modeling Interfacial Phenomena in Nonlinear Finite Element Analysis" by Tod A. Laursen
 * [EN] "Fluid-Structure Interactions: Slender Structures and Axial Flow" by Michael P. Paidoussis
 * [EN] "Fluid-Structure Interactions: Cross-Flow-Induced Instabilities" by Michael P. Païdoussis, Stuart J. Price, Emmanuel de Langre
+* [EN] "Finite Element Analysis on Badminton Racket Design Parameters" by Fakhrizal Azmy Nasruddin, Muhamad Noor Harun, Ardiyansyah Syahrom, Mohammed Rafiq Abdul Kadir, Abdul Hafidz Omar, Andreas Öchsner
+* [EN] "Finite Element Analysis of Non-Newtonian Flow: Theory and Software" by Dr Hou-Cheng Huang, Dr Zheng-Hua Li, Dr Asif S. Usmani
 * [DE] "Festkörpermechanik und Materialtheorie für nichtlineare FEM" von Frank Ihlenburg
 * [DE] "Nichtlineare Finite-Elemente-Berechnungen mit ANSYS Workbench: Strukturmechanik, Kontakt, Material, große Verformungen" von Wilhelm Rust
 * [DE] "Lineare und nichtlineare FEM: Eine Einführung mit Anwendungen in der Umformsimulation mit LS-DYNA®" von Marcus Wagner
@@ -90,6 +92,8 @@ Bibliography Recommendation is a curated list of resources related to Finite Ele
 * [A Hands-on Introduction to Engineering Simulations](https://www.edx.org/course/a-hands-on-introduction-to-engineering-simulations)
 * [How to check any mechanical product design with linear static](https://feaforall.com/courses/fea-foundations-check-mechanical-product-design-linear-static/)
 * [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/index.html)
+* [Understanding the Finite Element Method](https://youtu.be/GHjopp47vvQ)
+* [Plane Stress and Plane Strain in FEA](https://youtu.be/4VaKdvWPVOk)
 
 ### Software Applications
 
