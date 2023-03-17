@@ -68,6 +68,7 @@ Collection of learning materials that can help you master the numerical techniqu
 
 ### Theory
 
+* [Introduction to Finite Element Methods](https://open.umich.edu/find/open-educational-resources/engineering/introduction-finite-element-methods)
 * [Finite Element Analysis of Solids and Fluids I](https://ocw.mit.edu/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/)
 * [Finite Element Analysis of Solids and Fluids II](https://ocw.mit.edu/courses/2-094-finite-element-analysis-of-solids-and-fluids-ii-spring-2011/)
 * [Finite Element Procedures for Solids and Structures](https://ocw.mit.edu/courses/res-2-002-finite-element-procedures-for-solids-and-structures-spring-2010/)
