@@ -64,6 +64,8 @@ Bibliography Recommendation is a curated list of resources related to Finite Ele
 
 ## FEA Online Resources
 
+Collection of learning materials that can help you master the numerical technique of finite element method (FEM). Whether you are an engineer, designer, hobbyist or student, you can find resources that suit your needs and goals. You can learn the basics of FEM theory, how to set up and solve problems using FEM software, how to interpret and validate the results, and how to apply FEM to various engineering domains. You can also access [online platform](https://www.simscale.com/blog/learn-finite-element-analysis-fea/) that provide interactive interfaces for FEM simulations. Finite Element Analysis Online Resources can help you reduce the number of physical prototypes and experiments, optimize your designs, and develop better products faster.
+
 ### Theory
 
 * [Finite Element Analysis of Solids and Fluids I](https://ocw.mit.edu/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/)
@@ -92,6 +94,7 @@ Bibliography Recommendation is a curated list of resources related to Finite Ele
 * [A Hands-on Introduction to Engineering Simulations](https://www.edx.org/course/a-hands-on-introduction-to-engineering-simulations)
 * [How to check any mechanical product design with linear static](https://feaforall.com/courses/fea-foundations-check-mechanical-product-design-linear-static/)
 * [HyperPhysics](http://hyperphysics.phy-astr.gsu.edu/hbase/index.html)
+* [Greek alphabet in Finite-Element-Methods & Technical Mechanics Calculation](https://www.britannica.com/topic/Greek-alphabet)
 * [Understanding the Finite Element Method](https://youtu.be/GHjopp47vvQ)
 * [Plane Stress and Plane Strain in FEA](https://youtu.be/4VaKdvWPVOk)
 
