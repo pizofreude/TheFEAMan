@@ -1,0 +1,3226 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 21/06/17 - Time 14:45:14 - Platform Windows NT 6.1 64 bit -------
+Background bg_color="r012g025b076a255" _OK
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_01/HNR17_02_09_01_13.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EMProperty/PID = 100 Type=Solid
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF
+  Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add"
+  ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0
+  Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct"
+ POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=901
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_01/HNR17_02_09_01_13.bif" / ALL
+*BIF Output File = ... NR17_02_09_01_13.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           29316       64287       97793
+*PENTA            282       62975       84878
+*HEXA           22524       62073       84874
+*MDPARAM          115           0           0
+*GEONPCO         9229       64287       97793
+*
+*Geometry        1458
+*
+*CURVE            400
+*SURF             129
+*CONS             800
+*FACE             129
+*--------------------------------------------
+*
+*POLYCURV          27          61         104
+*MESHAREA           1           1           1
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_24_07_VA/HNR17_02_24_07_VA_4.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(902)
+ _OK
+EMProperty/PID = 902 Type=Solid
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF
+  Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add"
+  ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0
+  Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct"
+ POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(3,902)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_24_07_VA/HNR17_02_24_07_VA_5.bif" / ALL
+*BIF Output File = ... 17_02_24_07_VA_5.bif
+*--------------------------------------------
+*PartCode           2
+*NODE          152740      202864      633111
+*PENTA            984      352844      514161
+*HEXA          108440      349678      514138
+*GEOM-SET           1        5600        5600
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*GEONPCO        68712      202864      633111
+*
+*Geometry        5184
+*
+*CURVE           1419
+*SURF             468
+*CONS            2828
+*FACE             469
+*--------------------------------------------
+*
+*POLYCURV        1414           1        1424
+*MESHAREA         469           1         470
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Display/   -48.8468        179.144       0.969620     ,
+            1.20354       -63.7271       -12.1195        231.689
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_21_TetMeshVolumized.bif"
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="SUR0141"
+ Gid="SUR0037"
+ Gid="CU264M"
+ Gid="SUR0018"
+ Gid="SUR0102"
+ Gid="SUR0013"
+ Gid="CU6M"
+ Gid="SUR0168"
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _CANCEL
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="SUR0037"
+ Gid="SUR0018"
+ Gid="SUR0102"
+ Gid="SUR0168"
+ Gid="SUR0141"
+ Gid="SUR0013"
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=903
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_21_TetMeshVolumized.bif" / ALL
+*BIF Output File = ... TetMeshVolumized.bif
+*--------------------------------------------
+*NODE           92163           1       92163
+*TETRA         471358           1      471358
+*MDPARAM          115           0           0
+*
+*Geometry        2645
+*
+*CURVE            738
+*SURF             228
+*CONS            1448
+*FACE             230
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         722           1         854
+*MESHAREA         228           1         234
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_21_TetMeshVolumized.bif" / ALL
+*BIF Output File = ... TetMeshVolumized.bif
+*--------------------------------------------
+*NODE           92163           1       92163
+*TETRA         471358           1      471358
+*MDPARAM          115           0           0
+*
+*Geometry        2645
+*
+*CURVE            738
+*SURF             228
+*CONS            1448
+*FACE             230
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         722           1         854
+*MESHAREA         228           1         234
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-102/CP4227-102_SimVer1_30.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _QUIT
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=904
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-102/CP4227-102_SimVer1_30.bif" / ALL
+*BIF Output File = ... 7-102_SimVer1_30.bif
+*--------------------------------------------
+*NODE           79033           1       79033
+*TETRA         405882           1      405882
+*ELEM-SET           1        9998        9998
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*
+*Geometry        1839
+*
+*CURVE            498
+*SURF             154
+*CONS             988
+*FACE             185
+*TOP               14
+*--------------------------------------------
+*
+*POLYCURV         459           6         562
+*MESHAREA         171           4         236
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3838-M08x1.25m_CP4477-110_simplified/cp3838-M08x1.25m_CP4477-110_simplified_6.bif"
+MNoShow Inv_Sel_Flag=OFF
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=SHOW
+ _QUIT
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="s"
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3838-M08x1.25m_CP4477-110_simplified/cp3838-M08x1.25m_CP4477-110_simplified_6.bif" / ALL
+*BIF Output File = ... 110_simplified_6.bif
+*--------------------------------------------
+*PartCode           4
+*NODE            3740        1212        8405
+*PENTA            368        3192        4513
+*HEXA            2724        1263        5137
+*GEOM-SET           5        4469        9904
+*EXTENSIO           5           0           0
+*MDPARAM          115           0           0
+*GEONPCO          577        1212        8405
+*
+*Geometry        3936
+*
+*CURVE           1030
+*SURF             396
+*CONS            2116
+*FACE             394
+*--------------------------------------------
+*
+*POLYCURV        1028           1        1029
+*MESHAREA         394           1         395
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3049-40a_CP4226-103_Viertelmodell/cp3049-40a_CP4226-103_Viertelmodell_5.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4226-Pad_SimplifiedVersion1/CP4226-Pad_SimplifiedVersion_3.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Pad_Support/Pad_Support_6.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Sechskant_M8x18/Sechskant_M8x18_2.bif"
+* Object CONS2034 of set 4204, entry 34 does not exist! Entry skipped!
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_10_01/HNR17_02_10_01_4.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_62_2ndBody.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _QUIT
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=1002
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(2)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_62_2ndBody.bif" / ALL
+*BIF Output File = ... sion6_62_2ndBody.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           54034        2500      138317
+*PENTA           2999        3127       91524
+*HEXA           42462        3129       91713
+*ELEM-SET           1        9999        9999
+*GEOM-SET           1        1544        1544
+*EXTENSIO           2           0           0
+*MDPARAM          115           0           0
+*GEONPCO        10604        2500      138317
+*
+*Geometry        1922
+*
+*CURVE            595
+*SURF             139
+*CONS            1032
+*FACE             152
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV         488           1         765
+*MESHAREA         146           1         194
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_10_01/HNR17_02_10_01_4.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-102_SimplifiedVersion5_36.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _QUIT
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=1003
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-102_SimplifiedVersion5_36.bif" / ALL
+*BIF Output File = ... ifiedVersion5_36.bif
+*--------------------------------------------
+*PartCode           1
+*NODE           41621       10277       87796
+*PENTA           2395        9402       67131
+*HEXA           33980        9370       67129
+*ELEM-SET           1        9999        9999
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9422       10277       87796
+*
+*Geometry        1427
+*
+*CURVE            451
+*SURF             122
+*CONS             743
+*FACE             111
+*--------------------------------------------
+*
+*POLYCURV         334           1         626
+*MESHAREA         106           1         141
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_24_07_HA/HNR17_02_24_07_HA_3.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_01/HNR17_02_09_01_13.bif"
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_1.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_1.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           29316       64287       97793
+*PENTA            282       62975       84878
+*HEXA           22524       62073       84874
+*MDPARAM          115           0           0
+*GEONPCO         9229       64287       97793
+*
+*Geometry        1458
+*
+*CURVE            400
+*SURF             129
+*CONS             800
+*FACE             129
+*--------------------------------------------
+*
+*POLYCURV          27          61         104
+*MESHAREA           1           1           1
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Sechskant_M8x18/Sechskant_M8x18_2.bif"
+  PartMerge File wins  Root
+  NOffset=0 File
+  EOffset=0 File
+  POffset=0 File
+  SetOffset=0 File
+* Object CONS2034 of set 4204, entry 34 does not exist! Entry skipped!
+Display/   -152.351       -63.8907        15.2663     ,
+            1.13740       -24.5591       -48.7747        234.787
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_2.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_2.bif
+*--------------------------------------------
+*PartCode           4
+*NODE           32108        1356       97793
+*PENTA            458        1167       84878
+*HEXA           24639        1136       84874
+*GEOM-SET           3        4202        9904
+*EXTENSIO           3           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9229       64287       97793
+*
+*Geometry        5274
+*
+*CURVE           1425
+*SURF             497
+*CONS            2854
+*FACE             498
+*--------------------------------------------
+*
+*POLYCURV        1048          61        1127
+*MESHAREA         370           1         372
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Geom
+MArea
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_21_TetMeshVolumized.bif"
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_22_ModelCheck.bif"
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=903
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_22_ModelCheck.bif" / ALL
+*BIF Output File = ... EP_22_ModelCheck.bif
+*--------------------------------------------
+*NODE           92163           1       92163
+*TETRA         471358           1      471358
+*ELEM-SET           1        9998        9998
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*
+*Geometry        2645
+*
+*CURVE            738
+*SURF             228
+*CONS            1448
+*FACE             230
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         722           1         854
+*MESHAREA         228           1         234
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="0"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(903)
+ Color_index="1"
+ Pid=(903)
+ Color_index="2"
+ Pid=(903)
+ Color_index="3"
+ Pid=(903)
+ Color_index="4"
+ Pid=(903)
+ Color_index="5"
+ Pid=(903)
+ Color_index="6"
+ Pid=(903)
+ Color_index="7"
+ Pid=(903)
+ Color_index="8"
+ Pid=(903)
+ Pid=(903)
+ Color_index="9"
+ Pid=(903)
+ Color_index="10"
+ Pid=(903)
+ Color_index="11"
+ Pid=(903)
+ Color_index="12"
+ Pid=(903)
+ Color_index="13"
+ Pid=(903)
+ Color_index="14"
+ Pid=(903)
+ Color_index="15"
+ Pid=(903)
+ Color_index="9"
+ Pid=(903)
+ _OK
+EColor
+ Color_index="9" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="0"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(903)
+ Color_index="1"
+ Pid=(903)
+ Color_index="2"
+ Pid=(903)
+ Color_index="3"
+ Pid=(903)
+ Color_index="4"
+ Pid=(903)
+ Color_index="5"
+ Pid=(903)
+ Color_index="6"
+ Pid=(903)
+ Pid=(903)
+ Color_index="7"
+ Pid=(903)
+ Color_index="8"
+ Pid=(903)
+ Pid=(903)
+ Color_index="10"
+ Pid=(903)
+ Color_index="11"
+ Pid=(903)
+ Color_index="12"
+ Pid=(903)
+ Color_index="13"
+ Pid=(903)
+ Color_index="14"
+ Pid=(903)
+ Pid=(903)
+ Pid=(903)
+ Color_index="15"
+ Pid=(903)
+ Pid=(903)
+ Color_index="11"
+ Pid=(903)
+ Color_index="13"
+ Pid=(903)
+ Pid=(903)
+ Color_index="12"
+ Pid=(903)
+ Color_index="11"
+ Pid=(903)
+ Color_index="10"
+ Pid=(903)
+ Color_index="12"
+ Pid=(903)
+ Color_index="9"
+ Pid=(903)
+ Color_index="12"
+ Pid=(903)
+ _OK
+EColor
+ Color_index="12" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="15"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(903)
+ Color_index="14"
+ Pid=(903)
+ Color_index="13"
+ Pid=(903)
+ Color_index="0"
+ Pid=(903)
+ Color_index="9"
+ Pid=(903)
+ Color_index="0"
+ Pid=(903)
+ Color_index="1"
+ Pid=(903)
+ Color_index="2"
+ Pid=(903)
+ Color_index="3"
+ Pid=(903)
+ Color_index="4"
+ Pid=(903)
+ Color_index="5"
+ Pid=(903)
+ Color_index="6"
+ Pid=(903)
+ Color_index="7"
+ Pid=(903)
+ Color_index="8"
+ Pid=(903)
+ Pid=(903)
+ Color_index="9"
+ Pid=(903)
+ Color_index="10"
+ Pid=(903)
+ Pid=(903)
+ Color_index="11"
+ Pid=(903)
+ Color_index="12"
+ Pid=(903)
+ Color_index="13"
+ Pid=(903)
+ Color_index="14"
+ Pid=(903)
+ Color_index="15"
+ Pid=(903)
+ Color_index="13"
+ Pid=(903)
+ Color_index="12"
+ Pid=(903)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_22_ModelCheck.bif" / ALL
+*BIF Output File = ... EP_22_ModelCheck.bif
+*--------------------------------------------
+*NODE           92163           1       92163
+*TETRA         471358           1      471358
+*ELEM-SET           1        9998        9998
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*
+*Geometry        2645
+*
+*CURVE            738
+*SURF             228
+*CONS            1448
+*FACE             230
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         722           1         854
+*MESHAREA         228           1         234
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_01/HNR17_02_09_01_13.bif"
+EColor
+ Color_index="12" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="13"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(901)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_01/HNR17_02_09_01_13.bif" / ALL
+*BIF Output File = ... NR17_02_09_01_13.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           29316       64287       97793
+*PENTA            282       62975       84878
+*HEXA           22524       62073       84874
+*MDPARAM          115           0           0
+*GEONPCO         9229       64287       97793
+*
+*Geometry        1458
+*
+*CURVE            400
+*SURF             129
+*CONS             800
+*FACE             129
+*--------------------------------------------
+*
+*POLYCURV          27          61         104
+*MESHAREA           1           1           1
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_24_07_VA/HNR17_02_24_07_VA_5.bif"
+EColor
+ Color_index="13" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="9"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(902)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_24_07_VA/HNR17_02_24_07_VA_5.bif" / ALL
+*BIF Output File = ... 17_02_24_07_VA_5.bif
+*--------------------------------------------
+*PartCode           2
+*NODE          152740      202864      633111
+*PENTA            984      352844      514161
+*HEXA          108440      349678      514138
+*GEOM-SET           1        5600        5600
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*GEONPCO        68712      202864      633111
+*
+*Geometry        5184
+*
+*CURVE           1419
+*SURF             468
+*CONS            2828
+*FACE             469
+*--------------------------------------------
+*
+*POLYCURV        1414           1        1424
+*MESHAREA         469           1         470
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-102/CP4227-102_SimVer1_30.bif"
+EColor
+ Color_index="9" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="12"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(904)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-102/CP4227-102_SimVer1_30.bif" / ALL
+*BIF Output File = ... 7-102_SimVer1_30.bif
+*--------------------------------------------
+*NODE           79033           1       79033
+*TETRA         405882           1      405882
+*ELEM-SET           1        9998        9998
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*
+*Geometry        1839
+*
+*CURVE            498
+*SURF             154
+*CONS             988
+*FACE             185
+*TOP               14
+*--------------------------------------------
+*
+*POLYCURV         459           6         562
+*MESHAREA         171           4         236
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3838-M08x1.25m_CP4477-110_simplified/cp3838-M08x1.25m_CP4477-110_simplified_6.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EColor
+ Color_index="12" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="0"
+ _OK
+EColor
+ Color_index="0" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(905)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3838-M08x1.25m_CP4477-110_simplified/cp3838-M08x1.25m_CP4477-110_simplified_6.bif" / ALL
+*BIF Output File = ... 110_simplified_6.bif
+*--------------------------------------------
+*PartCode           4
+*NODE            3740        1212        8405
+*PENTA            368        3192        4513
+*HEXA            2724        1263        5137
+*GEOM-SET           5        4469        9904
+*EXTENSIO           5           0           0
+*MDPARAM          115           0           0
+*GEONPCO          577        1212        8405
+*
+*Geometry        3936
+*
+*CURVE           1030
+*SURF             396
+*CONS            2116
+*FACE             394
+*--------------------------------------------
+*
+*POLYCURV        1028           1        1029
+*MESHAREA         394           1         395
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3049-40a_CP4226-103_Viertelmodell/cp3049-40a_CP4226-103_Viertelmodell_5.bif"
+EColor
+ Color_index="0" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="7"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(906)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3049-40a_CP4226-103_Viertelmodell/cp3049-40a_CP4226-103_Viertelmodell_5.bif" / ALL
+*BIF Output File = ... _Viertelmodell_5.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           12254        3596       17129
+*PENTA            640        3272       14111
+*HEXA           10200        3285       14110
+*GEOM-SET           1         188         188
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*GEONPCO          777        3596       17129
+*
+*Geometry         177
+*
+*PLANE              2
+*CURVE             47
+*SURF              17
+*CONS              94
+*FACE              17
+*--------------------------------------------
+*
+*POLYCURV          47           1          49
+*MESHAREA          17           1          17
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4226-Pad_SimplifiedVersion1/CP4226-Pad_SimplifiedVersion_3.bif"
+EColor
+ Color_index="7" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="13"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(9072)
+ Pid=(9072)
+ Pid=(9071)
+ _OK
+EColor
+ Color_index="13" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="0"
+ Color_index="1"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(9072)
+ Color_index="3"
+ Pid=(9072)
+ Color_index="4"
+ Pid=(9072)
+ Color_index="5"
+ Pid=(9072)
+ Pid=(9072)
+ Color_index="6"
+ Pid=(9072)
+ Color_index="7"
+ Pid=(9072)
+ Color_index="8"
+ Pid=(9072)
+ Color_index="9"
+ Pid=(9072)
+ Color_index="10"
+ Pid=(9072)
+ Color_index="11"
+ Pid=(9072)
+ Color_index="12"
+ Pid=(9072)
+ Color_index="13"
+ Pid=(9072)
+ Color_index="14"
+ Pid=(9072)
+ Color_index="15"
+ Pid=(9072)
+ Pid=(9072)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4226-Pad_SimplifiedVersion1/CP4226-Pad_SimplifiedVersion_3.bif" / ALL
+*BIF Output File = ... plifiedVersion_3.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           18069           1       24060
+*PENTA            113        1340       18214
+*HEXA           15393        1138       18212
+*GEOM-SET           3         422        9900
+*EXTENSIO           3           0           0
+*MDPARAM          115           0           0
+*GEONPCO         3925           1       24060
+*
+*Geometry         410
+*
+*POINT              2
+*CURVE            112
+*SURF              37
+*CONS             222
+*FACE              37
+*--------------------------------------------
+*
+*POLYCURV         111           1         120
+*MESHAREA          37           1          37
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Pad_Support/Pad_Support_6.bif"
+EColor
+ Color_index="15" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="0"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(908)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Pad_Support/Pad_Support_6.bif" / ALL
+*BIF Output File = ... rt/Pad_Support_6.bif
+*--------------------------------------------
+*PartCode           5
+*NODE            2867         571        4806
+*PENTA            184         525        3519
+*HEXA            2208         505        3520
+*GEOM-SET           9        5198        9903
+*EXTENSIO           9           0           0
+*MDPARAM          115           0           0
+*GEONPCO          164         571        4806
+*
+*Geometry        4637
+*
+*POINT              4
+*CURVE           1225
+*SURF             460
+*CONS            2490
+*FACE             458
+*--------------------------------------------
+*
+*POLYCURV        1223           1        1235
+*MESHAREA         458           1         459
+*GEOGRAPH           3           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Sechskant_M8x18/Sechskant_M8x18_2.bif"
+* Object CONS2034 of set 4204, entry 34 does not exist! Entry skipped!
+EColor
+ Color_index="0" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Sechskant_M8x18/Sechskant_M8x18_2.bif" / ALL
+*BIF Output File = ... echskant_M8x18_2.bif
+*--------------------------------------------
+*PartCode           4
+*NODE            2792        1356        6110
+*PENTA            176        1167        4565
+*HEXA            2115        1136        4560
+*GEOM-SET           3        4202        9904
+*EXTENSIO           3           0           0
+*MDPARAM          115           0           0
+*
+*Geometry        3816
+*
+*CURVE           1025
+*SURF             368
+*CONS            2054
+*FACE             369
+*--------------------------------------------
+*
+*POLYCURV        1021           1        1023
+*MESHAREA         369           1         371
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_10_01/HNR17_02_10_01_4.bif"
+EColor
+ Color_index="0" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="13"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1001)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_10_01/HNR17_02_10_01_4.bif" / ALL
+*BIF Output File = ... HNR17_02_10_01_4.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           15372       22227       37598
+*PENTA            232       20614       32338
+*HEXA           12064       20043       32334
+*GEOM-SET           1        1451        1451
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*
+*Geometry        1313
+*
+*CURVE            357
+*SURF             121
+*CONS             714
+*FACE             121
+*--------------------------------------------
+*
+*POLYCURV         357           1         357
+*MESHAREA         121           1         121
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_62_2ndBody.bif"
+EColor
+ Color_index="13" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="12"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1002)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_62_2ndBody.bif" / ALL
+*BIF Output File = ... sion6_62_2ndBody.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           54034        2500      138317
+*PENTA           2999        3127       91524
+*HEXA           42462        3129       91713
+*ELEM-SET           1        9999        9999
+*GEOM-SET           1        1544        1544
+*EXTENSIO           2           0           0
+*MDPARAM          115           0           0
+*GEONPCO        10604        2500      138317
+*
+*Geometry        1922
+*
+*CURVE            595
+*SURF             139
+*CONS            1032
+*FACE             152
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV         488           1         765
+*MESHAREA         146           1         194
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-102_SimplifiedVersion5_36.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EColor
+ Color_index="12" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1003)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-102_SimplifiedVersion5_36.bif" / ALL
+*BIF Output File = ... ifiedVersion5_36.bif
+*--------------------------------------------
+*PartCode           1
+*NODE           41621       10277       87796
+*PENTA           2395        9402       67131
+*HEXA           33980        9370       67129
+*ELEM-SET           1        9999        9999
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9422       10277       87796
+*
+*Geometry        1427
+*
+*CURVE            451
+*SURF             122
+*CONS             743
+*FACE             111
+*--------------------------------------------
+*
+*POLYCURV         334           1         626
+*MESHAREA         106           1         141
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_24_07_HA/HNR17_02_24_07_HA_3.bif"
+EColor
+ Color_index="12" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="9"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1004)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_24_07_HA/HNR17_02_24_07_HA_3.bif" / ALL
+*BIF Output File = ... 17_02_24_07_HA_3.bif
+*--------------------------------------------
+*PartCode           2
+*NODE          135990           1      163552
+*PENTA            832       24647      121580
+*HEXA           96432       24317      121563
+*ELEM-SET           1        9999        9999
+*GEOM-SET           1        4904        4904
+*EXTENSIO           2           0           0
+*MDPARAM          115           0           0
+*GEONPCO        61288           1      163552
+*
+*Geometry        4526
+*
+*CURVE           1237
+*SURF             410
+*CONS            2468
+*FACE             411
+*--------------------------------------------
+*
+*POLYCURV        1234           1        1245
+*MESHAREA         411           1         412
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_2.bif"
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_1.bif"
+EDelete Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(901)
+ _OK
+NDFree/ALL
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_01/HNR17_02_09_01_13.bif"  NEW=NID EID PID
+  PartMerge File wins  Root
+  NOffset=33507 File
+  EOffset=22806 File
+  POffset=1 File
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_1.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_1.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           29316       97794      131300
+*PENTA            282       85781      107684
+*HEXA           22524       84879      107680
+*MDPARAM          115           0           0
+*GEONPCO         9229       97794      131300
+*
+*Geometry        2916
+*
+*CURVE            800
+*SURF             258
+*CONS            1600
+*FACE             258
+*--------------------------------------------
+*
+*POLYCURV          54          61         148
+*MESHAREA           2           1           2
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Sechskant_M8x18/Sechskant_M8x18_2.bif"
+  PartMerge File wins  Root
+  NOffset=0 File
+  EOffset=0 File
+  POffset=0 File
+  SetOffset=0 File
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_2.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_2.bif
+*--------------------------------------------
+*PartCode           4
+*NODE           32108        1356      131300
+*PENTA            458        1167      107684
+*HEXA           24639        1136      107680
+*GEOM-SET           3        4202        9904
+*EXTENSIO           3           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9229       97794      131300
+*
+*Geometry        6732
+*
+*CURVE           1825
+*SURF             626
+*CONS            3654
+*FACE             627
+*--------------------------------------------
+*
+*POLYCURV        1075          61        1171
+*MESHAREA         371           1         373
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="SUR0270"
+ _OK
+MArea
+Geom
+Background bg_color="r255g255b255a255" _OK
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 25/HNR17_02_10_01/SIAP_conn_quality_passed.jpg"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=1.289808
+  Eulwin1=-145.6073 Eulwin2=-160.1387 Eulwin3=29.61136 Scaloc=2.00453
+  Transl1=-32.22594 Transl2=-134.4857 Transl3=234.9583
+ File_name=""
+ _OK
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout" File_name=""
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=1.289808
+  Eulwin1=-145.6073 Eulwin2=-160.1387 Eulwin3=29.61136 Scaloc=2.00453
+  Transl1=-32.22594 Transl2=-134.4857 Transl3=234.9583
+ File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 25/ASSEMBLY HNR17_02_09_Crucial/1 HNR17_02_09_Crucial_2.bif"
+ Eulwin1=-143.0662 Eulwin2=-160.8799 Eulwin3=29.05305 Scaloc=1.804077
+  Transl1=-50.40166 Transl2=-123.9642 Transl3=234.9187 Plot_scale=1.160827 Store
+ Plot
+ _OK
+Background bg_color="r012g025b076a255" _OK
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            2.79100       -74.8437       -179.738        235.114
+Asca
+Translate /       10.00000        0.00000        0.00000
+     ELEMENT DUPLICATE KEEP
+     Node_ID=131301 Elem_ID=107685
+ Sel_Bound_Id=0 EMethod_sel="MeshArea" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            1.54404       -51.6079       -14.4587        234.563
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_2.bif"
+MArea
+Geom
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            1.20809       -25.5478       -50.2562        234.801
+Translate /       95.97300        0.00000        0.00000
+     ELEMENT DUPLICATE KEEP
+     Node_ID=131301 Elem_ID=107685
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            1.20809       -63.3022       -21.2144        234.801
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_2.bif"
+Geom
+MArea
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            1.20809       -25.5478       -50.2562        234.801
+Asca
+Background bg_color="r255g255b127a255" _OK
+Translate /       95.97300        0.00000        0.00000
+     ELEMENT DUPLICATE KEEP
+     Node_ID=131301 Elem_ID=107685
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Background bg_color="r255g255b255a255" _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            1.64800       -62.0237       -15.8551        234.563
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EColor
+ Color_index="9" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="0"
+ Color_index="2"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ Color_index="0"
+ Pid=(909)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_3.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_3.bif
+*--------------------------------------------
+*PartCode           4
+*NODE           34900        1356      134092
+*PENTA            634        1167      109975
+*HEXA           26754        1136      109970
+*GEOM-SET           3        4202        9904
+*EXTENSIO           3           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9229       97794      134092
+*
+*Geometry        6732
+*
+*CURVE           1825
+*SURF             626
+*CONS            3654
+*FACE             627
+*--------------------------------------------
+*
+*POLYCURV        1075          61        1171
+*MESHAREA         371           1         373
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Background bg_color="r012g025b076a255" _OK
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4227-101/CP4227-101_SimVer1_STEP_22_ModelCheck.bif"  NEW=NID EID PID
+  PartMerge File wins  Root
+  NOffset=134092 File
+  EOffset=109975 File
+  POffset=7 File
+  SetOffset=0 File
+Geom
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 25/ASSEMBLY HNR17_02_09_Crucial/1 HNR17_02_09_Crucial_2.bif"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=0.8979061
+  Eulwin1=-157.2909 Eulwin2=-168.2623 Eulwin3=22.78091 Scaloc=1.395463
+  Transl1=-47.65807 Transl2=-83.05243 Transl3=234.5625
+ File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 25/ASSEMBLY HNR17_02_09_Crucial/3 HNR17_02_09_Crucial_4.bif.JPG"
+@Background bg_color="r255g255b255a255" _OK
+ Eulwin1=-153.3852 Eulwin2=-165.7973 Eulwin3=23.97681 Transl1=-78.44241
+  Transl2=-79.85783 Store
+ Plot
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_4.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_4.bif
+*--------------------------------------------
+*PartCode           4
+*NODE          127063        1356      226255
+*TETRA         471358      109976      581333
+*PENTA            634        1167      109975
+*HEXA           26754        1136      109970
+*ELEM-SET           1        9998        9998
+*GEOM-SET           3        4202        9904
+*EXTENSIO           4           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9229       97794      226255
+*
+*Geometry        9377
+*
+*CURVE           2563
+*SURF             854
+*CONS            5102
+*FACE             857
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        1797          61        2025
+*MESHAREA         599           1         607
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Background bg_color="r012g025b076a255" _OK
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3838-M08x1.25m_CP4477-110_simplified/cp3838-M08x1.25m_CP4477-110_simplified_6.bif"  NEW=NID EID PID SETID
+  PartMerge File wins  Root
+  NOffset=225044 File
+  EOffset=580071 File
+  POffset=6 File
+  SetOffset=5530 File
+* New Sets increased by 5530, they start with 9999
+Geom
+Background bg_color="r255g255b255a255" _OK
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 25/ASSEMBLY HNR17_02_09_Crucial/3 HNR17_02_09_Crucial_4.bif.JPG"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=0.9527568
+  Eulwin1=-138.8076 Eulwin2=130.5338 Eulwin3=24.96126 Scaloc=1.480708
+  Transl1=-58.19908 Transl2=-62.05367 Transl3=234.5624
+ File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 25/ASSEMBLY HNR17_02_09_Crucial/4 HNR17_02_09_Crucial_5.bif.JPG.jpg"
+ Scaloc=1.332637 Transl1=-64.42602 Transl2=-56.30676 Plot_scale=0.8574811 Store
+ Plot
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_5.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_5.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          130803        1356      233449
+*TETRA         471358      109976      581333
+*PENTA           1002        1167      584584
+*HEXA           29478        1136      585208
+*ELEM-SET           1        9998        9998
+*GEOM-SET           8        4202       15434
+*EXTENSIO           9           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      233449
+*
+*Geometry       13313
+*
+*CURVE           3593
+*SURF            1250
+*CONS            7218
+*FACE            1251
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        2825          61        3054
+*MESHAREA         993           1        1002
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Background bg_color="r012g025b076a255" _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ EMethod_sel="ID"
+ Eid=(299994)
+ Eid=(194499)
+ _CANCEL
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Search"
+ Sel_Bound_Id=3 Eid=(194499)
+ _CANCEL
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=3 Eid=(246492)
+ Sel_Bound_Id=1 Eid=(142467)
+ Sel_Bound_Id=2 Eid=(430583)
+ Sel_Bound_Id=1 Eid=(184540)
+ Sel_Bound_Id=6 Eid=(584010)
+ _UNDO
+ _OK
+Translate /      -40.75422        8.85762        1.02895
+     ELEMENT DUPLICATE KEEP
+     Node_ID=233450 Elem_ID=585209
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(911)
+ _OK
+Display/    10.5983       -177.179        175.823     ,
+            5.07338        146.247       -263.656        234.562
+Translate /       -0.28076       -1.63632       -1.33763
+     ELEMENT REPLACE SPLIT=NO KEEP
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(911)
+ _OK
+Display/    170.215       -11.6458        7.76729     ,
+            7.76506        165.360       -698.707        234.563
+Translate /        0.42390        1.61760        4.11579
+     ELEMENT REPLACE KEEP
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(911)
+ _OK
+Display/    4.82303       -179.526        164.011     ,
+            4.46766        80.6496       -336.583        234.563
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_01/HNR17_02_09_01_13.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_2.bif"
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_5.bif"
+Geom
+MArea
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EDelete Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(1)
+ _OK
+NDFree/SHOW
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(902)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" Master_PID=902
+  Type="Solid" Mode="Assign" PELabelMode=ON
+ Label="Front Brake Mount"
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=90200
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(902)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(910)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=910 Type="Solid" Mode="Assign"
+  Label="Front Caliper Body 1"
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto" _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90200)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90200 Type="Solid" Mode="Assign"
+  Label="Front Brake Mount"
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90200)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" Master_PID=90200
+  Type="Solid" Mode="Load"
+ Label="Front Brake Mount"
+ Mode="Assign"
+ Pid=(90200)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(910)
+ Start_value=903
+ Start_value=90300
+ Pid=(1)
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90300)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90300 Type="Solid" Mode="Assign"
+  Label="Front Caliper Body 1"
+ Pid=(90300)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3838-M08x1.25m_CP4477-110_simplified/cp3838-M08x1.25m_CP4477-110_simplified_6.bif"  NEW=NID EID SETID
+  PartMerge File wins  Root
+  NOffset=232238 File
+  EOffset=583946 File
+  POffset=0 File
+  SetOffset=10966 File
+* New Sets increased by 10966, they start with 15435
+Display/   -165.421        164.644        26.7688     ,
+            1.66938        1.68384       -36.1372        243.072
+Display/   -165.421        164.644        26.7688     ,
+            1.66938        1.68384       -36.1372        243.072
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _CANCEL
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/cp3838-M08x1.25m_CP4477-110_simplified/cp3838-M08x1.25m_CP4477-110_simplified_6.bif"
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_5.bif"
+Geom
+MArea
+EDelete Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+NDFree/ALL
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_5.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_5.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          125219       97794      233449
+*TETRA         471358      109976      581333
+*PENTA            650       85781      584584
+*HEXA           25248       84879      585208
+*ELEM-SET           1        9998        9998
+*GEOM-SET           8        4202       15434
+*EXTENSIO           9           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      233449
+*
+*Geometry       13313
+*
+*CURVE           3593
+*SURF            1250
+*CONS            7218
+*FACE            1251
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        2825          61        3054
+*MESHAREA         993           1        1002
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(910)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=910 Type="Solid" Mode="Assign"
+  Label="Front Caliper Body 1"
+ Pid=(911)
+ _OK
+PDelete Mode="Free"
+ _QUIT
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(911)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=911 Type="Solid" Mode="Assign"
+  Label="M8 Caliper Body Bolt 1"
+ Pid=(911)
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(910)
+ Start_value=90300
+ Pid=(1)
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90300)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90300 Type="Solid" Mode="Assign"
+  Label="Front Caliper Body 1"
+ Pid=(90300)
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=90501
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(911)
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=90100
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(902)
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90100)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90100 Type="Solid" Mode="Assign"
+  Label="Front Brake Mount"
+ Pid=(90100)
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto" _CANCEL
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_5.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_5.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          125219       97794      233449
+*TETRA         471358      109976      581333
+*PENTA            650       85781      584584
+*HEXA           25248       84879      585208
+*p-SOLID            3       90100       90501
+*EXTENSIO           3           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET           8        4202       15434
+*EXTENSIO           9           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      233449
+*
+*Geometry       13313
+*
+*CURVE           3593
+*SURF            1250
+*CONS            7218
+*FACE            1251
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        2825          61        3054
+*MESHAREA         993           1        1002
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Sechskant_M8x18/Sechskant_M8x18_2.bif"  NEW=NID EID SETID
+  PartMerge File wins  Root
+  NOffset=232094 File
+  EOffset=584073 File
+  POffset=0 File
+  SetOffset=11233 File
+* New Sets increased by 11233, they start with 15435
+Geom
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_6.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_6.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          128011       97794      238204
+*TETRA         471358      109976      581333
+*PENTA            826       85781      588638
+*HEXA           27363       84879      588633
+*p-SOLID            3       90100       90501
+*EXTENSIO           3           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET          11        4202       21137
+*EXTENSIO          12           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      238204
+*
+*Geometry       17129
+*
+*CURVE           4618
+*SURF            1618
+*CONS            9272
+*FACE            1620
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        3846          61        4077
+*MESHAREA        1362           1        1373
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Translate /       95.97300        0.00000        0.00000
+     ELEMENT DUPLICATE KEEP P_Use=Yes
+     Node_ID=238205 Elem_ID=588639 Prop_ID=90902
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90902)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90902 Type="Solid" Mode="Assign"
+  Label="M8 Hexagonal Bolt 2 Small"
+ Pid=(90902)
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(909)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=909 Type="Solid" Mode="Assign"
+  Label="M8 Hexagonal Bolt 2 Small"
+ Label="M8 Hexagonal Bolt 1 SBig"
+ Label="M8 Hexagonal Bolt 1 Big"
+ Pid=(909)
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ Start_value=90901
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(909)
+ _OK
+Display/   -149.379        170.463        23.1459     ,
+            1.59637       -84.4076       -58.6508        241.227
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_7.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_7.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          130803       97794      240996
+*TETRA         471358      109976      581333
+*PENTA           1002       85781      590929
+*HEXA           29478       84879      590924
+*p-SOLID            5       90100       90902
+*EXTENSIO           4           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET          11        4202       21137
+*EXTENSIO          12           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      240996
+*
+*Geometry       17129
+*
+*CURVE           4618
+*SURF            1618
+*CONS            9272
+*FACE            1620
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        3846          61        4077
+*MESHAREA        1362           1        1373
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _QUIT
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90901)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName=""
+  Label="M8 Hexagonal Bolt 1 Big" PEKeywordOptions="" Temperature=""
+  Add_Textfield="" Master_PID=90901 Type="Solid" Mode="Assign"
+ Pid=(90300)
+ _CANCEL
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _QUIT
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90501)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName=""
+  Label="M8 Caliper Body Bolt 1" PEKeywordOptions="" Temperature=""
+  Add_Textfield="" Master_PID=90501 Type="Solid" Mode="Assign" _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_7.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_7.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          130803       97794      240996
+*TETRA         471358      109976      581333
+*PENTA           1002       85781      590929
+*HEXA           29478       84879      590924
+*p-SOLID            5       90100       90902
+*EXTENSIO           4           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET          11        4202       21137
+*EXTENSIO          12           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      240996
+*
+*Geometry       17129
+*
+*CURVE           4618
+*SURF            1618
+*CONS            9272
+*FACE            1620
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        3846          61        4077
+*MESHAREA        1362           1        1373
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            2.57096       -32.1036       -188.129        265.857
+Asca
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_7.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_7.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          130803       97794      240996
+*TETRA         471358      109976      581333
+*PENTA           1002       85781      590929
+*HEXA           29478       84879      590924
+*p-SOLID            5       90100       90902
+*EXTENSIO           4           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET          11        4202       21137
+*EXTENSIO          12           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      240996
+*
+*Geometry       17129
+*
+*CURVE           4618
+*SURF            1618
+*CONS            9272
+*FACE            1620
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        3846          61        4077
+*MESHAREA        1362           1        1373
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Translate /       41.10000        7.23000        0.00000
+     ELEMENT DUPLICATE KEEP P_Use=Yes
+     Node_ID=240997 Elem_ID=590930 Prop_ID=90502
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90501)
+ _OK
+Background _QUIT
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_8.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_8.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          134543       97794      244736
+*TETRA         471358      109976      581333
+*PENTA           1370       85781      593397
+*HEXA           32202       84879      594021
+*p-SOLID            6       90100       90902
+*EXTENSIO           5           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET          11        4202       21137
+*EXTENSIO          12           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      244736
+*
+*Geometry       17129
+*
+*CURVE           4618
+*SURF            1618
+*CONS            9272
+*FACE            1620
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        3846          61        4077
+*MESHAREA        1362           1        1373
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            2.29525       -38.2919        69.1480        200.885
+Background bg_color="r255g255b255a255" _OK
+Translate /      -41.10000        7.23000        0.00000
+     ELEMENT DUPLICATE KEEP P_Use=Yes
+     Node_ID=244737 Elem_ID=594022 Prop_ID=90503
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90501)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_9.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_9.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          138283       97794      248476
+*TETRA         471358      109976      581333
+*PENTA           1738       85781      596489
+*HEXA           34926       84879      597113
+*p-SOLID            7       90100       90902
+*EXTENSIO           6           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET          11        4202       21137
+*EXTENSIO          12           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      248476
+*
+*Geometry       17129
+*
+*CURVE           4618
+*SURF            1618
+*CONS            9272
+*FACE            1620
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        3846          61        4077
+*MESHAREA        1362           1        1373
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90502)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90502 Type="Solid" Mode="Assign"
+  Label="M8 Caliper Body Bolt 2"
+ Pid=(90502)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ PELabelMode=ON LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90503)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90503 Type="Solid" Mode="Assign"
+  Label="M8 Caliper Body Bolt 3"
+ Pid=(90503)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_9.bif" / ALL
+*BIF Output File = ... _02_09_Crucial_9.bif
+*--------------------------------------------
+*PartCode           6
+*NODE          138283       97794      248476
+*TETRA         471358      109976      581333
+*PENTA           1738       85781      596489
+*HEXA           34926       84879      597113
+*p-SOLID            7       90100       90902
+*EXTENSIO           6           0           0
+*ELEM-SET           1        9998        9998
+*GEOM-SET          11        4202       21137
+*EXTENSIO          12           0           0
+*MDPARAM          115           0           0
+*GEONPCO         9806       97794      248476
+*
+*Geometry       17129
+*
+*CURVE           4618
+*SURF            1618
+*CONS            9272
+*FACE            1620
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV        3846          61        4077
+*MESHAREA        1362           1        1373
+*GEOGRAPH           2           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

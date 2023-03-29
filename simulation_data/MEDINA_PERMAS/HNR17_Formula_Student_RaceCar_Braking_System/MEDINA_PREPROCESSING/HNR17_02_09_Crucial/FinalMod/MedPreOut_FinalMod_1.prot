@@ -1,0 +1,137 @@
+* * --------------- MEDINA PreProcessing 8.5.1.4 - Protocol --------------
+* * Date 06/10/17 - Time 08:51:58 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "E:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/FinalMod/HNR17_02_09_Crucial_21_37.bif"
+MArea
+Geom
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            9.39533        2193.42        1630.90       -2711.72
+Asca
+SetCheck
+ SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35350)
+ Setid=(35350)
+ Setid=(35352)
+ Setid=(35350)
+ Setid=(35360)
+ Setid=(35350)
+ SetType_filter_sel="Node"
+ Setid=(35351)
+ Setid=(35353)
+ Setid=(35355)
+ Setid=(35357)
+ Setid=(35359)
+ SetType_filter_sel="Element"
+ Setid=(35350)
+ Setid=(35352)
+ Setid=(35354)
+ Setid=(35356)
+ Setid=(35358)
+ Setid=(35360)
+ Setid=(35361)
+ Setid=(35362)
+ Setid=(35363)
+ Setid=(35364)
+ Setid=(35365)
+ Setid=(35366)
+ Setid=(35367)
+ Setid=(35368)
+ Setid=(35369)
+ _OK
+Center
+ /21244
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90300)
+ _OK
+EShow Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ PLabel_filter_sel="a"
+ Pid=ALL PLabel_filter_sel=""
+ Pid=ALL
+ _OK
+SetCheck
+ SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35350)
+@Center
+ /233529
+@
+ SetType_filter_sel="Node"
+ Setid=(35351)
+ Setid=(35353)
+ SetType_filter_sel="Geometry"
+ SetType_filter_sel="Element"
+ Setid=(35352)
+ Setid=(35354)
+ SetType_filter_sel="Node"
+ Setid=(35355)
+@Center
+ /244823
+@
+@Center
+ /226478
+@
+ SetType_filter_sel="Element"
+ Setid=(35356)
+ Setid=(35356)
+ Setid=(35358)
+@Center
+ /226478
+@
+ Setid=(35358)
+ Setid=(35356)
+ SetType_filter_sel="Node"
+ Setid=(35357)
+ Setid=(35359)
+ Setid=(35359)
+ Setid=(35357)
+@Center
+ /241083
+@
+ SetType_filter_sel="Geometry"
+ SetType_filter_sel="Element"
+ Setid=(35360)
+@Center
+ /119048
+@
+ Setid=(35361)
+@Center
+ /118940
+@
+ Setid=(35362)
+ Setid=(35363)
+@Center
+ /140809
+@
+ Setid=(35365)
+ Setid=(35366)
+ Setid=(35366)
+ Setid=(35365)
+ Setid=(35364)
+ Setid=(35365)
+ Setid=(35364)
+ Setid=(35365)
+ Setid=(35364)
+ Setid=(35365)
+ Setid=(35366)
+ _OK
+Quit / Cancel
+Quit / Ok
+* 

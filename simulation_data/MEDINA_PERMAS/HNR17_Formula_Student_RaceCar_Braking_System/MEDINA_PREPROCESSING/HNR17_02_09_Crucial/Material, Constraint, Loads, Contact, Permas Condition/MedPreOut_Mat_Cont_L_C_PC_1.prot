@@ -1,0 +1,240 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 05/09/17 - Time 16:32:27 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21.bif"
+SetList
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EColor
+ Color_index="8" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90503)
+ _UNDO
+ _CANCEL
+SetList
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90501)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName=""
+  Label="M8 Caliper Body Bolt 1" PEKeywordOptions="" Temperature=""
+  Add_Textfield="" Master_PID=90501 Type="Solid" Mode="Assign" _UNDO
+ _CANCEL
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90501)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" PEKeywordOptions=""
+  Temperature="" Add_Textfield="" Master_PID=90501 Type="Solid" Mode="Assign"
+  Label="M8 Caliper Body Bolt 22"
+ PELabelMode=ON _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90501)
+ _UNDO _CANCEL
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+PEdit SubType=0 SubTypeMode=OFF Type="Auto" Mode="Load" ExtDataToggle=OFF
+  Master_PID=0 Label="" PELabelMode=OFF CoordSystemMode=OFF CoordSystem=0
+  ThickMode=OFF Thick=0 Element_thickness="Direct" Element_thickness_factor=1.6
+  Element_thickness_addvalue=0.5 StiffMode=OFF Stiffness=1 ShearMode=OFF
+  Shear=0.833333 NSMMode=OFF NSMA=0 FD1Mode=OFF FD1=0 FD2=0 ContMode=OFF Cont=0
+  Contact_thickness="Direct" Contact_thickness_factor=1.6
+  Contact_thickness_addvalue=0.5 System=0 SystemMode=OFF MatrefMode=OFF Matref=0
+  CSAMode=OFF CSA=0 TorsMode=OFF Tors=0 TemperatureMode=OFF Temperature="0"
+  CSIDMode=OFF CSID=0 IZZMode=OFF IZZ=0 IYYMode=OFF IYY=0 IYZMode=OFF IYZ=0
+  NSMLMode=OFF NSML=0 ShStiff1Mode=OFF ShStiff1=0 ShStiff2Mode=OFF ShStiff2=0
+  SpringMode=OFF Spring=0 DamperMode=OFF Damper=0 ViscExtMode=OFF ViscExt=0
+  ViscRotMode=OFF ViscRot=0 MassMode=OFF Mass=0 NDstQAMode=OFF NDstQA=0
+  ApMode=OFF Ap=0 AqMode=OFF Aq=0 IpMode=OFF Ip=0 IqMode=OFF Iq=0 philpaMode=OFF
+  philpa=0 gamma1Mode=OFF gamma1=0 gamma2Mode=OFF gamma2=0 CGYMode=OFF CGY=0
+  CGZMode=OFF CGZ=0 SCYMode=OFF SCY=0 SCZMode=OFF SCZ=0 WarpMode=OFF Warp=0
+  ShRelief1Mode=OFF ShRelief1=0 ShRelief2Mode=OFF ShRelief2=0 OptionMode=OFF
+  Option="Disp" ElasStiffMode=OFF ElasStiff=0 FailDeflectMode=OFF FailDeflect=0
+  DeflectLim1Mode=OFF DeflectLim1=0 DeflectLim2Mode=OFF DeflectLim2=0
+  TanStiffMode=OFF TanStiff=0 YieldMode=OFF Yield=0 LoadCurveMode=OFF
+  LoadCurve=0 LdLoadCurveMode=OFF LdLoadCurve=0 UnLoadCurveMode=OFF
+  UnLoadCurve=0 HardenMode=OFF Harden=0 YieldTenMode=OFF YieldTen=0
+  YieldCompMode=OFF YieldComp=0 GapMode=OFF Gap=0 PreloadMode=OFF Preload=0
+  AxStiffClMode=OFF AxStiffCl=0 AxStiffOpMode=OFF AxStiffOp=0 TrStiffClMode=OFF
+  TrStiffCl=0 StatFrictMode=OFF StatFrict=0 KineFrictMode=OFF KineFrict=0
+  MaxPenetrMode=OFF MaxPenetr=0 MaxAdjustMode=OFF MaxAdjust=0
+  LoBndPenetrMode=OFF LoBndPenetr=0 SepDistMode=OFF SepDist=0 CoulFrictMode=OFF
+  CoulFrict=0 FrictLimMode=OFF FrictLim=0 ClearMode=OFF Clear=0 PressMode=OFF
+  Press=0 DampMode=OFF Damp=0 FormTypMode=OFF FormTyp="0" ConvExpMode=OFF
+  ConvExp=0 ConvFilmMode=OFF ConvFilm=0 FilmThickMode=OFF FilmThick=0
+  RefFilmMode=OFF RefFilm=0 NipMode=OFF Number_of_integration_points_NIP=0
+  MID1Mode=OFF MID1_=0 MID1=0 MIDABA=0 Mid2Mode=OFF MID2=0 Mid3Mode=OFF MID3=0
+  Mid4Mode=OFF MID4=0 PEBushStiffValMode=OFF Stiffness_values=OFF Stiffness_K1=0
+  Stiffness_K2=0 Stiffness_K3=0 Stiffness_K4=0 Stiffness_K5=0 Stiffness_K6=0
+  PEBushDampValMode=OFF Velocity_damping_values=OFF Velocity_Damping_B1=0
+  Velocity_Damping_B2=0 Velocity_Damping_B3=0 Velocity_Damping_B4=0
+  Velocity_Damping_B5=0 Velocity_Damping_B6=0 PEBushDampConstMode=OFF
+  Structural_damping_constant=OFF GE=0 PEBushStressMode=OFF
+  Stress_and_strain_recovery_coefficients=OFF SA=1 ST=1 EA=1 ET=1
+  PEBushStiffFunMode=OFF Stiffness_vs_frequency_function_IDs=OFF tK1=0 tK2=0
+  tK3=0 tK4=0 tK5=0 tK6=0 PEBushDampFunMode=OFF
+  Velocity_damping_vs_frequency_function_IDs=OFF tB1=0 tB2=0 tB3=0 tB4=0 tB5=0
+  tB6=0 PEBushStrDampFunMode=OFF Struc_damping_const_vs_frequency_funct_ID=OFF
+  tGE=0 PEBushForceFunMode=OFF Force_vs_deflection_relationship_IDs=OFF tF1=0
+  tF2=0 tF3=0 tF4=0 tF5=0 tF6=0 MatIdMode=OFF Material_ID=0 SecIdMode=OFF
+  SecId=0 HouIdMode=OFF HouId=0 Add_TextfieldMode=OFF Add_Textfield=""
+  PEKeywordOptionsMode=OFF PEKeywordOptions="" LayupNameMode=OFF LayupName=""
+  OrientationMode=OFF Orientation=0 DensityMode=OFF Density="" PlaneMode=OFF
+  RefPlane="DEFAULT" OffsetRefPlane=0 SecInt=OFF SecIntegration="DEFAULT"
+  SymmetricMode=OFF Symmetric="NO" StackDirMode=OFF StackDir="DEFAULT"
+  ELFORMMode=OFF ELFORM="DEFAULT" SHRFMode=OFF SHRF="" MAREAMode=OFF MAREA=""
+  HGIDMode=OFF HGID=0 ADPOPTMode=OFF ADPOPT="DEFAULT" ITHELFMMode=OFF
+  ITHELFM="DEFAULT" FSMode=OFF FS=0 FDMode=OFF FD=0 DCMode=OFF DC=0 VCMode=OFF
+  VC=0 OPTTMode=OFF OPTT=0 SFTMode=OFF SFT=0 SSFMode=OFF SSF=0
+  CreateSymmetricPly=OFF MirrorCopyPly=OFF PlyMode=OFF PlyNumber=0 PlyID=0
+  PlyThick=0 PlyMID=0 PlyTMID=0 PlyCSID=0 PlyAngle=0 PlyNIP=0 PlyName=""
+  IntNetMode=OFF Integration_network="Blank" StressMode=OFF Stress="Blank"
+  IsopMode=OFF Isop="Blank" FctnMode=OFF Fctn="Blank" CorotMode=OFF
+  Corot="Blank"
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label=""
+  PEKeywordOptions="" Temperature="" Add_Textfield="" SubType=1 Stiffness=0
+  Shear=0 SA=0 ST=0 EA=0 ET=0 Type="Auto"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel="" Pid=(90603)
+ LayupName="" Density="" MAREA="" SHRF="" PlyName="" Label="Piston 3"
+  PEKeywordOptions="" Temperature="" Add_Textfield="" Master_PID=90603
+  Type="Solid" Mode="Assign" _OK
+Init
+Quit / Save
+*G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/MedSaveOut_Material, Constraint, Loads, Contact, Permas Condition_1.bif
+SAVE / ALL
+*BIF Output File = ... rmas Condition_1.bif
+*--------------------------------------------
+*MDPARAM          115           0           0
+*
+* 

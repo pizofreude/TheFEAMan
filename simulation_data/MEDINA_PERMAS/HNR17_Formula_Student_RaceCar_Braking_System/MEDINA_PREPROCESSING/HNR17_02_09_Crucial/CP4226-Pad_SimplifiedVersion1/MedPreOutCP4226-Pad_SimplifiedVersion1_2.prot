@@ -1,0 +1,86 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 14/06/17 - Time 15:16:09 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4226-Pad_SimplifiedVersion1/CP4226-Pad_SimplifiedVersion_2.bif"
+EMProperty/PID = 700 Type=Solid
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF
+  Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add"
+  ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0
+  Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct"
+ POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(700,702)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(700)
+ _OK
+PRenumber Renumber_mode="Direct" Start_value=1 Increment=1 Add_value=1
+  Expand_ranges_to_lists=OFF
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(700)
+ Start_value=9071
+ Pid=(1)
+ Pid=(708)
+ _OK
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(9072)
+ _OK
+Display/   -97.7290        27.9760        26.9740     ,
+            1.28671       -30.0843       -92.7406        58.2298
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(9072)
+ _OK
+Asca
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            1.97997       -17.6979       -104.012        63.4322
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/CP4226-Pad_SimplifiedVersion1/CP4226-Pad_SimplifiedVersion_3.bif" / ALL
+*BIF Output File = ... plifiedVersion_3.bif
+*--------------------------------------------
+*PartCode           2
+*NODE           18069           1       24060
+*PENTA            113        1340       18214
+*HEXA           15393        1138       18212
+*GEOM-SET           3         422        9900
+*EXTENSIO           3           0           0
+*MDPARAM          115           0           0
+*GEONPCO         3925           1       24060
+*
+*Geometry         410
+*
+*POINT              2
+*CURVE            112
+*SURF              37
+*CONS             222
+*FACE              37
+*--------------------------------------------
+*
+*POLYCURV         111           1         120
+*MESHAREA          37           1          37
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

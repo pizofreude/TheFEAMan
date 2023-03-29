@@ -1,0 +1,169 @@
+* * --------------- MEDINA PreProcessing 8.5.1.4 - Protocol --------------
+* * Date 26/09/17 - Time 18:41:44 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "E:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_2.bif"
+MArea
+Geom
+Swap
+Display/   -157.926        140.470        139.253     ,
+            31.0857        867.015       -2.36021        200.000
+Center
+ /129806
+SPC        CREATE/ IDSPC = 1  NUMBER OF VALUES = 1
+     DEGREE OF FREEDOM = 123   VALUE = 0.0
+     Label=SPC_1
+SPC        CREATE/ IDSPC = 1  NUMBER OF VALUES = 1
+     DEGREE OF FREEDOM = 123456   VALUE = 0.0
+ NMethod_sel="Set" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35347)
+ _OK
+ExtParam MPC=OFF Coordinate_systems=OFF Nodal_forces=OFF Unlinked_nodes=OFF
+  Cross_sections=OFF Beam_cross_sections=OFF Robscans=OFF
+  Self_piercing_rivets=OFF FEMSITE_weldlines=OFF Stonewalls=OFF
+  Rigid_surfaces=OFF Box3D_elements=OFF Elements="" SPC=ON
+ Coordinate_systems=ON
+ Nodal_forces=ON
+ _OK
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=1.263037 File_name=""
+  Eulwin1=-156.1704 Eulwin2=151.6674 Eulwin3=20.50632 Scaloc=6.272914
+  Transl1=275.9113 Transl2=261.1506 Transl3=200
+ File_name="E:/Bachelor Thesis/Organizer/Work Progress/WEEK 39 Front Brake/Images/FixSupport2.JPG"
+ Store
+ Plot
+ _OK
+SPC        CREATE/ IDSPC = 2  NUMBER OF VALUES = 1
+     DEGREE OF FREEDOM = 123456   VALUE = 0.0
+     Label=SPC_2
+SPC        CREATE/ IDSPC = 2  NUMBER OF VALUES = 1
+     DEGREE OF FREEDOM = 3   VALUE = 0.0
+ NMethod_sel="Set" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35348)
+ _OK
+SPC        CREATE/ IDSPC = 3  NUMBER OF VALUES = 1
+     DEGREE OF FREEDOM = 3   VALUE = 0.0
+     Label=SPC_3
+ NMethod_sel="Set" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35349)
+ _OK
+Display/    66.3526        51.5466        168.954     ,
+            8.30600        319.396       -98.8147        200.000
+Write      "E:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_3_SPC.bif" / ALL
+*BIF Output File = ... Crucial_21_3_SPC.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500836           1      818149
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           3       35347       35349
+*ELEM-SET          24        9998       35346
+*GEOM-SET          25         188       35324
+*EXTENSIO          52           0           0
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818149
+*
+*Geometry       29377
+*
+*POINT              6
+*PLANE              3
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Write      "E:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_3_SPC.bif" / ALL
+*BIF Output File = ... Crucial_21_3_SPC.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500836           1      818149
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           3       35347       35349
+*ELEM-SET          24        9998       35346
+*GEOM-SET          25         188       35324
+*EXTENSIO          52           0           0
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818149
+*
+*Geometry       29377
+*
+*POINT              6
+*PLANE              3
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

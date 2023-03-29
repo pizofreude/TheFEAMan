@@ -1,0 +1,133 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 27/09/17 - Time 11:26:58 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_3_SPC.bif"
+MArea
+Geom
+Center
+ /141542
+Background bg_color="r012g025b076a255" _OK
+Geom
+Geom
+Geom
+MArea
+MArea
+GCLine / L NAME=LN1M
+       237415
+       237423
+GCLine / L NAME=LN2M
+       237423
+       237431
+GCLine / L NAME=LN3M
+       237431
+       237439
+GCLine / L NAME=LN6M
+       237439
+       237447
+GCLine / L NAME=LN7M
+       237447
+       237407
+GCLine / L NAME=LN8M
+       237407
+       237415
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90901)
+ _OK
+Swap
+Display/    145.974        178.453        122.658     ,
+            53.6227        917.554        783.424        200.000
+Geom
+SetCreate
+ Set_ID=35350 Set_Label_="Set_35350" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ Set_type="Boundary"
+ _QUIT
+Plist Display_connector_discretization_data=OFF
+ List_Range=SHOW
+ _OK
+SetCreate
+ Set_ID=35350 Set_Label_="Set_35350" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ Sel_Bound_Id=1 Eid=(588130)
+ Set_Label_="MPC_90901" Store
+ Set_ID=35351 Set_Label_="Set_35351" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+Swap
+Display/   -154.179        1.30789        87.1911     ,
+            34.9996        953.994        691.072        200.000
+Swap
+Display/   -154.179        1.30789        87.1911     ,
+            34.9996        953.994        691.072        200.000
+@Background _QUIT
+Palette palette_color_0="r255g255b255a255" palette_color_1="r000g209b000a255"
+  palette_color_2="r128g128b255a255" palette_color_3="r255g255b000a255"
+  palette_color_4="r242g097b184a255" palette_color_5="r255g097b097a255"
+  palette_color_6="r000g222b214a255" palette_color_7="r255g168b000a255"
+  palette_color_8="r255g135b255a255" palette_color_9="r189g189b255a255"
+  palette_color_10="r166g255b166a255" palette_color_11="r178g051b051a255"
+  palette_color_12="r229g191b140a255" palette_color_13="r128g128b128a255"
+  palette_color_14="r153g153b000a255" palette_color_15="r097g128b097a255"
+ _QUIT
+SetCheck
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ SetType_filter_sel="Element"
+ Setid=(35350)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_4.bif" / ALL
+*BIF Output File = ... _09_Crucial_21_4.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500836           1      818149
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           3       35347       35349
+*ELEM-SET          24        9998       35346
+*BOND-SET           1       35350       35350
+*GEOM-SET          25         188       35324
+*EXTENSIO          52           0           0
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818149
+*
+*Geometry       29383
+*
+*POINT              6
+*LINE               6
+*PLANE              3
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

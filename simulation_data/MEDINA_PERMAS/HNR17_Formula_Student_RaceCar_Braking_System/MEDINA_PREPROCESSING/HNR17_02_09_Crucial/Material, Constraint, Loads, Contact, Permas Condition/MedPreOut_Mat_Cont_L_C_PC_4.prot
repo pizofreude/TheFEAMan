@@ -1,0 +1,1151 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 27/09/17 - Time 17:07:48 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_4.bif"
+MArea
+Geom
+Swap
+Display/   -150.302        14.1794        80.4151     ,
+            21.1892        801.354        548.725        200.000
+Center
+ /157540
+Geom
+SetCreate
+ Set_ID=35351 Set_Label_="Set_35351" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Set_type="Node"
+@Center
+ /119491
+@
+ NMethod_sel="ID" NMode_sel="Collect" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ NMethod_sel="Top2d_Box"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(127854,127861,127866,127872,127824,
+ 127843,127853,128565,128560,128557,128553,128547,128542,128537,128533,128580,
+ 128572,128566,127854)
+ Set_Label_="MPC_90901_O" Store
+ Set_ID=35352 Set_Label_="Set_35352" Set_type="Node" Solverkey="Undefined"
+ _OK
+Swap
+Display/   -169.507        176.908        26.0932     ,
+            7.80418        1033.44        492.667        200.000
+Swap
+Display/   -169.507        176.908        26.0932     ,
+            7.80418        1033.44        492.667        200.000
+SetCheck
+ SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ SetType_filter_sel="Node"
+ Setid=(35351)
+ _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _OK
+Display/    166.014        177.130        26.0120     ,
+            8.58171        935.706        519.791        200.000
+GCLine / L NAME=LN9M
+       240395
+       240387
+GCLine / L NAME=LN11M
+       240387
+       240379
+GCLine / L NAME=LN12M
+       240379
+       240371
+GCLine / L NAME=LN13M
+       240371
+       240363
+GCLine / L NAME=LN14M
+       240363
+       240355
+GCLine / L NAME=LN15M
+       240355
+       240395
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90902)
+ _OK
+Swap
+Display/    139.276       -160.198        126.441     ,
+            126.227        258.882        1229.65        200.000
+Geom
+SetCreate
+ Set_ID=35352 Set_Label_="Set_35352" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ Set_type="Boundary"
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ Sel_Bound_Id=1 Eid=(590434)
+ Set_Label_="MPC_90902" Store
+ Set_ID=35353 Set_Label_="Set_35353" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+SetCheck
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ SetType_filter_sel="Element"
+ Setid=(35352)
+ _OK
+Swap
+Display/    28.5153       -165.489        10.9258     ,
+            32.0852        828.381        698.525        200.000
+Geom
+Center
+ /156826
+SetCreate
+ Set_ID=35353 Set_Label_="Set_35353" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Set_type="Node"
+ NMethod_sel="Top2d_Box" NMode_sel="Collect" NType_filter_sel="Any"
+  NVisible_sel=OFF NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF
+  PickThShaded=OFF NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(127904,127898,127888,127938,127927,
+ 127912,127905,128497,128502,128508,128515,128525,128474,128483,128491,128496,
+ 127904)
+ Set_Label_="MPC_90902_0" Store
+ Set_ID=35354 Set_Label_="Set_35354" Set_type="Node" Solverkey="Undefined"
+ _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_5_MPC.bif" / ALL
+*BIF Output File = ... Crucial_21_5_MPC.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500836           1      818149
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           5       35347       35353
+*ELEM-SET          24        9998       35346
+*BOND-SET           2       35350       35352
+*GEOM-SET          25         188       35324
+*EXTENSIO          53           0           0
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818149
+*
+*Geometry       29389
+*
+*POINT              6
+*LINE              12
+*PLANE              3
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+ENoshow Inv_Sel_Flag=OFF
+ _OK
+GCCircle  /NAME=CI1M, COMPLETE, THREE-PT/ -47.6      -109.6     19.55 ,
+                                          -44.7924   -104.2506  19.55 ,
+                                          -35.3444   -112.6205  19.55
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90501)
+ _OK
+Swap
+Display/   -157.000       -163.752        12.7180     ,
+            66.9697        719.566        541.218        200.000
+Geom
+EShow
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ List_Show="Show"
+ _OK
+SetCreate
+ Set_ID=35354 Set_Label_="Set_35354" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ Set_type="Boundary"
+ Set_Label_="MPC_90501"
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ Sel_Bound_Id=2 Eid=(597086)
+ _OK
+ Set_ID=35355 Set_Label_="Set_35355" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+SetList SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35354)
+ _OK SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35354)
+ _QUIT
+Swap
+Display/   -23.0559       -161.476        84.4034     ,
+            37.9867        300.308        567.164        200.000
+Geom
+SetCreate
+ Set_ID=35355 Set_Label_="Set_35355" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Set_type="Node"
+ NMethod_sel="Top2d_Box" NMode_sel="Collect" NType_filter_sel="Any"
+  NVisible_sel=OFF NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF
+  PickThShaded=OFF NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(144072,143724,143730,143737,144065,
+ 144071,157652,158008,158007,158038,158040,158042,158044,158073,158072,158046,
+ 158076,158077,158078,158200,158050,158027,158025,158022,158020,158017,158016,
+ 158015,158014,158012,158009,157651,144072)
+ Set_Label_="MPC_90501_0" Store
+ Set_ID=35356 Set_Label_="Set_35356" Set_type="Node" Solverkey="Undefined"
+ _OK
+SetCheck
+ SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ SetType_filter_sel="Node"
+ Setid=(35355)
+ _OK
+SetCreate
+ Set_ID=35356 Set_Label_="Set_35356" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ _OK
+Display/   -178.227       -169.553        10.0737     ,
+            40.9263        855.849        561.131        200.000
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+GCCircle  /NAME=CI2M, COMPLETE, THREE-PT/ -2.3054    -122.9071  19.55 ,
+                                          -6.3112    -118.3852  19.55 ,
+                                          6.5        -116.83    19.55
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90503)
+ _OK
+Swap
+Display/    179.948        179.869        20.8895     ,
+            46.1102        1301.90        601.606        200.000
+Geom
+SetCreate
+ Set_ID=35356 Set_Label_="Set_35356" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ Set_type="Boundary"
+ _CANCEL
+Swap
+Display/   -23.2614       -146.706        139.356     ,
+            46.1102        1301.90        601.606        200.000
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+GCCircle  /NAME=CI3M, COMPLETE, THREE-PT/ 41.8832    -116.0527  19.55 ,
+                                          35.3445    -112.6206  19.55 ,
+                                          44.7931    -104.2507  19.55
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90502)
+ _OK
+Swap
+Display/   -2.37023        24.7897        146.223     ,
+            63.8473        1404.31        551.044        200.000
+Plist Display_connector_discretization_data=OFF
+ _OK
+ List_Show="Show"
+ _OK
+SetCreate
+ Set_ID=35356 Set_Label_="Set_35356" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ Sel_Bound_Id=2 Eid=(593987)
+ Set_Label_="MPC_90502" Store
+ Set_ID=35357 Set_Label_="Set_35357" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+Swap
+Display/    3.90341        146.367        158.306     ,
+            63.8473        1404.31        551.044        200.000
+Geom
+SetCreate
+ Set_ID=35357 Set_Label_="Set_35357" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Set_type="Node"
+ NMethod_sel="Top2d_Box" NMode_sel="Collect" NType_filter_sel="Any"
+  NVisible_sel=OFF NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF
+  PickThShaded=OFF NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(143438,143442,143098,143104,143431,
+ 143434,143437,157876,157903,157904,157905,157996,157906,157908,158347,158348,
+ 157909,157910,157912,157913,157916,157917,157920,157921,157924,157925,157879,
+ 157877,143438)
+ Set_Label_="MPC_90502_0" Store
+ Set_ID=35358 Set_Label_="Set_35358" Set_type="Node" Solverkey="Undefined"
+ _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90503)
+ _OK
+Swap
+Display/    14.1004       -13.1396        141.259     ,
+            30.3696        2.21798        1046.54        200.000
+Geom
+Center
+ /226480
+SetCreate
+ Set_ID=35358 Set_Label_="Set_35358" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ Set_Label_="MPC_90503" Set_type="Boundary"
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ Sel_Bound_Id=2 Eid=(585175)
+ Store
+ Set_ID=35359 Set_Label_="Set_35359" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+Swap
+Display/   -14.4604       -149.319        83.9197     ,
+            30.3696        1022.48        517.508        200.000
+Geom
+LList
+ _OK
+SetCreate
+ Set_ID=35359 Set_Label_="Set_35359" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Set_Label_="MPC_90503_0" Set_type="Node"
+ _CANCEL
+SetCreate
+ Set_ID=35359 Set_Label_="Set_35359" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ NMethod_sel="Top2d_Box" NMode_sel="Collect" NType_filter_sel="Any"
+  NVisible_sel=OFF NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF
+  PickThShaded=OFF NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(142703,142697,142271,142267,142258,
+ 142709,142704,157704,157744,157742,157776,157775,157741,157736,157771,157783,
+ 157781,157780,157768,157767,157763,157762,157761,157760,157759,157751,157745,
+ 142703)
+ Set_Label_="MPC_90503_0" Store
+ Set_ID=35360 Set_Label_="Set_35360" Set_type="Node" Solverkey="Undefined"
+ _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_6.bif" / ALL
+*BIF Output File = ... _09_Crucial_21_6.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500836           1      818149
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           8       35347       35359
+*ELEM-SET          24        9998       35346
+*BOND-SET           5       35350       35358
+*GEOM-SET          25         188       35324
+*EXTENSIO          53           0           0
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818149
+*
+*Geometry       29392
+*
+*POINT              6
+*LINE              12
+*PLANE              3
+*CIRCLE             3
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Intelem/Virtual Create /ID=1 LABEL=ISurface
+  TYPE=IQUAD GSET=35350 DSET=35351 DOFS=123 TOL=0.01 OPT=N MOVE=N
+  OTOL=0.01
+Intelem/Virtual Create /ID=2 LABEL=ISurface
+  TYPE=IQUAD GSET=35352 DSET=35353 DOFS=123 TOL=0.01 OPT=N MOVE=N
+  OTOL=0.01
+Intelem/Virtual Create /ID=3 LABEL=ISurface
+  TYPE=IQUAD GSET=35354 DSET=35355 DOFS=123 TOL=0.01 OPT=N MOVE=N
+  OTOL=0.01
+Intelem/Virtual Create /ID=4 LABEL=ISurface
+  TYPE=IQUAD GSET=35356 DSET=35357 DOFS=123 TOL=0.01 OPT=N MOVE=N
+  OTOL=0.01
+Intelem/Virtual Create /ID=5 LABEL=ISurface
+  TYPE=IQUAD GSET=35358 DSET=35359 DOFS=123 TOL=0.01 OPT=N MOVE=N
+  OTOL=0.01
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_7_MPCActivation.bif" / ALL
+*BIF Output File = ... _7_MPCActivation.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500836           1      818149
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           8       35347       35359
+*ELEM-SET          24        9998       35346
+*BOND-SET           5       35350       35358
+*GEOM-SET          25         188       35324
+*EXTENSIO          53           0           0
+*VirtIntp           5           1           5
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818149
+*
+*Geometry       29392
+*
+*POINT              6
+*LINE              12
+*PLANE              3
+*CIRCLE             3
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90100)
+ _OK
+Center
+ /236894
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=1.659196 Eulwin2=-1.724391 Eulwin3=162.2578
+  Scaloc=32.51747 Transl1=1022.477 Transl2=517.5079 Transl3=200 ScreenBoxListe=(
+ -58.50119,-76.75434,16.11812/-38.51387,-64.39567,16.96922/-42.3702,-56.84909,
+ 17.17023/-66.16422,-68.82649,16.25762) _OK
+ _OK
+Center
+ /155781
+Center
+ /236773
+GCCircle  /NAME=CI4M, COMPLETE, THREE-PT/ -52.2226   -71.9225   25.75 ,
+                                          -48.0876   -75.7494   25.75 ,
+                                          -45.1166   -68.3774   25.75
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90901)
+ Pid=(90100)
+ _QUIT
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Search" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GList_sel=OFF GOperation_sel="Add"
+  GRelated_geo_elements_sel=ON
+ GMethod_sel="Name"
+ GRelated_geo_elements_sel=OFF Gid="CI4M"
+ _OK
+Swap
+Display/   -146.794       -155.821        45.9243     ,
+            170.699        872.809        21.3486        200.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90100)
+ _OK
+Geom
+Geom
+Background bg_color="r012g025b076a255" _OK
+SetCreate
+ Set_ID=35360 Set_Label_="Set_35360" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ Set_type="Boundary"
+@Geom
+@
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ EMethod_sel="Top2D_Box"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(235909,235905,235902,235866,235869,
+ 235871,235875,235910,236772,236735,236728,236764,236769,236771,235909)
+ EMethod_sel="Search"
+ EMethod_sel="ID"
+ Sel_Bound_Id=5 Eid=(587092)
+ Eid=(587166)
+ Eid=(587240)
+ Eid=(587314)
+ Eid=(587388)
+ Eid=(587462)
+ Eid=(587536)
+ Eid=(587610)
+ Eid=(587684)
+ Set_Label_="surfid=35360 sfset=90901Bolt1" Store
+ Set_ID=35361 Set_Label_="Set_35361" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+Swap
+Display/   -143.695        179.658        93.4660     ,
+            71.9455        613.059        66.0872        200.000
+SetCreate
+ Set_ID=35361 Set_Label_="Set_35361" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Collect" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add"
+  ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0
+  Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF
+  Sel_Ele_UMSet_Toggle=OFF Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ EMethod_sel="Search"
+ Sel_Bound_Id=4 Eid=(156365)
+ Set_Label_="surfid=35361 sfset=90901Thread1" Store
+ Set_ID=35362 Set_Label_="Set_35362" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+SetCheck
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ SetType_filter_sel="Element"
+ Setid=(35360)
+ Setid=(35361)
+ _OK
+Swap
+Display/   -138.290       -66.1073        29.5173     ,
+            58.2367        290.398        385.680        200.000
+Background _QUIT
+SetCheck
+ SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35361)
+ Setid=(35360)
+ _OK
+Swap
+Display/   -84.6428       -74.8334        90.0701     ,
+            47.1717        692.143        318.748        200.000
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ Eid=ALL
+ Eid=ALL
+ _OK
+Background bg_color="r012g025b076a255" _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=179.4032 Eulwin2=178.7018 Eulwin3=53.61497
+  Scaloc=15.33039 Transl1=1048.625 Transl2=1753.724 Transl3=200 ScreenBoxListe=(
+ 68.11111,-87.74899,23.04429/32.76981,-61.01811,24.13834/34.77686,-24.93531,
+ 24.5298/82.64858,-53.09947,23.1449/90.91679,-63.96882,22.83326) _OK
+ _OK
+Center
+ /239253
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90100)
+ _OK
+GCCircle  /NAME=CI5M, COMPLETE, THREE-PT/ 51.4232    -73.9891   25.75 ,
+                                          47.8854    -75.7494   25.75 ,
+                                          44.5236    -69.0109   25.75
+Geom
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CI5M"
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90902)
+ _OK
+Swap
+Display/    127.895       -119.083        15.0766     ,
+            120.379       -10.7969        469.795        200.000
+Geom
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90200)
+ Pid=(90100)
+ Pid=(90300)
+ _OK
+NDFree/SHOW
+Geom
+SetCreate
+ Set_ID=35362 Set_Label_="Set_35362" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+@Center
+ /239462
+@
+@Center
+ /240332
+@
+@Geom
+@
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ EMethod_sel="Top2D_Box"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(239463,239459,239419,239424,239429,
+ 239466,239464,240238,240183,240198,240192,240233,240237,239463)
+ EMethod_sel="ID"
+ Sel_Bound_Id=5 Eid=(589727)
+ Eid=(589801)
+ Eid=(589875)
+ Eid=(589949)
+ Eid=(590023)
+ Eid=(590097)
+ Eid=(590171)
+ Eid=(590245)
+ Eid=(590319)
+ Set_Label_="surfid=35362 sfset=90902Bolt2" Store
+ Set_ID=35363 Set_Label_="Set_35363" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+Swap
+Display/   -94.9533       -125.220        101.644     ,
+            50.2295        1355.33        262.016        200.000
+SetCreate
+ Set_ID=35363 Set_Label_="Set_35363" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Collect" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add"
+  ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0
+  Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF
+  Sel_Ele_UMSet_Toggle=OFF Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ EMethod_sel="Search"
+ Sel_Bound_Id=3 Eid=(388689)
+ Set_Label_="surfid=35363 sfset=90902Thread2" Store
+ Set_ID=35364 Set_Label_="Set_35364" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90501)
+@Center
+ /20495
+@
+ Pid=(90300)
+ _OK
+Geom
+Geom
+Geom
+GCCircle  /NAME=CI6M, COMPLETE, THREE-PT/ -39.8643   -105.7935  0. ,
+                                          -45.1      -109.6     0. ,
+                                          -39.2848   -113.1649  0.
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CI6M"
+ _OK
+Swap
+Display/   -170.638       -160.734        8.12376     ,
+            99.2530        1152.77        1198.08        200.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90300)
+ _OK
+SetCreate
+ Set_ID=35364 Set_Label_="Set_35364" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ _OK
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CI6M"
+ _OK
+Swap
+Display/   -127.017       -127.532        39.4344     ,
+            4696.00        5006.24        34012.9        199.978
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90300)
+ Pid=(90714)
+ _OK
+GNoshow Inv_Sel_Flag=OFF
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CI6M"
+ _OK
+Swap
+Display/   -155.736       -142.754        21.7058     ,
+            99.6023        1106.97        1227.95        200.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90300)
+ _OK
+Center
+ /247334
+SetCreate
+ Set_ID=35364 Set_Label_="Set_35364" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+@Geom
+@
+@Center
+ /246584
+@
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ EMethod_sel="Top2D_Box"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin1=0 Eulwin2=0 Eulwin3=0 Scaloc=0 Transl1=0 Transl2=0 Transl3=0
+  Screen_box_type="Full_In" Topbox_Nodes=(247336,247358,247354,247349,247344,
+ 247341,247337,247831,247835,247839,247843,247847,247851,247830,247336)
+ Topbox_Nodes=(247337,247336,247830,247831,247337)
+ Set_Label_="surfid=35364 sfset=90501Bolt1" Store
+ Set_ID=35365 Set_Label_="Set_35365" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+Background _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90714)
+ _OK
+SetCheck
+ SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35364)
+ _OK
+Swap
+Display/    92.8194       -113.432        102.082     ,
+            23.9520        1009.79        247.888        200.000
+SetCreate
+ Set_ID=35365 Set_Label_="Set_35365" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Set_Label_="surfid=35365 sfset=90501Thread1"
+ Sel_Bound_Id=0 EMethod_sel="Top2D_Box" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ EMethod_sel="Search"
+ Sel_Bound_Id=3 Eid=(758826)
+ _OK
+ Set_ID=35366 Set_Label_="Set_35366" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+SetCheck
+ SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(35365)
+ _QUIT
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 36 Set List of rear brake/Images WEEK36/Additional Fixed Support Rotor_5.jpg"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=2.096133
+  Eulwin1=-149.9133 Eulwin2=-36.84084 Eulwin3=3.305284 Scaloc=18.5401
+  Transl1=526.3002 Transl2=549.0319 Transl3=200.0003
+ File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 39 Front Brake/Images/PreThread_6.JPG"
+ Eulwin3=3.305283 Scaloc=20.39412 Transl1=729.8674 Transl2=653.7427
+  Transl3=200.0003 Plot_scale=2.305746 Store
+ Plot
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_8_PreTensionSet.bif" / ALL
+*BIF Output File = ... _8_PreTensionSet.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500835           1      818147
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           8       35347       35359
+*ELEM-SET          24        9998       35346
+*BOND-SET          11       35350       35365
+*GEOM-SET          25         188       35324
+*EXTENSIO          53           0           0
+*VirtIntp           5           1           5
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818147
+*
+*Geometry       29395
+*
+*POINT              6
+*LINE              12
+*PLANE              3
+*CIRCLE             6
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_09_Crucial_21_8_PreTensionSet.bif" / ALL
+*BIF Output File = ... _8_PreTensionSet.bif
+*--------------------------------------------
+*PartCode          10
+*NODE          500835           1      818147
+*TETRA         877240      109976     1002995
+*PENTA           6102         525     1276826
+*HEXA          250154         505     1276824
+*p-SOLID           23       90100       90902
+*EXTENSIO          23           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*NODE-SET           8       35347       35359
+*ELEM-SET          24        9998       35346
+*BOND-SET          11       35350       35365
+*GEOM-SET          25         188       35324
+*EXTENSIO          53           0           0
+*VirtIntp           5           1           5
+*MDPARAM          115           0           0
+*GEONPCO        83384       97794      818147
+*
+*Geometry       29395
+*
+*POINT              6
+*LINE              12
+*PLANE              3
+*CIRCLE             6
+*CURVE           7919
+*SURF            2754
+*CONS           15894
+*FACE            2786
+*TOP               15
+*--------------------------------------------
+*
+*POLYCURV        7100          61        7462
+*MESHAREA        2514           1        2589
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

@@ -1,0 +1,18 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 04/09/17 - Time 15:31:50 - Platform Windows NT 6.1 64 bit -------
+Background bg_color="r012g025b076a255" _OK
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_09_Crucial/HNR17_02_09_CRUCIAL_ASSEMBLY/Trial 1/HNR17_02_09_Crucial_21.bif"
+Display/    90.0000        90.0000       0.000000E+00 ,
+            12.8071        76.3805       -125.374        200.000
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            12.8071        76.3805       -125.374        200.000
+Display/   0.000000E+00    180.000       0.000000E+00 ,
+            9.38182        551.427        906.049        200.000
+Geom
+MArea
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_10_CRUCIAL_ASSEMBLY/HNR17_02_10_Crucial_31.bif"
+Quit / Ok
+* 
