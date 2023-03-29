@@ -1,0 +1,1207 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 06/09/17 - Time 14:41:12 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_1_RBE2.bif"
+GCCircle  /NAME=CI4M, COMPLETE, THREE-PT/ -1505.2328 616.5      50.6484 ,
+                                          -1496.6185 616.5      50.4439 ,
+                                          -1495.4092 616.5      40.8948
+NCOnGeo    / 2,CI4M
+NCBetween / Number=1
+   NID /    578697    402063
+NDelete   /
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578697)
+ Nid=(578696)
+ _OK
+Display/    55.9306        141.625        13.7439     ,
+            67.6865       -5385.51       -1495.66       -272.000
+GDelete/ANY/CI4M
+ECNodes    / RBE2 EID=400251 DOFS=123456 GUIDE_NODE=578698 HOLE=NO
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ NMethod_sel="Set"
+ SetSelectionFilter=OFF Check_sets_sel="No" SetList_sel=ON
+  SetLabel_filter_sel="" SetType_filter_sel="Node" SetSolverkey_filter_sel="Any"
+ Setid=(40422)
+ _OK
+Display/    64.8665        138.261        3.43480     ,
+            21.7775       -2771.76       -40.4418       -272.000
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_2.bif" / ALL
+*BIF Output File = ... _10_Crucial_31_2.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323595        1356      578698
+*RBE2               1      400251      400251
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*NODE-SET           4       40422       40425
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          31           0           0
+*MDPARAM          115           0           0
+*GEONPCO        71892       37599      578698
+*
+*Geometry       23602
+*
+*POINT              6
+*PLANE              3
+*CIRCLE             2
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+GCCircle  /NAME=CI5M, COMPLETE, THREE-PT/ -1568.9288 616.5      30.8558 ,
+                                          -1573.9204 616.5      29.7625 ,
+                                          -1576.9971 616.5      24.6243
+NCOnGeo    / 2,CI5M
+NCBetween / Number=1
+   NID /    470249    578700
+NDelete   /
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578700)
+ _OK
+Display/   -131.711       -40.4550        179.912     ,
+            59.0688       -2806.16       -4140.48       -272.000
+Display/   -131.711       -40.4550        179.912     ,
+            59.0688       -2806.16       -4140.48       -272.000
+Display/   -131.711       -40.4550        179.912     ,
+            183.529       -7007.27       -13810.5       -272.000
+NCheck Mode="Numeric" Link_to="Element" Range="Show" Node_type="Linked"
+  Color_index="1" Node_symbols=ON Node_IDs=OFF Linked_objects=OFF
+  Check="Distance_to_node" Model="Non_deformed" Output_to_graphics=ON
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Sel_Nod_Dsp_List=(1) Nid=(578699)
+ _OK
+NDelete   /
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578699)
+ _OK
+Display/   -131.711       -40.4550        179.912     ,
+            57.5935       -2253.53       -3879.37       -272.000
+Display/   -131.711       -40.4550        179.912     ,
+            112.233       -4316.04       -8188.20       -272.000
+NCheck Mode="Numeric" Link_to="Element" Range="Show" Node_type="Linked"
+  Color_index="1" Node_symbols=ON Node_IDs=OFF Linked_objects=OFF
+  Check="Distance_to_node" Model="Non_deformed" Output_to_graphics=ON
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Sel_Nod_Dsp_List=(2) Nid=(470249)
+ _OK
+Display/   -131.711       -40.4550        179.912     ,
+            112.233       -4316.04       -8188.20       -272.000
+ECNodes    / RBE2 EID=400252 DOFS=123456 GUIDE_NODE=578701 HOLE=NO
+ NMethod_sel="Set" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(40423)
+ _OK
+GDelete/ANY/CI5M
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_2.bif" / ALL
+*BIF Output File = ... _10_Crucial_31_2.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323596        1356      578701
+*RBE2               2      400251      400252
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*NODE-SET           4       40422       40425
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          31           0           0
+*MDPARAM          115           0           0
+*GEONPCO        71892       37599      578701
+*
+*Geometry       23602
+*
+*POINT              6
+*PLANE              3
+*CIRCLE             2
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+GCCircle  /NAME=CI6M, COMPLETE, THREE-PT/ -1555.8672 616.5      -46.0581 ,
+                                          -1554.1281 616.5      -49.7331 ,
+                                          -1548.5936 616.5      -52.0215
+NCOnGeo    / 2,CI6M
+NCBetween / Number=1
+   NID /    470117    578703
+Background bg_color="r255g255b255a255" _OK
+Background bg_color="r012g025b076a255" _OK
+ECNodes    / RBE2 EID=400253 DOFS=123456 GUIDE_NODE=578704 HOLE=NO
+ NMethod_sel="Set" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(40424)
+ _OK
+Display/    55.7029       -28.5028        4.58239     ,
+            36.2250        1644.44       -900.793       -272.009
+NDFree/SHOW
+GDelete/ANY/CI6M
+Background bg_color="r255g255b255a255" _OK
+Background bg_color="r012g025b076a255" _OK
+GCCircle  /NAME=CI7M, COMPLETE, THREE-PT/ -1481.0712 616.5      -30.8558 ,
+                                          -1475.267  616.5      -29.1281 ,
+                                          -1472.9785 616.5      -23.5936
+NCOnGeo    / 2,CI7M
+NCBetween / Number=1
+   NID /    401917    578706
+ECNodes    / RBE2 EID=400254 DOFS=123456 GUIDE_NODE=578707 HOLE=NO
+ NMethod_sel="Set" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(40425)
+ _OK
+NDFree/SHOW
+GDelete/ANY/CI7M
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_3.bif" / ALL
+*BIF Output File = ... _10_Crucial_31_3.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*RBE2               4      400251      400254
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*NODE-SET           4       40422       40425
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          31           0           0
+*MDPARAM          115           0           0
+*GEONPCO        71892       37599      578707
+*
+*Geometry       23602
+*
+*POINT              6
+*PLANE              3
+*CIRCLE             2
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+SetCreate
+ Set_ID=40426 Set_Label_="Set_40426" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ _OK
+Background bg_color="r255g255b255a255" _OK
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 25/ASSEMBLY HNR17_02_10_Crucial/41 HNR17_02_10_Crucial_30.bif.JPG"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=0.5885563
+  Eulwin1=-78.36423 Eulwin2=99.99752 Eulwin3=168.4512 Scaloc=6.254446
+  Transl1=-660.6557 Transl2=950.3735 Transl3=-272.014
+ File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 36/Images WEEK36/RBE2 Moment_1"
+ Plot
+ Eulwin2=99.99753 Scaloc=5.629001 Transl1=-690.4294 Transl2=959.2094
+  Transl3=-272.014 Plot_scale=0.5297007 Store
+ Plot
+Background bg_color="r012g025b076a255" _OK
+NCheck Mode="Numeric" Link_to="Element" Range="Show" Node_type="Linked"
+  Color_index="1" Node_symbols=ON Node_IDs=OFF Linked_objects=OFF
+  Check="Distance_to_node" Model="Non_deformed" Output_to_graphics=ON
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Sel_Nod_Dsp_List=(2) Nid=(578707)
+ Sel_Nod_Dsp_List=(2) Nid=(578701)
+ Sel_Nod_Dsp_List=(2) Nid=(578704)
+ Sel_Nod_Dsp_List=(2) Nid=(578698)
+ _CANCEL
+GCCircle  /NAME=CI8M, COMPLETE, THREE-PT/ -1565.2263 616.5      -66.8269 ,
+                                          -1590.234  616.5      42.7613 ,
+                                          -1487.3678 616.5      68.3214
+NCOnGeo    / 2,CI8M
+@Background bg_color="r255g255b255a255" _OK
+@Background bg_color="r012g025b076a255" _OK
+NCBetween / Number=1
+   NID /    473133    578709
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_4.bif" / ALL
+*BIF Output File = ... _10_Crucial_31_4.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323601        1356      578710
+*RBE2               4      400251      400254
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*NODE-SET           4       40422       40425
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          31           0           0
+*MDPARAM          115           0           0
+*GEONPCO        71894       37599      578710
+*
+*Geometry       23603
+*
+*POINT              6
+*PLANE              3
+*CIRCLE             3
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_4.bif"
+ECNodes    / RBE2 EID=400255 DOFS=123456 GUIDE_NODE=578710 HOLE=NO
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578698)
+ Nid=(578701)
+ Nid=(578704)
+ Nid=(578707)
+ _OK
+Display/   -58.3641        74.2808        135.642     ,
+            10.2859       -201.770        843.934       -272.001
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_5.bif" / ALL
+*BIF Output File = ... _10_Crucial_31_5.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323601        1356      578710
+*RBE2               5      400251      400255
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*NODE-SET           4       40422       40425
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          31           0           0
+*MDPARAM          115           0           0
+*GEONPCO        71894       37599      578710
+*
+*Geometry       23603
+*
+*POINT              6
+*PLANE              3
+*CIRCLE             3
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Geom
+MArea
+SetCreate
+ Set_ID=40426 Set_Label_="Set_40426" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+@Background bg_color="r012g025b076a255" _OK
+ NMethod_sel="Element" NMode_sel="Collect" NType_filter_sel="Any"
+  NVisible_sel=OFF NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF
+  PickThShaded=OFF NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Sel_Bound_Id=0 EMethod_sel="Top2D_Box" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Search"
+ Sel_Bound_Id=6 Eid=(27091)
+ Set_Label_="Fixed Support" Store
+ Set_ID=40427 Set_Label_="Set_40427" Set_type="Node" Solverkey="Undefined"
+ _OK
+SetList SetType_filter_sel="Any" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ SetType_filter_sel="Node"
+ Setid=(40426)
+ _OK
+SPC        CREATE/ IDSPC = 1  NUMBER OF VALUES = 1
+     DEGREE OF FREEDOM = 123   VALUE = 0.0
+     Label=SPC_1
+SPC        CREATE/ IDSPC = 1  NUMBER OF VALUES = 1
+     DEGREE OF FREEDOM = 123456   VALUE = 0.0
+ NMethod_sel="Element" NMode_sel="Direct" NType_filter_sel="Any"
+  NVisible_sel=OFF NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF
+  PickThShaded=OFF NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Sel_Bound_Id=0 EMethod_sel="CoordSys" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="ID"
+ EMethod_sel="Set"
+ SetType_filter_sel="Any" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetList_sel=ON SetLabel_filter_sel="" SetSolverkey_filter_sel="Any"
+ NMethod_sel="Set"
+ SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(40426)
+ _OK
+Display/   -80.9176       -60.0989        66.3883     ,
+            25.8604       -156.871       -526.310       -272.003
+ExtParam MPC=OFF Coordinate_systems=OFF Nodal_forces=OFF Unlinked_nodes=OFF
+  Cross_sections=OFF Beam_cross_sections=OFF Robscans=OFF
+  Self_piercing_rivets=OFF FEMSITE_weldlines=OFF Stonewalls=OFF
+  Rigid_surfaces=OFF Box3D_elements=OFF Elements="" SPC=ON
+ _OK
+ExtParam MPC=OFF Coordinate_systems=OFF Nodal_forces=OFF Unlinked_nodes=OFF
+  Cross_sections=OFF Beam_cross_sections=OFF Robscans=OFF
+  Self_piercing_rivets=OFF FEMSITE_weldlines=OFF Stonewalls=OFF
+  Rigid_surfaces=OFF Box3D_elements=OFF Elements="" SPC=OFF
+ _OK
+NDFree/SHOW
+Background _QUIT
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 36/Images WEEK36/RBE2 Moment_1"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=0.5648812
+  Eulwin1=37.58435 Eulwin2=67.13153 Eulwin3=68.68757 Scaloc=6.002856
+  Transl1=-649.6283 Transl2=925.982 Transl3=-272.0023
+ File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 36/Images WEEK36/RBE2 Moment_3.jpg"
+ Store
+ Plot
+Background bg_color="r012g025b076a255" _OK
+ExtParam MPC=OFF Coordinate_systems=OFF Nodal_forces=OFF Unlinked_nodes=OFF
+  Cross_sections=OFF Beam_cross_sections=OFF Robscans=OFF
+  Self_piercing_rivets=OFF FEMSITE_weldlines=OFF Stonewalls=OFF
+  Rigid_surfaces=OFF Box3D_elements=OFF Elements="" SPC=ON
+ _OK
+Display/    11.0754       -70.3616        94.4622     ,
+            20.0038        563.333        738.559       -271.999
+Display/   -23.3069       -83.1300        82.0986     ,
+            13.1245        187.599        674.672       -272.000
+Display/   -23.3069       -83.1300        82.0986     ,
+            19.2156        269.976        405.045       -271.999
+Display/   -23.3069       -83.1301        82.0986     ,
+            25.5760        385.663        319.867       -271.997
+Background bg_color="r255g255b255a255" _OK
+Background bg_color="r012g025b076a255" _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _QUIT
+EColor
+ Color_index="8" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_5_FixedSupport.bif" / ALL
+*BIF Output File = ... 1_5_FixedSupport.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323599        1356      578710
+*RBE2               5      400251      400255
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             1           1           1
+*SPC-Labl           1           1           1
+*NODE-SET           5       40422       40426
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          31           0           0
+*MDPARAM          115           0           0
+*GEONPCO        71892       37599      578710
+*
+*Geometry       23603
+*
+*POINT              6
+*PLANE              3
+*CIRCLE             3
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+NInfo Attribute="Node_ID" Color_index="1" Node_symbols=ON Output_to_graphics=ON
+  NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578710)
+@NCheck Mode="Numeric" Link_to="Element" Range="Show" Node_type="Linked"
+  Color_index="1" Node_symbols=ON Node_IDs=OFF Linked_objects=OFF
+  Check="Distance_to_node" Model="Non_deformed" Output_to_graphics=ON
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Sel_Nod_Dsp_List=(2) Nid=(578710)
+ Sel_Nod_Dsp_List=(2) Nid=(578710)
+ Sel_Nod_Dsp_List=(2) Nid=(578710)
+ Sel_Nod_Dsp_List=(2) Nid=(578710)
+ Sel_Nod_Dsp_List=(2) Nid=(578710)
+ _OK
+ _QUIT
+NCNormal Element_type="BAR" Length=1 Invert_direction=OFF Start_ID=578711
+ Length=10
+  NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Linked" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578710)
+ Nid=(578710)
+ Nid=(578710)
+ Nid=(578710)
+ Nid=(578710)
+ Nid=(578710)
+ Nid=(578710)
+ _CANCEL
+Geom
+NCXYZ /0 0 0 /   578710      0.0000      0.0000      0.0000
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_5_FixedSupport.bif"
+Asca
+Center
+ /578710
+GCPoint GCPointMethod="On_Geo" GCPointGeoSubMeth="Sample"
+  GCPointElemSubMeth="All_Nodes" Sampling_distance=10
+ GCPointMethod="On_Node"
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578710)
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_5_FixedSupport.bif"
+GCCircle  /NAME=CI9M, COMPLETE, THREE-PT/ -1531.2822 615.       73.7329 ,
+                                          -1598.6853 615.       -6.8177 ,
+                                          -1501.8378 615.       -70.1811
+NCBetween / Number=1
+   NID /    361176    578712
+NCOnGeo    / 2,CI9M
+Display/   0.000000E+00   0.000000E+00   0.000000E+00 ,
+            12.7666        368.610        1047.36       -272.009
+Display/    90.0000       0.000000E+00   0.000000E+00 ,
+            12.7666        368.610        1047.36       -272.009
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_5_FixedSupport.bif"
+GCPoint GCPointMethod="On_Node" GCPointGeoSubMeth="Sample"
+  GCPointElemSubMeth="All_Nodes" Sampling_distance=10
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578710)
+ _OK
+Translate /        0.00000        0.00000        0.00000
+     NODE DUPLICATE KEEP
+     Node_ID=578711
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578710)
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_5_FixedSupport.bif"
+Center
+ /578710
+GCPoint GCPointMethod="On_Node" GCPointGeoSubMeth="Sample"
+  GCPointElemSubMeth="All_Nodes" Sampling_distance=10
+ _QUIT
+GCPlane/NAME=PL5M
+  -1503.7017  616.5       -70.8577    ,
+  -1500.024   616.5       -69.376     ,
+  -1525.0001  616.5       2.2888E-5
+Translate /        0.00000        0.00000        0.00000
+     GEOMETRY DUPLICATE
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="PL5M"
+ Gid="PL6M"
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_5_FixedSupport.bif"
+GCPlane/NAME=PL4M
+  -1515.3296  615.        -77.7478    ,
+  -1514.3936  615.        -75.3733    ,
+  -1518.6512  615.        -74.7248
+Symmetry  /PLANE=PL4M
+     NODE DUPLICATE KEEP
+     Node_ID=578711
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578710)
+ _OK
+Display/    90.0000        90.0000       0.000000E+00 ,
+            14.7202       -44.8290        1452.57       -272.000
+Background bg_color="r255g255b255a255" _OK
+Background bg_color="r012g025b076a255" _OK
+COCreate/Coordinate/ID=1 Type=Cylindrical  Axis1=Z
+        Label=MomentofForce_CylindricalCS
+      578710
+      578711
+       0.0000      0.0000      0.0000          0
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_6.bif" / ALL
+*BIF Output File = ... _10_Crucial_31_6.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323600        1356      578711
+*RBE2               5      400251      400255
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             1           1           1
+*SPC-Labl           1           1           1
+*NODE-SET           5       40422       40426
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          32           0           0
+*CORSYS             1           1           1
+*TRAFOS             1           1           1
+*CSY-Labl           1           1           1
+*MDPARAM          115           0           0
+*GEONPCO        71892       37599      578711
+*
+*Geometry       23604
+*
+*POINT              6
+*PLANE              4
+*CIRCLE             3
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+NDFree/SHOW
+ExtParam MPC=OFF Coordinate_systems=OFF Unlinked_nodes=OFF Cross_sections=OFF
+  Beam_cross_sections=OFF Robscans=OFF Self_piercing_rivets=OFF
+  FEMSITE_weldlines=OFF Stonewalls=OFF Rigid_surfaces=OFF Box3D_elements=OFF
+  Elements="" SPC=ON Nodal_forces=ON
+ _OK
+ExtParam MPC=OFF Coordinate_systems=OFF Unlinked_nodes=OFF Cross_sections=OFF
+  Beam_cross_sections=OFF Robscans=OFF Self_piercing_rivets=OFF
+  FEMSITE_weldlines=OFF Stonewalls=OFF Rigid_surfaces=OFF Box3D_elements=OFF
+  Elements="" SPC=ON Nodal_forces=ON _OK
+Display/   -47.4148       -144.828        176.926     ,
+            41.7247        1665.64        661.062       -271.983
+Display/   -47.4148       -144.828        176.926     ,
+            16.4078        606.739        661.862       -271.994
+NForce CREATE/COMPONENTS/IDLOAD =1  CORSYS =  0
+     KRAFT  =   0.00E+00  0.00E+00  0.00E+00
+     MOMENT =   0.00E+00 -0.84E+05  0.00E+00
+     Label=NForce_1
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(578710)
+ _OK
+Display/   -56.2655       -171.283        143.330     ,
+            16.4078        509.680        1050.10       -271.994
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_7_Moment.bif" / ALL
+*BIF Output File = ... cial_31_7_Moment.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323599        1356      578710
+*RBE2               5      400251      400255
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             1           1           1
+*SPC-Labl           1           1           1
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*NODE-SET           5       40422       40426
+*ELEM-SET           3        9999       30942
+*GEOM-SET          24         188       40421
+*EXTENSIO          32           0           0
+*CORSYS             1           1           1
+*TRAFOS             1           1           1
+*CSY-Labl           1           1           1
+*MDPARAM          115           0           0
+*GEONPCO        71892       37599      578710
+*
+*Geometry       23604
+*
+*POINT              6
+*PLANE              4
+*CIRCLE             3
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+NForce Modify
+  LoadID = 1
+  Label=Moment_Transmission
+  Store
+Display/   -12.5957        141.928        133.922     ,
+            6.16792       -204.600        936.485       -271.998
+NForce Modify
+NForce Modify
+NForce Modify
+Background bg_color="r255g255b255a255" _OK
+Display/   -12.5957        141.928        133.922     ,
+            6.16792       -204.600        936.485       -271.998
+Plot AniAscaOpt="actual_frame" CTbAscaOpt=OFF PltMode="Layout"
+  File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 36/Images WEEK36/RBE2 Moment_3.jpg"
+  Replace_existing_files=OFF Plot_frame=OFF Logo=OFF LogoList=1
+  Line_thickness_=1 LEName="" Tripod_display=ON TriPodX=10 TriPodY=10
+  View_info=ON viewInfoX=160 viewInfoY=10 File_name_info=ON nameInfoX=39.93266
+  nameInfoY=10 Grid_lines=OFF Grid_distance=100 Character_height=4 User=""
+  Department="" Box_no_=0 Color="white" Font=1 Line_width=1 Line_distance=1
+  Width=2 Height=4 Angle=0 Alignment="Left" Distance=0.01 Textlines=""
+  Pixel_X=3000 Pixel_Y=3000 Transparency=OFF White_invert=ON Animation=OFF
+  Quality=100 LegendeX=0 LegendeY=0 ColTabX=0 ColTabY=0 LElemName="" LElemX=0
+  LElemY=0 Plotter_name="JPEG" Plotform="A5Q" Plot_scale=0.580414
+  Eulwin1=-19.06198 Eulwin2=140.8714 Eulwin3=133.4331 Scaloc=6.16792
+  Transl1=-204.5997 Transl2=936.4854 Transl3=-271.9976
+ File_name="G:/Bachelor Thesis/Organizer/Work Progress/WEEK 36/Images WEEK36/RBE2 Moment_6.jpg"
+ Transl1=-472.3457 Transl2=926.569 Store
+ Plot
+Background bg_color="r012g025b076a255" _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10020)
+ _OK
+MArea
+Geom
+SetCreate
+ Set_ID=40427 Set_Label_="Set_40427" Panel_switch="Simple" Set_type="Node"
+  Solverkey="Undefined"
+ Set_type="Boundary"
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ Sel_Bound_Id=2 Eid=(347626)
+ Sel_Bound_Id=6 Eid=(346817)
+ Eid=(346824)
+ Sel_Bound_Id=4 Eid=(349239)
+ Sel_Bound_Id=5 Eid=(349236)
+ _UNDO
+ Sel_Bound_Id=5 Eid=(348965)
+ _UNDO
+ Set_Label_="PressurePiston_1" Store
+ Set_ID=40428 Set_Label_="Set_40428" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+SetCreate
+ Set_ID=40428 Set_Label_="Set_40428" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Collect"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1
+  EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR" EFDOF=0
+  EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+  EBoundary_of_elements_sel=ON
+ Sel_Bound_Id=2 Eid=(383131)
+ Sel_Bound_Id=3 Eid=(374464)
+ Eid=(374199)
+ Sel_Bound_Id=5 Eid=(376885)
+ Sel_Bound_Id=4 Eid=(376882)
+ _UNDO
+ Set_Label_="PressurePiston_2" Store
+ Set_ID=40429 Set_Label_="Set_40429" Set_type="Boundary" Solverkey="Undefined"
+ _OK
+SetList SetType_filter_sel="Node" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ SetType_filter_sel="Element"
+ Setid=(40427)
+ _OK SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(40428)
+@Center
+ /514165
+@
+ _OK SetType_filter_sel="Element" SetSelectionFilter=OFF Check_sets_sel="No"
+  SetSolverkey_filter_sel="Any" SetList_sel=ON SetLabel_filter_sel=""
+ Setid=(40427)
+@Background bg_color="r255g255b255a255" _OK
+ _OK
+Background bg_color="r012g025b076a255" _OK
+Swap
+Display/   -9.40160       -84.8852        75.8490     ,
+            21.5841       -76.6471        662.380       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ _OK
+SetCreate
+ Set_ID=40429 Set_Label_="Set_40429" Panel_switch="Simple" Set_type="Boundary"
+  Solverkey="Undefined"
+ Set_Label_="PressurePistonBore_CBody_1" _CANCEL
+Swap
+Display/    24.8166        69.2265        104.144     ,
+            7.40709       -153.161        669.842       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Layer"
+ LList_sel=ON LLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=1 Eid=(199306)
+ Eid=(199751)
+ Eid=(200153)
+ Eid=(235648)
+ Eid=(236130)
+ _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=1 Eid=(45815)
+ Eid=(46305)
+ Eid=(46445)
+ Eid=(46859)
+ Eid=(47346)
+ _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10020)
+ _OK
+Swap
+Display/    77.4344        21.3060        157.708     ,
+            37.4263       -440.683        377.977       -272.000
+EShow
+ _OK
+EColor
+ Color_index="8" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_8_LinePressure.bif" / ALL
+*BIF Output File = ... 1_8_LinePressure.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323599        1356      578710
+*RBE2               5      400251      400255
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             1           1           1
+*SPC-Labl           1           1           1
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*NODE-SET           5       40422       40426
+*ELEM-SET           3        9999       30942
+*BOND-SET           2       40427       40428
+*GEOM-SET          24         188       40421
+*EXTENSIO          32           0           0
+*CORSYS             1           1           1
+*TRAFOS             1           1           1
+*CSY-Labl           1           1           1
+*MDPARAM          115           0           0
+*GEONPCO        21687       37599      578710
+*
+*Geometry       23604
+*
+*POINT              6
+*PLANE              4
+*CIRCLE             3
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_8_LinePressure.bif" / ALL
+*BIF Output File = ... 1_8_LinePressure.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323599        1356      578710
+*RBE2               5      400251      400255
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             1           1           1
+*SPC-Labl           1           1           1
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*NODE-SET           5       40422       40426
+*ELEM-SET           3        9999       30942
+*BOND-SET           2       40427       40428
+*GEOM-SET          24         188       40421
+*EXTENSIO          32           0           0
+*CORSYS             1           1           1
+*TRAFOS             1           1           1
+*CSY-Labl           1           1           1
+*MDPARAM          115           0           0
+*GEONPCO        21687       37599      578710
+*
+*Geometry       23604
+*
+*POINT              6
+*PLANE              4
+*CIRCLE             3
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

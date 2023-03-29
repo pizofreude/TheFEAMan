@@ -1,0 +1,1988 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 19/09/17 - Time 13:17:08 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_35_NoSpring.bif"
+MArea
+Geom
+Display/    32.6676       -66.8004        81.4915     ,
+            36.6106        1811.32        776.221       -272.000
+Center
+Center
+ /22317
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=111.8604 Eulwin2=-137.8526 Eulwin3=103.889
+  Scaloc=80.82597 Transl1=3222.069 Transl2=2393.866 Transl3=-272
+  ScreenBoxListe=(-1449.903,589.6997,37.57699/-1449.535,574.9988,37.34779/
+ -1450.993,575.0747,42.41639/-1452.934,592.0737,47.95821) _OK
+ Scaloc=107.5794 Transl1=3488.443 Transl2=1582.06 ScreenBoxListe=(-1452.421,
+ 592.8193,46.11863/-1451.301,581.6197,43.02294/-1453.304,576.3561,50.37222) _OK
+ _OK
+ECNodes/SPRING
+ /1,10.,253269,3,32887,3,1.,New coordinate system=3,Dof1-2=3
+Center
+ /5619
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=150.8752 Eulwin2=-48.27081 Eulwin3=147.1778
+  Scaloc=105.4031 Transl1=3222.069 Transl2=2393.866 Transl3=-272
+  ScreenBoxListe=(-1457.761,588.2005,-45.05589/-1452.622,589.0775,-37.96589/
+ -1452.979,571.6978,-36.8008/-1459.543,569.1497,-45.7201) _OK
+ _QUIT
+ECNodes/SPRING
+ /2,10.,5527,3,31209,3,1.,New coordinate system=4,Dof1-2=3
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_36.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_36.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING             2           1           2
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS             3           2           4
+*TRAFOS             3           2           4
+*CSY-Labl           3           2           4
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10040)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(3690)
+ Eid=(58652)
+ Eid=(3565)
+ Eid=(58100)
+ Eid=(3491)
+ Eid=(57598)
+ Eid=(3417)
+ Eid=(57045)
+ Eid=(56543)
+ Eid=(3344)
+ Eid=(56091)
+ Eid=(3270)
+ Eid=(55539)
+ Eid=(3196)
+ Eid=(55037)
+ Eid=(3122)
+ _CANCEL
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _OK
+@Center
+Center
+ /250957
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=1 Eid=(178693)
+ Eid=(178802)
+ Eid=(178896)
+ Eid=(178976)
+ Eid=(21308)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10040)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(180459)
+ Eid=(58869)
+ _QUIT
+ECNodes/SPRING
+ /3,10.,252920,3,77741,3,1.,New coordinate system=5,Dof1-2=3
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10040)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(3673)
+ Eid=(58634)
+ _OK
+ECNodes/SPRING
+ /4,10.,4630,3,77172,3,1.,New coordinate system=6,Dof1-2=3
+ECNodes/SPRING
+ /5,10.,4623,3,77422,3,1.,New coordinate system=7,Dof1-2=3
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_37.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_37.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING             5           1           5
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS             6           2           7
+*TRAFOS             6           2           7
+*CSY-Labl           6           2           7
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ Eid=(26177)
+ _CANCEL
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=6 Eid=(29847)
+ Sel_Bound_Id=4 Eid=(28432)
+ Eid=(28251)
+ Sel_Bound_Id=5 Eid=(54228)
+ _QUIT
+ECNodes/SPRING
+ /6,10.,24680,3,76826,3,1.,New coordinate system=8,Dof1-2=3
+Background _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=6 Eid=(27029)
+ Eid=(28567)
+ Sel_Bound_Id=4 Eid=(28520)
+ Eid=(28174)
+ Sel_Bound_Id=5 Eid=(54910)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=1 Eid=(55980)
+ Eid=(56482)
+ Eid=(56984)
+ Eid=(57486)
+ Eid=(88772)
+ Eid=(58435)
+ Eid=(58938)
+ _QUIT
+ECNodes/SPRING
+ /7,10.,24615,3,77663,3,1.,New coordinate system=9,Dof1-2=3
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_38.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_38.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING             7           1           7
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS             8           2           9
+*TRAFOS             8           2           9
+*CSY-Labl           8           2           9
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Center
+ /56839
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=6 Eid=(23801)
+ Eid=(26090)
+ Sel_Bound_Id=4 Eid=(26089)
+ Sel_Bound_Id=5 Eid=(25530)
+ Sel_Bound_Id=4 Eid=(26977)
+ Sel_Bound_Id=6 Eid=(54494)
+@Center
+ /252130
+@
+ Sel_Bound_Id=4 Eid=(26631)
+ Sel_Bound_Id=5 Eid=(54954)
+ _QUIT
+ECNodes/SPRING
+ /8,10.,24600,3,77702,3,1.,New coordinate system=10,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=4 Eid=(22283)
+ Eid=(23639)
+ Sel_Bound_Id=1 Eid=(90708)
+ Eid=(90790)
+ Eid=(56719)
+ Eid=(57221)
+ Eid=(57723)
+ Eid=(58225)
+ Eid=(58727)
+ _QUIT
+ECNodes/SPRING
+ /9,10.,24669,3,77418,3,1.,New coordinate system=11,Dof1-2=3
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _OK
+Center
+ /56952
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_39.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_39.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING             9           1           9
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS            10           2          11
+*TRAFOS            10           2          11
+*CSY-Labl          10           2          11
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=3 Eid=(187780)
+ Sel_Bound_Id=5 Eid=(187751)
+ Sel_Bound_Id=6 Eid=(116053)
+ Sel_Bound_Id=5 Eid=(115837)
+ _QUIT
+ECNodes/SPRING
+ /10,10.,264088,3,160322,3,1.,New coordinate system=12,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90502)
+ Pid=(10020)
+ _UNDO
+ _UNDO
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(185983)
+ Eid=(185956)
+ Eid=(185930)
+ Eid=(185904)
+ Eid=(185877)
+ Eid=(185850)
+ Eid=(185823)
+ Eid=(185795)
+ Eid=(185768)
+ Eid=(185740)
+ Eid=(185704)
+ Eid=(185678)
+ Eid=(185663)
+ Eid=(185636)
+ Eid=(185609)
+ Eid=(185582)
+ Eid=(185555)
+ Eid=(185524)
+ Eid=(185497)
+ _QUIT
+ECNodes/SPRING
+ /11,10.,261986,3,159868,3,1.,New coordinate system=13,Dof1-2=3
+ECNodes/SPRING
+ /12,10.,261997,3,159782,3,1.,New coordinate system=14,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=3 Eid=(184609)
+ Sel_Bound_Id=5 Eid=(184578)
+ Sel_Bound_Id=3 Eid=(108690)
+ Eid=(109127)
+ Sel_Bound_Id=5 Eid=(184710)
+ _UNDO
+ Sel_Bound_Id=4 Eid=(109388)
+ _QUIT
+ECNodes/SPRING
+ /13,10.,260051,3,151227,3,1.,New coordinate system=15,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="ScreenBox"
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(182102)
+ Eid=(182075)
+ Eid=(182048)
+ Eid=(182021)
+ Eid=(181994)
+ Eid=(181967)
+ Eid=(181949)
+ Eid=(181913)
+ Eid=(181895)
+ Eid=(181859)
+ Eid=(181832)
+ Eid=(181805)
+ Eid=(181787)
+ Eid=(181760)
+ Eid=(181733)
+ Eid=(181706)
+ Eid=(181679)
+ Eid=(181652)
+ Eid=(181622)
+ _QUIT
+ECNodes/SPRING
+ /14,10.,255049,3,150729,3,1.,New coordinate system=16,Dof1-2=3
+ECNodes/SPRING
+ /15,10.,255038,3,150806,3,1.,New coordinate system=17,Dof1-2=3
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_40.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_40.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING            15           1          15
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS            16           2          17
+*TRAFOS            16           2          17
+*CSY-Labl          16           2          17
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=3 Eid=(112576)
+ Sel_Bound_Id=6 Eid=(112384)
+ Sel_Bound_Id=4 Eid=(215813)
+ Sel_Bound_Id=5 Eid=(217164)
+ _QUIT
+ECNodes/SPRING
+ /16,10.,299773,3,167097,3,1.,New coordinate system=18,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=3 Eid=(216819)
+ Sel_Bound_Id=4 Eid=(111991)
+ _QUIT
+ECNodes/SPRING
+ /17,10.,166967,3,299578,3,1.,New coordinate system=19,Dof1-2=3
+ECNodes/SPRING
+ /18,10.,157107,3,322047,3,1.,New coordinate system=20,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=3 Eid=(108579)
+ Sel_Bound_Id=4 Eid=(229762)
+ Sel_Bound_Id=5 Eid=(107391)
+ Sel_Bound_Id=3 Eid=(108097)
+ _QUIT
+ECNodes/SPRING
+ /19,10.,157145,3,322317,3,1.,New coordinate system=21,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10040)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90722)
+ Pid=(90712)
+ Pid=(90711)
+ Pid=(90721)
+ _OK
+Center
+ /344171
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90722)
+ Pid=(90712)
+ Pid=(10040)
+ Pid=(90711)
+ Pid=(90721)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=5 Eid=(213111)
+ Eid=(217088)
+ Eid=(112469)
+ Sel_Bound_Id=3 Eid=(215750)
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ Eid=(213071)
+ Sel_Bound_Id=4 Eid=(113273)
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ Sel_Bound_Id=3 Eid=(113544)
+ Eid=(213071)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=2 Eid=(77379)
+ Sel_Bound_Id=1 Eid=(84645)
+ Eid=(84913)
+ Sel_Bound_Id=2 Eid=(76298)
+ Eid=(75938)
+ Eid=(75765)
+ Eid=(75492)
+ Eid=(74860)
+ Sel_Bound_Id=1 Eid=(86534)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=2 Eid=(243109)
+ Eid=(242956)
+ Eid=(242474)
+ Eid=(242143)
+ Eid=(241559)
+ Eid=(241100)
+ Eid=(240620)
+ Eid=(240139)
+ Eid=(239659)
+ _QUIT
+ECNodes/SPRING
+ /20,10.,298800,3,167267,3,1.,New coordinate system=22,Dof1-2=3
+Background bg_color="r012g025b076a255" _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90722)
+ Pid=(90712)
+ Pid=(10040)
+ Pid=(90711)
+ Pid=(90721)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=3 Eid=(107257)
+ Sel_Bound_Id=5 Eid=(226866)
+ Sel_Bound_Id=2 Eid=(243367)
+ Eid=(242857)
+ Eid=(242392)
+ Eid=(241860)
+ Eid=(241416)
+ Eid=(240899)
+ Eid=(240460)
+ Sel_Bound_Id=1 Eid=(84546)
+ Eid=(84768)
+ Sel_Bound_Id=2 Eid=(76698)
+ Eid=(76394)
+ Eid=(76032)
+ Eid=(75803)
+ Eid=(75525)
+ _QUIT
+ECNodes/SPRING
+ /21,10.,156140,3,310720,3,1.,New coordinate system=23,Dof1-2=3
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_41.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_41.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING            21           1          21
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS            22           2          23
+*TRAFOS            22           2          23
+*CSY-Labl          22           2          23
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=1 Eid=(245738)
+ Eid=(245790)
+ Eid=(245841)
+ Eid=(245894)
+ Sel_Bound_Id=2 Eid=(120855)
+ Eid=(120644)
+ Sel_Bound_Id=1 Eid=(245964)
+ _UNDO
+ Eid=(245945)
+ Sel_Bound_Id=2 Eid=(120350)
+ Sel_Bound_Id=1 Eid=(245998)
+ Sel_Bound_Id=2 Eid=(120222)
+ _QUIT
+ECNodes/SPRING
+ /22,10.,343506,3,165926,3,1.,New coordinate system=24,Dof1-2=3
+ECNodes/SPRING
+ /23,10.,343532,3,156170,3,1.,New coordinate system=25,Dof1-2=3
+ECNodes/SPRING
+ /24,10.,343516,3,171825,3,1.,New coordinate system=26,Dof1-2=3
+ECNodes/SPRING
+ /25,10.,343542,3,171919,3,1.,New coordinate system=27,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=2 Eid=(248675)
+ Eid=(248623)
+ Eid=(248571)
+ Eid=(248519)
+ Sel_Bound_Id=1 Eid=(231448)
+ Sel_Bound_Id=2 Eid=(248467)
+ Sel_Bound_Id=1 Eid=(231544)
+ Sel_Bound_Id=2 Eid=(248442)
+ Sel_Bound_Id=1 Eid=(231730)
+ Sel_Bound_Id=2 Eid=(248376)
+ Sel_Bound_Id=1 Eid=(231917)
+ Sel_Bound_Id=2 Eid=(248310)
+ Sel_Bound_Id=1 Eid=(232104)
+ Sel_Bound_Id=2 Eid=(248259)
+ Sel_Bound_Id=1 Eid=(232291)
+ Sel_Bound_Id=2 Eid=(248207)
+ Eid=(248173)
+ _UNDO
+ Sel_Bound_Id=1 Eid=(232477)
+ Sel_Bound_Id=2 Eid=(248168)
+ Sel_Bound_Id=1 Eid=(232665)
+ Sel_Bound_Id=2 Eid=(248103)
+ Sel_Bound_Id=1 Eid=(232950)
+ _UNDO
+@Center
+ /346365
+@
+ _QUIT
+ECNodes/SPRING
+ /26,10.,346392,3,301423,3,1.,New coordinate system=28,Dof1-2=3
+ECNodes/SPRING
+ /27,10.,346417,3,320208,3,1.,New coordinate system=29,Dof1-2=3
+ECNodes/SPRING
+ /28,10.,346421,3,324967,3,1.,New coordinate system=30,Dof1-2=3
+ECNodes/SPRING
+ /29,10.,346395,3,324899,3,1.,New coordinate system=31,Dof1-2=3
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_42.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_42.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING            29           1          29
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS            30           2          31
+*TRAFOS            30           2          31
+*CSY-Labl          30           2          31
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ Pid=(90602)
+ Pid=(90502)
+ Pid=(90501)
+ Pid=(90722)
+ Pid=(90712)
+ Pid=(10040)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=86.97815 Eulwin2=152.6556 Eulwin3=91.76807
+  Scaloc=122.1793 Transl1=2982.211 Transl2=2345.726 Transl3=-272
+  ScreenBoxListe=(-1412.256,615.7387,2.368904/-1412.467,615.7363,-2.128039/
+ -1412.396,642.189,-4.330288/-1411.958,642.8923,4.911827) _OK
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90711)
+ Pid=(90721)
+ _UNDO
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90721)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=6 Eid=(346599)
+ Eid=(346677)
+ Sel_Bound_Id=3 Eid=(346679)
+ Eid=(346680)
+ Sel_Bound_Id=2 Eid=(77505)
+ Eid=(77145)
+ Sel_Bound_Id=5 Eid=(346192)
+ Eid=(346191)
+ Eid=(346199)
+ Sel_Bound_Id=2 Eid=(76657)
+ Eid=(76452)
+ Sel_Bound_Id=6 Eid=(353788)
+ Eid=(353731)
+ _UNDO
+ _UNDO
+ Sel_Bound_Id=4 Eid=(352819)
+ Sel_Bound_Id=6 Eid=(353113)
+ Sel_Bound_Id=4 Eid=(353261)
+ Eid=(352818)
+ Eid=(352817)
+ Sel_Bound_Id=6 Eid=(353385)
+ Eid=(353386)
+ Sel_Bound_Id=2 Eid=(75936)
+ Sel_Bound_Id=4 Eid=(353357)
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _QUIT
+ECNodes/SPRING
+ /30,10.,515973,3,105691,3,1.,New coordinate system=32,Dof1-2=3
+ECNodes/SPRING
+ /31,10.,519353,3,108475,3,1.,New coordinate system=33,Dof1-2=3
+ECNodes/SPRING
+ /32,10.,512593,3,105974,3,1.,New coordinate system=34,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=-88.2009 Eulwin2=94.92698 Eulwin3=176.6445
+  Scaloc=61.40836 Transl1=2735.183 Transl2=2464.996 Transl3=-272
+  ScreenBoxListe=(-1399.908,601.7117,0.4664755/-1476.012,599.6213,-4.571767/
+ -1471.64,599.6207,-49.02856/-1424.298,600.9285,-43.15945/-1404.526,601.4667,
+ -43.61747) _OK
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(351873)
+ Sel_Bound_Id=6 Eid=(68981)
+ Sel_Bound_Id=5 Eid=(69631)
+ _UNDO
+ Eid=(69589)
+ Eid=(69705)
+ _QUIT
+Swap
+Display/    12.1245        172.978        91.2671     ,
+            106.071        3135.93        2349.61       -272.000
+Swap
+Display/   -122.708        155.220        85.8658     ,
+            56.3707        3176.29        2370.35       -272.000
+ECNodes/SPRING
+ /33,10.,511546,3,97020,3,1.,New coordinate system=35,Dof1-2=3
+ECNodes/SPRING
+ /34,10.,518306,3,90895,3,1.,New coordinate system=36,Dof1-2=3
+Background bg_color="r012g025b076a255" _OK
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ Pid=(90602)
+ Pid=(90722)
+ Pid=(90712)
+ Pid=(10040)
+ Pid=(90711)
+ Pid=(90721)
+ _OK
+MNoShow Inv_Sel_Flag=OFF
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=6 Eid=(354457)
+ Eid=(354535)
+ Sel_Bound_Id=5 Eid=(354595)
+ Eid=(354594)
+ Eid=(354864)
+ Eid=(354863)
+ Eid=(354862)
+ Eid=(354861)
+ Sel_Bound_Id=1 Eid=(77943)
+ Eid=(78021)
+ Eid=(78099)
+ Eid=(78180)
+ Eid=(78258)
+ _UNDO
+ Sel_Bound_Id=5 Eid=(354527)
+ Eid=(354443)
+ Eid=(354442)
+ Eid=(355158)
+ Sel_Bound_Id=3 Eid=(355157)
+ Sel_Bound_Id=5 Eid=(355159)
+ Sel_Bound_Id=1 Eid=(85566)
+ Eid=(85836)
+ Eid=(86106)
+ Eid=(86376)
+ _CANCEL
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=1 Eid=(84459)
+ Eid=(84700)
+ Eid=(84935)
+ Eid=(85205)
+ Eid=(85476)
+ Eid=(85746)
+ Sel_Bound_Id=6 Eid=(355000)
+ Sel_Bound_Id=3 Eid=(354461)
+ Eid=(354462)
+ Eid=(354463)
+ Eid=(354464)
+ Eid=(354465)
+ Eid=(354466)
+ Eid=(354467)
+ Eid=(354468)
+ Eid=(354469)
+ Sel_Bound_Id=5 Eid=(354444)
+ Eid=(354443)
+ Eid=(354442)
+ Eid=(354441)
+ Eid=(354440)
+ Eid=(354616)
+ Sel_Bound_Id=3 Eid=(354615)
+ Sel_Bound_Id=5 Eid=(354617)
+ Eid=(354647)
+ Sel_Bound_Id=3 Eid=(354275)
+ Eid=(354276)
+ Eid=(354277)
+ Sel_Bound_Id=6 Eid=(351626)
+ Sel_Bound_Id=3 Eid=(354919)
+ Sel_Bound_Id=6 Eid=(354917)
+ Sel_Bound_Id=5 Eid=(354855)
+ Eid=(354854)
+ Sel_Bound_Id=4 Eid=(354914)
+ Sel_Bound_Id=6 Eid=(354924)
+ Eid=(354926)
+ Sel_Bound_Id=3 Eid=(354921)
+ Eid=(354879)
+ Eid=(354822)
+ Sel_Bound_Id=4 Eid=(354911)
+ Sel_Bound_Id=3 Eid=(354929)
+ Sel_Bound_Id=6 Eid=(354903)
+ Sel_Bound_Id=3 Eid=(354823)
+ Sel_Bound_Id=4 Eid=(355167)
+ Eid=(355170)
+ Eid=(355118)
+ Sel_Bound_Id=3 Eid=(355153)
+ Eid=(355367)
+ Sel_Bound_Id=4 Eid=(355323)
+ Eid=(355232)
+ Sel_Bound_Id=3 Eid=(355426)
+ Sel_Bound_Id=6 Eid=(355447)
+ _CANCEL
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90601)
+ _OK
+ExtParam MPC=OFF Unlinked_nodes=OFF Cross_sections=OFF Beam_cross_sections=OFF
+  Robscans=OFF Self_piercing_rivets=OFF FEMSITE_weldlines=OFF Stonewalls=OFF
+  Rigid_surfaces=OFF Box3D_elements=OFF Elements="" SPC=ON Nodal_forces=ON
+  Coordinate_systems=OFF
+ _OK
+Display/    86.9534        47.8263        14.0530     ,
+            59.1960        2015.74        3391.17       -272.000
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(180395)
+ Eid=(180322)
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10040)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90902)
+ Pid=(90901)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90502)
+ Pid=(90501)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ Pid=(90602)
+ Pid=(90722)
+ Pid=(90712)
+ Pid=(90711)
+ Pid=(90721)
+ _OK
+Swap
+Display/   -83.9161        68.8134        176.922     ,
+            85.7735        1320.81        2072.29       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90901)
+ _OK
+Swap
+Display/    4.38469        51.9399        146.420     ,
+            85.7735        1320.81        2072.29       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(180395)
+ Eid=(180320)
+ _UNDO
+ _UNDO
+ Eid=(180432)
+ Eid=(58965)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=2 Eid=(58379)
+ Eid=(57875)
+ Eid=(57373)
+ Eid=(56870)
+ Eid=(56318)
+ Eid=(55817)
+ Eid=(55265)
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _OK
+ECNodes/SPRING
+ /35,10.,252987,3,77492,3,1.,New coordinate system=37,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90601)
+ _OK
+EShow
+ _OK
+Swap
+Display/    89.1396        98.5139        4.73106     ,
+            111.855        2568.29        3033.64       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(90601)
+ _OK
+Swap
+Display/    17.9546       0.476622E-01    114.487     ,
+            73.3881        2793.13        2813.62       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10020)
+ _UNDO
+ EMethod_sel="Search"
+ Sel_Bound_Id=1 Eid=(84537)
+ Eid=(84806)
+ Eid=(85077)
+ Eid=(85347)
+ Eid=(85617)
+ _UNDO
+ Sel_Bound_Id=3 Eid=(350934)
+ Eid=(351012)
+ Sel_Bound_Id=4 Eid=(351072)
+ Eid=(351071)
+ Eid=(351341)
+ Eid=(351340)
+ Eid=(351339)
+ Eid=(351338)
+ Eid=(351364)
+ Sel_Bound_Id=3 Eid=(356712)
+ Sel_Bound_Id=5 Eid=(356695)
+ Eid=(356694)
+ _QUIT
+ECNodes/SPRING
+ /36,10.,522064,3,119557,3,1.,New coordinate system=38,Dof1-2=3
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_43.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_43.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING            36           1          36
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS            37           2          38
+*TRAFOS            37           2          38
+*CSY-Labl          37           2          38
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Swap
+Display/   -27.4426        88.1633        117.472     ,
+            45.0974        2777.37        2613.99       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10020)
+ Pid=(90601)
+ Pid=(90721)
+ Pid=(90711)
+ Pid=(10040)
+ Pid=(90712)
+ Pid=(90722)
+ Pid=(90901)
+ Pid=(90902)
+ _OK
+Center
+ /557639
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="Search"
+ Sel_Bound_Id=3 Eid=(376141)
+ Eid=(376219)
+ Sel_Bound_Id=4 Eid=(376279)
+ Eid=(376278)
+ Eid=(376277)
+ Eid=(376276)
+ Eid=(376284)
+ Sel_Bound_Id=6 Eid=(376285)
+ Sel_Bound_Id=4 Eid=(376482)
+ Sel_Bound_Id=6 Eid=(376557)
+ Sel_Bound_Id=5 Eid=(376571)
+ Sel_Bound_Id=4 Eid=(376272)
+ Sel_Bound_Id=2 Eid=(243436)
+ Eid=(242955)
+ Eid=(242438)
+ Eid=(241956)
+ _QUIT
+ECNodes/SPRING
+ /37,10.,549569,3,324253,3,1.,New coordinate system=39,Dof1-2=3
+ECNodes/SPRING
+ /38,10.,559055,3,341053,3,1.,New coordinate system=40,Dof1-2=3
+ECNodes/SPRING
+ /39,10.,552629,3,337000,3,1.,New coordinate system=41,Dof1-2=3
+ECNodes/SPRING
+ /40,10.,555689,3,273220,3,1.,New coordinate system=42,Dof1-2=3
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=-25.24418 Eulwin2=-89.1282 Eulwin3=65.02177
+  Scaloc=63.73419 Transl1=3313.993 Transl2=2650.138 Transl3=-272
+  ScreenBoxListe=(-1404.702,630.6421,0.3912406/-1435.052,630.7789,0.001354694/
+ -1460.346,630.8936,-0.2785563/-1465.837,631.3972,34.43441/-1413.12,631.2286,
+ 40.14025) _OK
+ EMethod_sel="Search"
+ Sel_Bound_Id=2 Eid=(376749)
+ Sel_Bound_Id=5 Eid=(240337)
+ Sel_Bound_Id=1 Eid=(374101)
+ Sel_Bound_Id=6 Eid=(240502)
+ Sel_Bound_Id=5 Eid=(240697)
+ Sel_Bound_Id=1 Eid=(374442)
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=54.13355 Eulwin2=-88.83065 Eulwin3=142.9058
+  Scaloc=112.871 Transl1=3484.959 Transl2=1394.216 Transl3=-272 ScreenBoxListe=(
+ -1407.419,631.3376,-4.907043/-1421.183,631.0461,-4.504989/-1422.587,631.0167,
+ -4.427278/-1425.279,630.9661,-3.816144/-1427.791,630.9232,-2.8811/-1430.144,
+ 630.8811,-2.16662/-1435.391,630.7947,0.05583668/-1442.227,630.7013,4.555064/
+ -1445.274,630.6619,6.741125/-1453.396,630.5471,11.76785/-1462.879,630.6196,
+ 34.89864/-1434.778,631.3204,42.90832/-1413.511,631.7893,43.83224/-1407.082,
+ 631.8984,41.37943) _OK
+ _OK
+ECNodes/SPRING
+ /41,10.,549134,3,327212,3,1.,New coordinate system=43,Dof1-2=3
+ECNodes/SPRING
+ /42,10.,558926,3,327078,3,1.,New coordinate system=44,Dof1-2=3
+Swap
+Display/    25.2282        4.53653        101.479     ,
+            78.6313        3372.06        3204.22       -272.000
+EShow
+  Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=ALL
+ _QUIT
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(10030)
+ Pid=(90602)
+ Pid=(90722)
+ Pid=(90712)
+ Pid=(10040)
+ Pid=(90711)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ EMethod_sel="ScreenBox"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=74.46577 Eulwin2=93.80048 Eulwin3=102.7333
+  Scaloc=78.60485 Transl1=1806.606 Transl2=1103.332 Transl3=-272
+  ScreenBoxListe=(-1435.877,616.0984,-18.23327/-1435.699,616.2977,-7.665071/
+ -1435.548,615.4055,-1.619853/-1435.483,615.5779,2.491758/-1435.397,616.3595,
+ 9.479988/-1435.217,616.0705,18.79409/-1435.904,635.5,33.0053/-1436.387,642.3748
+ ,24.55465/-1437.081,642.3441,-14.58515/-1437.116,640.6325,-21.18461) _OK
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Screen_box_type="Full_In" Eulwin1=79.58202 Eulwin2=84.22468 Eulwin3=100.0419
+  Scaloc=114.4892 Transl1=2481.276 Transl2=-330.365 Transl3=-272
+  ScreenBoxListe=(-1435.828,606.7667,-29.83453/-1436.932,606.5698,30.88776/
+ -1437.311,603.9092,52.52879/-1437.159,584.0912,50.31094/-1436.947,572.5023,
+ 42.28223/-1436.685,574.0648,27.41885/-1436.396,574.3921,11.41273/-1436.075,
+ 575.1486,-6.426003/-1435.501,568.456,-35.90042/-1435.239,577.5098,-53.1136/
+ -1435.213,589.9003,-58.4187/-1435.261,596.3745,-57.77478) _OK
+ _OK
+Center
+ /536671
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="ScreenBox" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Search"
+ Sel_Bound_Id=1 Eid=(246362)
+ Eid=(246414)
+ Sel_Bound_Id=2 Eid=(247480)
+ Eid=(247429)
+ Eid=(247400)
+ Eid=(247348)
+ Eid=(247296)
+ Eid=(247244)
+ Sel_Bound_Id=1 Eid=(246439)
+ Sel_Bound_Id=2 Eid=(373725)
+ Sel_Bound_Id=1 Eid=(367679)
+ Sel_Bound_Id=2 Eid=(246544)
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _UNDO
+ _OK
+Swap
+Display/    38.2662       -40.1490        54.9140     ,
+            59.5934        2408.60        2070.91       -272.000
+Swap
+Display/    55.8160       -45.1062        68.3170     ,
+            164.977        6138.49       -1053.76       -272.000
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Sel_Bound_Id=1 Eid=(246362)
+ Eid=(246414)
+ Sel_Bound_Id=2 Eid=(247504)
+ Eid=(247452)
+ Eid=(247415)
+ Eid=(247349)
+ Eid=(247311)
+ Eid=(247258)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/Material, Constraint, Loads, Contact, Permas Condition/HNR17_02_10_Crucial_31_44.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_44.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323598        1356      578707
+*SPRING            42           1          42
+*RBE2               4      400252      400256
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             2           1           2
+*SPC-Labl           2           1           2
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*GEOM-SET          24         188       40421
+*EXTENSIO          89           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS            43           2          44
+*TRAFOS            43           2          44
+*CSY-Labl          43           2          44
+*MDPARAM          115           0           0
+*GEONPCO        21715       37599      578707
+*
+*Geometry       23631
+*
+*POINT              6
+*LINE              16
+*PLANE              4
+*CIRCLE            14
+*CURVE           6532
+*SURF            2194
+*CONS           12678
+*FACE            2183
+*TOP                4
+*--------------------------------------------
+*
+*POLYCURV        6179           1        7077
+*MESHAREA        2167           1        2290
+*GEOGRAPH           5           0           0
+*--------------------------------------------
+*
+Quit / Cancel
+Quit / Ok
+* 

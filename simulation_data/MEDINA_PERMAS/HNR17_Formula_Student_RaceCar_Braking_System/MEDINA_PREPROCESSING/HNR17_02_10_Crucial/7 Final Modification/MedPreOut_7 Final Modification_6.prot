@@ -1,0 +1,135 @@
+* * --------------- MEDINA PreProcessing 8.5.1.4 - Protocol --------------
+* * Date 04/10/17 - Time 13:01:45 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "E:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/7 Final Modification/HNR17_02_10_Crucial_31_61.bif"
+NForce Modify
+  COMPONENT Corsys = *
+  FC1 = *        FC2 = 412      FC3 = *
+  MC1 = *        MC2 = *        MC3 = *
+  LoadID = 1
+  NodeID = 578701, 578698, 578707, 578704
+  Store
+Pressure
+  MODE = L
+    ID = 1
+    LABEL = Pressure_Piston_1
+  MODE = L
+    ID = 2
+    LABEL = Pressure_Piston_2
+  MODE = L
+    ID = 3
+    LABEL = Pressure_Cbody_1
+  MODE = L
+    ID = 4
+    LABEL = Pressure_Cbody_2
+Background bg_color="r255g255b255a255" _OK
+Display/    28.2357        143.634        97.1098     ,
+            134.877        19187.0        13185.2        35028.9
+Pressure
+  MODE = MCN
+    ID = 1
+    LABEL = Pressure_Piston_1
+    VALUE = 5.77
+    ELEMENTS =
+  ADD SET/40427
+  MODE = MCN
+    ID = 1
+    LABEL = Pressure_Piston_1
+    VALUE = 5.77
+    ELEMENTS =
+  ADD SET/40427
+Pressure
+  MODE = L
+    ID = 1
+    LABEL = Pressure_Piston_1
+  MODE = L
+    ID = 2
+    LABEL = Pressure_Piston_2
+  MODE = L
+    ID = 3
+    LABEL = Pressure_Cbody_1
+  MODE = L
+    ID = 4
+    LABEL = Pressure_Cbody_2
+Pressure
+  MODE = MCN
+    ID = 2
+    LABEL = Pressure_Piston_2
+    VALUE = 5.77
+    ELEMENTS =
+  ADD SET/40428
+Pressure
+  MODE = L
+    ID = 1
+    LABEL = Pressure_Piston_1
+  MODE = L
+    ID = 2
+    LABEL = Pressure_Piston_2
+Pressure
+  MODE = L
+    ID = 3
+    LABEL = Pressure_Cbody_1
+Pressure
+  MODE = MCN
+    ID = 3
+    LABEL = Pressure_Cbody_1
+    VALUE = 5.77
+    ELEMENTS =
+  ADD SET/40429
+Pressure
+  MODE = L
+    ID = 1
+    LABEL = Pressure_Piston_1
+  MODE = L
+    ID = 2
+    LABEL = Pressure_Piston_2
+  MODE = L
+    ID = 3
+    LABEL = Pressure_Cbody_1
+  MODE = L
+    ID = 4
+    LABEL = Pressure_Cbody_2
+Pressure
+  MODE = MCN
+    ID = 4
+    LABEL = Pressure_Cbody_2
+    VALUE = 5.77
+    ELEMENTS =
+  ADD SET/40430
+NForce Modify
+Write      "E:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/7 Final Modification/HNR17_02_10_Crucial_31_62.bif" / ALL
+*BIF Output File = ... 10_Crucial_31_62.bif
+*--------------------------------------------
+*PartCode          13
+*NODE          323599        1356      578708
+*SPRING            80           1      400294
+*RBE2               5      400252      400295
+*PENTA           9236        1167      400250
+*HEXA          248010        1136      400248
+*MATERIAL           5           1           5
+*EXTENSIO           5           0           0
+*p-SOLID           15       10010       90902
+*EXTENSIO          15           0           0
+*SUPDOF             3           1           3
+*SPC-Labl           3           1           3
+*FORCE              1           1           1
+*FOR-Labl           1           1           1
+*LOADSET            4           1           4
+*COMPONEN           1           1           1
+*SITUAT             1           1           1
+*NODE-SET          10       40422       40459
+*ELEM-SET           3        9999       30942
+*BOND-SET          52       40427       40483
+*EXTENSIO          65           0           0
+*CONTACT           18           1          18
+*KONLOAD           18           1          18
+*VirtIntp           4           1           4
+*PLOAD              4           1           4
+*CORSYS            81           2          82
+*TRAFOS            81           2          82
+*CSY-Labl          81           2          82
+*MDPARAM          115           0           0
+*
+Init
+Quit / Ok
+* 

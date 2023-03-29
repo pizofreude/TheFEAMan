@@ -1,0 +1,138 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 26/05/17 - Time 19:12:29 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_33_Solid10.bif"
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54960
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54826
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54719
+        / TO   EXTRUDE
+   GEOM/CU62M
+        / MESH STORENET
+    PID/ 11
+   EANF/ 55129
+   KANF/ 82962
+  NSCHI/ 6
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/56603 (2)
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/56745 (2)
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 11
+   EANF/ 56749
+   KANF/ 85155
+  NSCHI/ 3
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_34_Solid11.bif" / ALL
+*BIF Output File = ... sion6_34_Solid11.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           43989         213       86406
+*TRIA3            119        2572       54984
+*QUAD4           1936        2574       54988
+*PENTA           1584        3127       57305
+*HEXA           23685        3129       57558
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         7143         213       86406
+*
+*Geometry        1789
+*
+*CURVE            551
+*SURF             137
+*CONS             961
+*FACE             140
+*--------------------------------------------
+*
+*POLYCURV         460           1         674
+*MESHAREA         137           1         156
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(11)
+ Color_index="2"
+ Pid=(10)
+ _OK
+Display/    90.0000       -90.0000        180.000     ,
+            1.57106       -1394.80        620.854       -42.9204
+Geom
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_34_Solid11.bif" / ALL
+*BIF Output File = ... sion6_34_Solid11.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           43989         213       86406
+*TRIA3            119        2572       54984
+*QUAD4           1936        2574       54988
+*PENTA           1584        3127       57305
+*HEXA           23685        3129       57558
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         7143         213       86406
+*
+*Geometry        1789
+*
+*CURVE            551
+*SURF             137
+*CONS             961
+*FACE             140
+*--------------------------------------------
+*
+*POLYCURV         460           1         674
+*MESHAREA         137           1         156
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Background bg_color="r255g255b255a255" _OK
+Background bg_color="r012g025b076a255" _OK
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(11)
+ _OK
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(48)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_34_Solid11.bif" / ALL
+*BIF Output File = ... sion6_34_Solid11.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           43674         213       86406
+*TRIA3            119        2572       54984
+*QUAD4           1656        2574       54988
+*PENTA           1584        3127       57305
+*HEXA           23685        3129       57558
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6431         213       86406
+*
+*Geometry        1789
+*
+*CURVE            551
+*SURF             137
+*CONS             961
+*FACE             140
+*--------------------------------------------
+*
+*POLYCURV         460           1         674
+*MESHAREA         137           1         156
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

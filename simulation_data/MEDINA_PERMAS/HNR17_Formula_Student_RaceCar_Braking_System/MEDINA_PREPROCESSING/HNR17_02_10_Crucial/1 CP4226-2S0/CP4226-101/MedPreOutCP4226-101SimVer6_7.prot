@@ -1,0 +1,107 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 26/05/17 - Time 19:23:59 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_34_Solid11.bif"
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(12)
+ _OK
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(123)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54265
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54149
+        / TO   EXTRUDE
+   GEOM/CU62M
+        / MESH STORENET
+    PID/ 12
+   EANF/ 57559
+   KANF/ 86409
+  NSCHI/ 6
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/57838 (2)
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/57823 (2)
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 12
+   EANF/ 57853
+   KANF/ 86964
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/57999 (2)
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/57977 (2)
+        / TO   EXTRUDE
+   GEOM/CU54M
+        / MESH STORENET
+    PID/ 12
+   EANF/ 58000
+   KANF/ 87282
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58046 (2)
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58024 (2)
+        / TO   EXTRUDE
+   GEOM/CU49M
+        / MESH STORENET
+    PID/ 12
+   EANF/ 58049
+   KANF/ 87442
+  NSCHI/ 3
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(12)
+ Color_index="3"
+ Pid=(12)
+ _OK
+Geom
+Display/    90.0000       -90.0000        180.000     ,
+            1.54365       -1398.68        622.341       -42.9829
+Background bg_color="r255g255b255a255" _OK
+Background bg_color="r012g025b076a255" _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_35_Solid12.bif" / ALL
+*BIF Output File = ... sion6_35_Solid12.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           44867        2500       87757
+*TRIA3            111       24039       54984
+*QUAD4           1534       23790       54988
+*PENTA           1662        3127       58152
+*HEXA           24244        3129       58195
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         5950        2500       87757
+*
+*Geometry        1789
+*
+*CURVE            551
+*SURF             137
+*CONS             961
+*FACE             140
+*--------------------------------------------
+*
+*POLYCURV         460           1         674
+*MESHAREA         137           1         156
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 

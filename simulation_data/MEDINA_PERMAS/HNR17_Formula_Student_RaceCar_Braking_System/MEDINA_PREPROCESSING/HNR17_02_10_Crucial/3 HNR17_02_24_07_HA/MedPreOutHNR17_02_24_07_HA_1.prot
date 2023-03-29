@@ -1,0 +1,250 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 14/06/17 - Time 19:39:15 - Platform Windows NT 6.1 64 bit -------
+MParams Ma_Para_Remesh=ON Ma_Para_Spog_Dis=ON Ma_Para_Symb_Dis=ON
+  Ma_Para_Merge_Edge=OFF Ma_Para_Skip_Spog=OFF Ma_Para_Merge_Lay=ON
+  Ma_Para_Fillets_Edge=OFF Ma_Para_Auto_Align=OFF Ma_Para_Merge_Len=0.1
+  Ma_Para_Merge_Fac=0.1 Ma_Para_Skip_Spg_Len=0.1 Ma_Para_Skip_Spg_Fac=0.1
+ Ma_Para_Remesh=OFF _OK
+MParams Ma_Para_Remesh=OFF Ma_Para_Spog_Dis=ON Ma_Para_Symb_Dis=ON
+  Ma_Para_Merge_Edge=OFF Ma_Para_Skip_Spog=OFF Ma_Para_Merge_Lay=ON
+  Ma_Para_Fillets_Edge=OFF Ma_Para_Auto_Align=OFF Ma_Para_Merge_Len=0.1
+  Ma_Para_Merge_Fac=0.1 Ma_Para_Skip_Spg_Len=0.1 Ma_Para_Skip_Spg_Fac=0.1
+ _OK
+MEAttribut Ma_Attr_Extend=OFF Ma_Mesh_Type="Mapped" Ma_Transition="Many_Rows"
+  MA_Fillet_Rows=0 Ma_Attr_Type="Global" Ma_Elem_Type="QUAD" Ma_Property=0
+  Ma_Attr_LaytoProp=ON Ma_Color=0 Ma_Min_Angle=40 Ma_Max_Angle=140
+  Ma_Min_Angle_Tria=20 Ma_Max_Angle_Tria=120 Ma_Min_Length=0.1 Ma_Des_Length=1
+  Ma_Edge_Rat=4 Ma_Growth_Rat="Small" Ma_Warping=20 Ma_Dist_Geo=0 Ma_Reach=2
+  Ma_Div_Adjust=OFF Ma_PC_copy=OFF Ma_Attr_Remesh=OFF Ma_Washers=OFF
+  Ma_Washers_MOD="General" Ma_Use_Limits=OFF Ma_Dia_Factor=0.7 Ma_Max_dia=20
+  Ma_No_Hole=6 Ma_4nodes=6 Ma_6nodes=8 Ma_8nodes=10 Ma_10nodes=14 Ma_12nodes=20
+  Ma_scr_pr_name="<<New preset>>" Ma_scr_pr_dia_f=5 Ma_scr_pr_dia_t=5
+  first_ring_diameter=10 sec_ring_diameter=16 Ma_scr_pr_wdia2_tog=OFF
+  Square_length=20 Ma_Scr_Squ_Shap="Big" Ma_scr_squ_tog=ON RBE_creation=OFF
+  MA_Scr_Pr_Div="" MA_Scr_Pr_Ori="" Number_of_quad_elements="6" X=1 Y=0 Z=0
+ Ma_Min_Length=0.1 Ma_Dia_Factor=0.7 Ma_scr_pr_name="<<New preset>>" _OK
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_24_07_HA/HNR17_02_24_07_HA.bif"
+GProcess Merge_capture_tol_fact=5 Tilt_angle=30 Process_geo_elem_="in_show"
+  Delete_tops=ON Treat_empty_surfaces="Create_faces_on_empty_surfs"
+  Put_surfaces_to_NoShow=ON Show_details_of_main_processing=OFF
+  Delete_small_holes_in_faces=OFF Minimum_hole_diameter=5
+  Delete_short_curve_segm_1st_=ON Delete_short_curves_1st_=ON
+  Close_gaps_in_face_boundaries=OFF Concatenate_curves_1st_=ON
+  Merge_curves_1st_=ON Break_curves=ON Break_Method="Only_endpoints"
+  Merge_curves_2nd_=ON Concatenate_curves_2nd_=ON
+  Delete_short_curve_segm_2nd_=ON Delete_short_curves_2nd_=ON
+  Merge_curves_3rd_=ON Delete_coincident_faces=ON Move_faces_to_top_s_part=ON
+  Move_curves_surfs_to_faces_part=ON Create_mesh_areas=OFF
+  Create_mesh_area_flanges=OFF Geometric_tolerance=0.1
+ Create_mesh_areas=ON
+ Start_processing
+ _OK
+NSobox/146.5204 -174.0471 170.3325 2.1436 -1525. 616.5027 -152.9048 GEO/
+     -2.6763     0.0146 /     3.4908    -2.8363 /     0.9308    -7.1998 /
+     -9.4252    -4.9308 /    -2.6763     0.0146
+Display/    146.520       -174.047        170.332     ,
+            2.14359       -1525.00        616.503       -152.905
+Display/    90.0000       0.000000E+00   0.000000E+00 ,
+            2.14359       -1525.00        616.503       -152.905
+Asca
+MEPNumber MAPol_Num=14 MAPol_Bias_Fac=1 MAPol_Bias_On=OFF
+  MAPol_Bias_Pos="Middle" MAPol_Bias_Typ="Factor"
+ PolMethod_sel="ScreenBox" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin2=0 Eulwin3=0 Screen_box_type="Full_In" Eulwin1=90 Scaloc=1.286224
+  Transl1=-1543.749 Transl2=510.7272 Transl3=-152.9048 ScreenBoxListe=(-1514.72,
+ 615,-100.455/-1539.689,615,-76.77531/-1546.565,615,-77.22764/-1558.461,615,
+ -71.64132/-1574.197,615,-61.84064/-1586.681,615,-49.24314/-1597.198,615,
+ -32.07706/-1601.511,615,-12.01012/-1603.025,615,5.213849/-1600.631,615,15.88808
+ /-1601.516,615,22.66063/-1596.341,615,34.77148/-1587.171,615,49.74325/-1574.427
+ ,615,62.17849/-1559.443,615,71.01447/-1543.269,615,75.88043/-1522.941,615,
+ 78.42927/-1520.392,615,80.97811/-1523.106,615,86.86866/-1538.013,615,97.94453/
+ -1551.56,615,99.53561/-1556.179,615,97.06402/-1573.311,615,90.45248/-1592.589,
+ 615,76.58062/-1607.728,615,60.88595/-1619.119,615,40.02547/-1625.971,615,
+ 17.86513/-1626.929,615,-4.518304/-1623.584,615,-27.55732/-1614.737,615,
+ -48.70636/-1600.904,615,-68.70257/-1584.826,615,-83.10936/-1564.323,615,
+ -94.62478/-1542.741,615,-100.5659/-1520.651,615,-102.8128) _OK
+ _OK
+MEPNumber MAPol_Num=14 MAPol_Bias_Fac=1 MAPol_Bias_On=OFF
+  MAPol_Bias_Pos="Middle" MAPol_Bias_Typ="Factor"
+ PolMethod_sel="ScreenBox" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ rel_Xmin=0 rel_Ymin=0 rel_Zmin=0 rel_Xmax=0 rel_Ymax=0 BoxCenx=0 BoxCeny=0
+  Eulwin2=0 Eulwin3=0 Screen_box_type="Full_In" Eulwin1=90 Scaloc=2.199495
+  Transl1=-1499.219 Transl2=429.3932 Transl3=-152.9048 ScreenBoxListe=(-1532.886
+ ,615,-82.6159/-1500.747,615,-99.95495/-1495.695,615,-97.83882/-1476.271,615,
+ -90.25688/-1457.781,615,-77.29558/-1441.687,615,-59.69938/-1430.499,615,
+ -38.61999/-1424.153,615,-18.49662/-1422.865,615,4.5583/-1426.478,615,27.20752/
+ -1434.874,615,48.2836/-1447.623,615,66.62782/-1464.27,615,82.3802/-1483.858,615
+ ,93.56924/-1506.227,615,100.4533/-1530.642,615,102.0933/-1534.054,615,99.63326/
+ -1528.261,615,93.70809/-1508.818,615,76.24678/-1504.453,615,76.85516/-1490.05,
+ 615,71.19451/-1474.709,615,61.50788/-1462.158,615,48.74496/-1454.062,615,
+ 33.88242/-1448.177,615,16.09614/-1447.119,615,6.357124/-1448.114,615,-18.26352/
+ -1447.981,615,-24.15503/-1453.75,615,-34.87218/-1463.429,615,-49.82938/
+ -1476.013,615,-62.03455/-1484.381,615,-69.66945/-1513.791,615,-75.81345/
+ -1527.497,615,-78.09791) _OK
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_24_07_HA/HNR17_02_24_07_HA_2.bif" / ALL
+*BIF Output File = ... 17_02_24_07_HA_2.bif
+*--------------------------------------------
+*PartCode           2
+*GEOM-SET           1        4904        4904
+*EXTENSIO           1           0           0
+*MDPARAM          115           0           0
+*
+*Geometry        4492
+*
+*CURVE           1224
+*SURF             410
+*CONS            2448
+*FACE             410
+*--------------------------------------------
+*
+*POLYCURV        1224           1        1224
+*MESHAREA         410           1         410
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+MESplit MAPol_Ext_ID=0 MACrv_Ext_ID="" Xcoor=0 Ycoor=0 Zcoor=0
+  MA_Split_Method="2Points"
+ Xcoor=-1629 Ycoor=615 Zcoor=-0.2458653 MAPol_Ext_ID=17
+ Xcoor=-1421 Zcoor=0.2458653 MAPol_Ext_ID=31
+ _CANCEL
+MESplit MAPol_Ext_ID=0 MACrv_Ext_ID="" Xcoor=0 Ycoor=0 Zcoor=0
+  MA_Split_Method="2Points"
+ MASpg_IDs=(24)
+ MASpg_IDs=(38)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(412)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(411)
+ _OK
+Swap
+Display/    145.578        50.5218        81.5999     ,
+           0.485048       -1573.94        631.982       -152.905
+GNoshow Inv_Sel_Flag=OFF
+ _OK
+GNoshow Inv_Sel_Flag=OFF
+ _OK
+Swap
+Display/    145.578        50.5218        81.5999     ,
+            3.58948       -1685.87        909.787       -152.905
+Swap
+Display/    146.211        33.4733        87.8655     ,
+           0.675127       -1541.89        629.704       -152.905
+GNoshow Inv_Sel_Flag=OFF
+@Geom
+@
+@Geom
+@
+@FEM
+@
+ GMethod_sel="Search" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GList_sel=OFF GOperation_sel="Add"
+  GRelated_geo_elements_sel=ON
+ GMethod_sel="Name"
+ GRelated_geo_elements_sel=OFF Gid="CRV0822"
+ _OK
+Swap
+Display/    146.211        33.4733        87.8655     ,
+            4.12902       -1716.34        702.940       -152.905
+MArea
+MArea
+FEM
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/10415
+        / TO   EXTRUDE
+   GEOM/CRV0822
+        / MESH STORENET
+    PID/ 1004
+   EANF/ 24317
+   KANF/ 27261
+  NSCHI/ 4
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/24236
+        / TO   EXTRUDE
+   GEOM/CRV0822
+        / MESH STORENET
+    PID/ 1004
+   EANF/ 73117
+   KANF/ 95598
+  NSCHI/ 4
+NEquivalen/ ABS R=0.01 SNUM SCOR
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any"
+ NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF
+  NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF
+  NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF
+  Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=SHOW
+ _OK
+Display/   -81.3056        36.4733        164.935     ,
+           0.506892       -1554.78        611.171       -152.905
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=ALL
+ _QUIT
+Param GlobLoc_works="Global" _OK
+ECHConnect
+*C* 4 element(s) from 97264 produce(s) Comment
+ECHQuality/Per
+ Sel_Bound_Id=0 EMethod_sel="ID" EMode_sel="Direct" Sel_Ele_Search_Pattern="*"
+  Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF EType_filter_sel=OFF
+  EVisible_sel=OFF EBoundary_of_elements_sel=OFF ENeighbour_sel=OFF
+  Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF EFilter_mode="OR"
+  EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF Sel_Ele_PinB=0
+  Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ Eid=SHOW
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/HNR17_02_24_07_HA/HNR17_02_24_07_HA_3.bif" / ALL
+*BIF Output File = ... 17_02_24_07_HA_3.bif
+*--------------------------------------------
+*PartCode           2
+*NODE          135990           1      163552
+*PENTA            832       24647      121580
+*HEXA           96432       24317      121563
+*ELEM-SET           1        9999        9999
+*GEOM-SET           1        4904        4904
+*EXTENSIO           2           0           0
+*MDPARAM          115           0           0
+*GEONPCO        61288           1      163552
+*
+*Geometry        4526
+*
+*CURVE           1237
+*SURF             410
+*CONS            2468
+*FACE             411
+*--------------------------------------------
+*
+*POLYCURV        1234           1        1245
+*MESHAREA         411           1         412
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Display/   -89.8363        36.6064        178.609     ,
+            1.31475       -1602.24        602.675       -152.905
+Quit / Ok
+* 

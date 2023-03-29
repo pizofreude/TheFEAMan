@@ -1,0 +1,1821 @@
+* * --------------- MEDINA PreProcessing 8.5.1.3 - Protocol --------------
+* * Date 30/05/17 - Time 12:56:44 - Platform Windows NT 6.1 64 bit -------
+* *********************************************************************
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_35_Solid12.bif"
+Asca
+MESProject
+ Xcoor=0 Ycoor=0 Zcoor=0 PktMethod_sel="ID" PktMode_sel="Direct"
+  PktOperation_sel="Add"
+ Pktid=(84)
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(134)
+ Polid=(138)
+ _OK
+ _OK
+Translate /        0.00000       -5.80615        0.00000
+     GEOMETRY DUPLICATE
+ GMethod_sel="Search" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GList_sel=OFF GOperation_sel="Add"
+  GRelated_geo_elements_sel=ON
+ GMethod_sel="Name"
+ GRelated_geo_elements_sel=OFF Gid="CRV0189"
+ Gid="CRV0190"
+ _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU431M"
+ Gid="CU428M"
+ _OK
+GMBreak   /CU431M NAME1=CU433M NAME2=CU434M/
+   -1430.60083   594.19385    24.38752 CU428M
+GMBreak   /CU432M NAME1=CU435M NAME2=CU436M/
+   -1436.49304   594.19385    24.00006 CU430M
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(34)
+@Background bg_color="r012g025b076a255" _OK
+ _CANCEL
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU434M"
+ Gid="CU435M"
+ _OK
+GCPset GCPSETMethod="Nodes" GCPSETGeoSubMeth="Sample"
+  GCPSETElemSubMeth="All_Nodes" Sampling_distance=10
+ NMethod_sel="ID" NMode_sel="Collect" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(87709)
+ Nid=(87724)
+ Nid=(87723)
+ Nid=(87722)
+ Nid=(87721)
+ Nid=(87720)
+ Nid=(87719)
+ Nid=(87718)
+ Nid=(87717)
+ Nid=(87716)
+ Nid=(87707)
+ _OK
+ _OK
+MESplit MAPol_Ext_ID=0 MACrv_Ext_ID="" Xcoor=0 Ycoor=0 Zcoor=0
+  MA_Split_Method="Curves"
+ _OK
+Display/    80.1014        15.9014        177.499     ,
+            15.3167       -1351.22        951.315       -46.5049
+MESplit MAPol_Ext_ID=0 MACrv_Ext_ID="" Xcoor=0 Ycoor=0 Zcoor=0
+  MA_Split_Method="Curves"
+ GMethod_sel="Name" GMode_sel="Collect" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ GMethod_sel="Search"
+ GRelated_geo_elements_sel=ON GMethod_sel="Name"
+ GRelated_geo_elements_sel=OFF Gid="CU434M"
+ Gid="CU435M"
+ _OK
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(34)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(157)
+ Mid=(158)
+ _CANCEL
+MDelete Inv_Sel_Flag=OFF
+ Delete_Mesh_="No" Mdel_Del_Geo=ON
+  MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(157)
+ _OK
+GDelete/ANY/FA38M
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CRV0162"
+ Gid="CRV0077"
+ _OK
+GMBreak   /CRV0077 NAME1=CU442M NAME2=CU443M/
+   -1424.66028   594.20001    19.38017 NDPS
+GMBreak   /CRV0162 NAME1=CU444M NAME2=CU445M/
+   -1433.08704   594.20001    20.13004 NDPS
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="NDPS"
+ Gid="CU442M"
+ _CANCEL
+Display/    85.4952        20.1910        175.088     ,
+            27.6390       -1333.68        1270.38       -46.5056
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="NDPS"
+ Gid="CU442M"
+ Gid="CU439M"
+ Gid="CU437M"
+ Gid="CU441M"
+ Gid="CU444M"
+ _OK
+FACE   / PLANAR NAME=FA40M       SURF=SU19M
+ RAND=NDPS/CU446M CU444M CU441M CU437M CU439M CU442M
+MCreate MACrea_Typ="Geo_MA" MACrea_Geo_DefTyp="Face_Top" MADef_WDent=0
+  MADef_WHole=0 MADef_Angle=30 MADef_Prop=OFF MADef_Layer=OFF MADef_Idset=0
+  MADef_Idset_Lab=" " MADef_Geo_Freeze=OFF MADef_Geo_Angle=30 MADef_Geo_Prop=OFF
+  MADef_Geo_Layer=OFF MADef_Geo_Part=OFF MADef_Geo_PC_Angle=50
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="FA40M"
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(688)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+ _OK
+MESProject
+ Xcoor=0 Ycoor=0 Zcoor=0 PktMethod_sel="ID" PktMode_sel="Direct"
+  PktOperation_sel="Add"
+ Pktid=(328)
+ _CANCEL
+MESProject
+ Xcoor=0 Ycoor=0 Zcoor=0 PktMethod_sel="ID" PktMode_sel="Direct"
+  PktOperation_sel="Add"
+ Pktid=(328)
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(350)
+ _OK
+ Xcoor=0 Ycoor=0 Zcoor=0 PktMethod_sel="ID" PktMode_sel="Direct"
+  PktOperation_sel="Add"
+ Pktid=(326)
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(345)
+ _OK
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(343)
+ Polid=(690)
+ Polid=(691)
+ _OK
+MEPCopy MAPol_Cop_Package=OFF MAPol_Div_bias=OFF
+  PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(690)
+ Polid=(686)
+ _OK
+ Polid=(691)
+ Polid=(682)
+ _OK
+ _OK
+Display/    90.0000       -90.0000        180.000     ,
+            21.3868       -929.159        798.845       -46.5052
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+ _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54005 (2)
+  SUBTRACT SINGLE EID/54014 (2)
+  SUBTRACT SINGLE EID/54015 (2)
+  SUBTRACT SINGLE EID/54033 (2)
+  SUBTRACT SINGLE EID/54016 (2)
+  SUBTRACT SINGLE EID/54049 (2)
+  SUBTRACT SINGLE EID/54034 (2)
+  SUBTRACT SINGLE EID/54013 (2)
+  SUBTRACT SINGLE EID/54012 (2)
+  SUBTRACT SINGLE EID/54011 (2)
+  SUBTRACT SINGLE EID/54032 (2)
+  SUBTRACT SINGLE EID/54017 (2)
+  SUBTRACT SINGLE EID/54018 (2)
+  SUBTRACT SINGLE EID/54019 (2)
+  SUBTRACT SINGLE EID/54020 (2)
+  SUBTRACT SINGLE EID/54048 (2)
+  SUBTRACT SINGLE EID/54042 (2)
+  SUBTRACT SINGLE EID/54010 (2)
+  SUBTRACT SINGLE EID/54009 (2)
+  SUBTRACT SINGLE EID/54041 (2)
+  SUBTRACT SINGLE EID/54047 (2)
+  SUBTRACT SINGLE EID/54021 (2)
+  SUBTRACT SINGLE EID/54022 (2)
+  SUBTRACT SINGLE EID/54023 (2)
+  SUBTRACT SINGLE EID/54043 (2)
+  SUBTRACT SINGLE EID/54040 (2)
+  SUBTRACT SINGLE EID/54008 (2)
+  SUBTRACT SINGLE EID/54007 (2)
+  SUBTRACT SINGLE EID/54039 (2)
+  SUBTRACT SINGLE EID/54044 (2)
+  SUBTRACT SINGLE EID/54024 (2)
+  SUBTRACT SINGLE EID/54025 (2)
+  SUBTRACT SINGLE EID/54045 (2)
+  SUBTRACT SINGLE EID/54038 (2)
+  SUBTRACT SINGLE EID/54006 (2)
+        / TO   EXTRUDE
+   GEOM/CU54M
+        / MESH STORENET
+    PID/ 100
+   EANF/ 58229
+   KANF/ 87806
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58233 (2)
+        / TO   EXTRUDE
+   GEOM/CU51M
+        / MESH STORENET
+    PID/ 100
+   EANF/ 58242
+   KANF/ 87850
+  NSCHI/ 3
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(686)
+ Polid=(682)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+ _OK
+NDelete   /
+ NMethod_sel="ID" NMode_sel="Direct" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(87947)
+ _OK
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+ _CANCEL
+Plist Display_connector_discretization_data=OFF
+ _OK
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PLabel_filter_sel="" PList_sel=OFF
+ Pid=(9)
+ _OK
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(9)
+ Color_index="1"
+ Pid=(9)
+ _OK
+MArea
+MArea
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_36.bif" / ALL
+*BIF Output File = ... ifiedVersion6_36.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           44993        2500       87933
+*TRIA3            111       24039       54984
+*QUAD4           1534       23790       54988
+*PENTA           1662        3127       58152
+*HEXA           24296        3129       58280
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6199        2500       87933
+*
+*Geometry        1818
+*
+*CURVE            565
+*SURF             138
+*CONS             974
+*FACE             141
+*--------------------------------------------
+*
+*POLYCURV         470           1         692
+*MESHAREA         138           1         159
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+MESplit MAPol_Ext_ID=0 MACrv_Ext_ID="" Xcoor=0 Ycoor=0 Zcoor=0
+  MA_Split_Method="Curves"
+ _QUIT
+MEJoin MAJoin_Angle=30
+ MMethod_sel="Name" MMode_sel="Collect" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(117)
+ Mid=(116)
+ _OK
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+ _OK
+Init
+*
+Read "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_36.bif"
+EColor
+ Color_index="1" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="0"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ Color_index="10"
+ Pid=(100)
+ Color_index="15"
+ Pid=(100)
+ Color_index="11"
+ Pid=(100)
+ Color_index="10"
+ Color_index="9"
+ Pid=(100)
+ Color_index="10"
+ Pid=(100)
+ _OK
+Background bg_color="r255g255b255a255" _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+@Background bg_color="r012g025b076a255" _OK
+ _CANCEL
+MEJoin MAJoin_Angle=30
+ MMethod_sel="Name" MMode_sel="Collect" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(116)
+ Mid=(117)
+ _OK
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_37.bif" / ALL
+*BIF Output File = ... ifiedVersion6_37.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           44993        2500       87933
+*TRIA3            111       24039       54984
+*QUAD4           1534       23790       54988
+*PENTA           1662        3127       58152
+*HEXA           24296        3129       58280
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6203        2500       87933
+*
+*Geometry        1819
+*
+*CURVE            565
+*SURF             138
+*CONS             974
+*FACE             141
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         467           1         694
+*MESHAREA         137           1         160
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(159)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(158)
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EDelete Sel_Bound_Id=0 EMethod_sel="Search" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ EMethod_sel="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+NDFree/SHOW
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58311
+        / TO   EXTRUDE
+   GEOM/CU51M
+        / MESH STORENET
+    PID/ 13
+   EANF/ 58411
+   KANF/ 88097
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58521 (2)
+        / TO   EXTRUDE
+   GEOM/CU54M
+        / MESH STORENET
+    PID/ 13
+   EANF/ 58528
+   KANF/ 88299
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58548 (2)
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 13
+   EANF/ 58567
+   KANF/ 88401
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58664 (2)
+        / TO   EXTRUDE
+   GEOM/CU64M
+        / MESH STORENET
+    PID/ 13
+   EANF/ 58684
+   KANF/ 88603
+  NSCHI/ 6
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58911 (2)
+        / TO   EXTRUDE
+   GEOM/CU66M
+        / MESH STORENET
+    PID/ 13
+   EANF/ 58918
+   KANF/ 88955
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58948 (2)
+        / TO   EXTRUDE
+   GEOM/CU70M
+        / MESH STORENET
+    PID/ 13
+   EANF/ 58957
+   KANF/ 89057
+  NSCHI/ 6
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_38_Solid13.bif" / ALL
+*BIF Output File = ... sion6_38_Solid13.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           46295        2500       89406
+*TRIA3            139       24039       58410
+*QUAD4           1636       23790       58400
+*PENTA           1862        3127       59190
+*HEXA           24824        3129       59185
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6357        2500       89406
+*
+*Geometry        1819
+*
+*CURVE            565
+*SURF             138
+*CONS             974
+*FACE             141
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         467           1         694
+*MESHAREA         137           1         160
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+EColor
+ Color_index="10" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="2"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=SHOW
+ Color_index="3"
+ Pid=(13)
+ _OK
+Background bg_color="r255g255b255a255" _OK
+Display/    90.0000       -90.0000        180.000     ,
+            7.25735       -1381.39        777.308       -46.5043
+Asca
+Background bg_color="r012g025b076a255" _OK
+Background bg_color="r012g025b076a255" _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CRV0189"
+ Gid="CRV0190"
+ _OK
+Background bg_color="r255g255b255a255" _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/58384
+        / TO   EXTRUDE
+   GEOM/CU51M
+        / MESH STORENET
+    PID/ 14
+   EANF/ 59191
+   KANF/ 89409
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/59439 (2)
+        / TO   EXTRUDE
+   GEOM/CU54M
+        / MESH STORENET
+    PID/ 14
+   EANF/ 59464
+   KANF/ 89847
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/59514 (2)
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 14
+   EANF/ 59555
+   KANF/ 90067
+  NSCHI/ 3
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="2"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=SHOW
+ Pid=(14)
+ Color_index="3"
+ Pid=(14)
+ _OK
+GDelete/ANY/CU371M
+GDelete/ANY/CU372M
+GDelete/ANY/SU9M
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_39_Solid14.bif" / ALL
+*BIF Output File = ... sion6_39_Solid14.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           47385        2500       90502
+*TRIA3            139       24039       58410
+*QUAD4           1636       23790       58400
+*PENTA           1988        3127       59827
+*HEXA           25335        3129       59817
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6357        2500       90502
+*
+*Geometry        1805
+*
+*CURVE            563
+*SURF             137
+*CONS             964
+*FACE             140
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         467           1         694
+*MESHAREA         137           1         160
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+GDelete/ANY/CU436M
+   CU433M
+GCPset GCPSETMethod="Nodes" GCPSETGeoSubMeth="Sample"
+  GCPSETElemSubMeth="All_Nodes" Sampling_distance=10
+ _CANCEL
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_40.bif" / ALL
+*BIF Output File = ... ifiedVersion6_40.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           47385        2500       90502
+*TRIA3            139       24039       58410
+*QUAD4           1636       23790       58400
+*PENTA           1988        3127       59827
+*HEXA           25335        3129       59817
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6357        2500       90502
+*
+*Geometry        1803
+*
+*CURVE            561
+*SURF             137
+*CONS             964
+*FACE             140
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         467           1         694
+*MESHAREA         137           1         160
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+GCPset GCPSETMethod="Nodes" GCPSETGeoSubMeth="Sample"
+  GCPSETElemSubMeth="All_Nodes" Sampling_distance=10
+ NMethod_sel="ID" NMode_sel="Collect" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(76652)
+ Nid=(86300)
+ Nid=(86297)
+ Nid=(86295)
+ Nid=(86293)
+ Nid=(81469)
+ Nid=(81465)
+ Nid=(88364)
+ _OK
+ _CANCEL
+GCPset GCPSETMethod="Nodes" GCPSETGeoSubMeth="Sample"
+  GCPSETElemSubMeth="All_Nodes" Sampling_distance=10
+ _CANCEL
+Display/    61.2515       -6.50016        175.140     ,
+            16.1410       -1533.53        880.124       -46.5048
+GCPset GCPSETMethod="Nodes" GCPSETGeoSubMeth="Sample"
+  GCPSETElemSubMeth="All_Nodes" Sampling_distance=10
+ NMethod_sel="Search" NMode_sel="Collect" NType_filter_sel="Any"
+  NVisible_sel=OFF NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF
+  PickThShaded=OFF NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ NMethod_sel="ID"
+ Nid=(76878)
+ Nid=(86301)
+ Nid=(86300)
+ Nid=(86299)
+ Nid=(86298)
+ Nid=(86297)
+ Nid=(86296)
+ Nid=(86295)
+ Nid=(86294)
+ Nid=(86293)
+ Nid=(86292)
+ Nid=(81470)
+ Nid=(81469)
+ Nid=(81468)
+ Nid=(81467)
+ Nid=(81466)
+ Nid=(81465)
+ Nid=(81464)
+ Nid=(81463)
+ Nid=(81462)
+ Nid=(81461)
+ Nid=(88416)
+ _OK
+ _OK
+FACE   / PLANAR NAME=FA41M       SURF=SU20M
+ RAND=NDPS/CU454M CU450M CRV0378 CRV0376 CRV0384 CRV0373
+ CRV0371 CU280M
+MCreate MACrea_Typ="Geo_MA" MACrea_Geo_DefTyp="Face_Top" MADef_WDent=0
+  MADef_WHole=0 MADef_Angle=30 MADef_Prop=OFF MADef_Layer=OFF MADef_Idset=0
+  MADef_Idset_Lab=" " MADef_Geo_Freeze=OFF MADef_Geo_Angle=30 MADef_Geo_Prop=OFF
+  MADef_Geo_Layer=OFF MADef_Geo_Part=OFF MADef_Geo_PC_Angle=50
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="FA41M"
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(695)
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(333)
+ Polid=(335)
+ Polid=(346)
+ Polid=(338)
+ Polid=(340)
+ Polid=(692)
+ _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU454M"
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(161)
+ _OK
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(103)
+ Color_index="2"
+ Pid=(14)
+ _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="0"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU454M"
+ Graphic_color="15"
+ Gid="CU454M"
+ Graphic_color="11"
+ Gid="CU454M"
+ _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/59947
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 15
+   EANF/ 59950
+   KANF/ 90651
+  NSCHI/ 3
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(161)
+ _OK
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="3"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(15)
+ _OK
+MDelete Inv_Sel_Flag=OFF
+ Delete_Mesh_="No" Mdel_Del_Geo=ON
+@Background bg_color="r012g025b076a255" _OK
+ _OK
+EDelete
+ _QUIT
+GDelete/ANY/FA8M
+GDelete/ANY/CU393M
+GDelete/ANY/SU4M
+GDelete/ANY/CU373M
+   CU374M
+   CU375M
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_41_Solid15.bif" / ALL
+*BIF Output File = ... sion6_41_Solid15.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           47969        2500       91234
+*TRIA3            139       24039       58410
+*QUAD4           1636       23790       58400
+*PENTA           2003        3127       60315
+*HEXA           25686        3129       60314
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6460        2500       91234
+*
+*Geometry        1802
+*
+*CURVE            558
+*SURF             137
+*CONS             966
+*FACE             140
+*TOP                1
+*--------------------------------------------
+*
+*POLYCURV         467           1         695
+*MESHAREA         137           1         161
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+GColor
+ Color_index="1" Gcolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Element"
+@Background bg_color="r255g255b255a255" _OK
+ _OK
+Background bg_color="r012g025b076a255" _OK
+Translate /        0.00000      -11.99304        0.00000
+     GEOMETRY DUPLICATE
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU400M"
+ Gid="CU390M"
+ _OK
+Plist Display_connector_discretization_data=OFF
+ _OK
+ _OK
+Background bg_color="r255g255b255a255" _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="11"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU400M"
+ Gid="CU390M"
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(36)
+ _CANCEL
+MESplit MAPol_Ext_ID=0 MACrv_Ext_ID="" Xcoor=0 Ycoor=0 Zcoor=0
+  MA_Split_Method="Curves"
+ GMethod_sel="Name" GMode_sel="Collect" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU456M"
+ Gid="CU455M"
+ _OK
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(36)
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(700)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(162)
+ _OK
+MESProject
+ Xcoor=0 Ycoor=0 Zcoor=0 PktMethod_sel="ID" PktMode_sel="Direct"
+  PktOperation_sel="Add"
+ Pktid=(112)
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(152)
+ Polid=(223)
+ Polid=(702)
+ _CANCEL
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(103)
+ _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54089 (2)
+        / TO   EXTRUDE
+   GEOM/CRV0177
+        / MESH STORENET
+    PID/ 100
+   EANF/ 60437
+   KANF/ 91387
+  NSCHI/ 3
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="10"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+MEJoin MAJoin_Angle=30
+ MMethod_sel="Name" MMode_sel="Collect" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(61)
+ Mid=(59)
+ _OK
+ _OK
+Swap
+Display/   -99.6678       -126.584        1.55296     ,
+            16.4879       -1698.03        444.129       -46.5051
+ENoshow Inv_Sel_Flag=OFF
+ Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+Swap
+Display/   -99.6678       -126.584        1.55296     ,
+            16.4879       -1698.03        444.129       -46.5051
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(704)
+ Polid=(704)
+ Polid=(704)
+@Background bg_color="r012g025b076a255" _OK
+ _QUIT
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(162)
+ _OK
+MESProject
+ Xcoor=0 Ycoor=0 Zcoor=0 PktMethod_sel="ID" PktMode_sel="Direct"
+  PktOperation_sel="Add"
+ Pktid=(85)
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(152)
+ Polid=(704)
+ _OK
+ _OK
+Display/    90.0000       -90.0000        180.000     ,
+            7.12964       -1492.67        782.776       -46.5041
+Background bg_color="r255g255b255a255" _OK
+Background bg_color="r012g025b076a255" _OK
+MCreate MACrea_Typ="Geo_MA" MACrea_Geo_DefTyp="Face_Top" MADef_WDent=0
+  MADef_WHole=0 MADef_Angle=30 MADef_Prop=OFF MADef_Layer=OFF MADef_Idset=0
+  MADef_Idset_Lab=" " MADef_Geo_Freeze=OFF MADef_Geo_Angle=30 MADef_Geo_Prop=OFF
+  MADef_Geo_Layer=OFF MADef_Geo_Part=OFF MADef_Geo_PC_Angle=50
+ _QUIT
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(708)
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(181)
+ _OK
+Translate /        0.00000       -5.79718        0.00000
+     GEOMETRY DUPLICATE
+ GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CRV0209"
+ Gid="CRV0201"
+@Background bg_color="r012g025b076a255" _OK
+ _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="11"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+ _OK
+GMBreak   /CU478M NAME1=CU481M NAME2=CU482M/
+   -1430.60083   594.20282   -24.38740 CU463M
+GMBreak   /CU477M NAME1=CU483M NAME2=CU484M/
+   -1436.49304   594.20282   -23.99994 CU469M
+GDelete/ANY/CU482M
+GDelete/ANY/CU483M
+MESplit MAPol_Ext_ID=0 MACrv_Ext_ID="" Xcoor=0 Ycoor=0 Zcoor=0
+  MA_Split_Method="Curves"
+ GMethod_sel="Name" GMode_sel="Collect" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CU484M"
+ Gid="CU481M"
+ _OK
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(162)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_42.bif" / ALL
+*BIF Output File = ... ifiedVersion6_42.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           48233        2500       91650
+*TRIA3            139       24039       58410
+*QUAD4           1636       23790       58400
+*PENTA           2009        3127       60540
+*HEXA           25833        3129       60589
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6504        2500       91650
+*
+*Geometry        1835
+*
+*CURVE            572
+*SURF             137
+*CONS             982
+*FACE             142
+*TOP                2
+*--------------------------------------------
+*
+*POLYCURV         472           1         713
+*MESHAREA         138           1         166
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Display/    90.0000       -90.0000        180.000     ,
+            5.35301       -1430.56        734.375       -46.5040
+Display/    90.0000       -90.0000        180.000     ,
+            13.8843       -1719.97        681.826       -46.5048
+Background bg_color="r255g255b255a255" _OK
+Background _QUIT
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(165)
+ Mid=(166)
+ _OK
+Background bg_color="r012g025b076a255" _OK
+Background _QUIT
+EColor
+ Color_index="10" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ _OK
+EDelete Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+NDFree/SHOW
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(143)
+ Polid=(703)
+ Polid=(591)
+ Polid=(69)
+ Polid=(67)
+ Polid=(115)
+ Polid=(113)
+ Polid=(111)
+ _OK
+GMBreak   /CU487M NAME1=CU496M NAME2=CU497M/
+   -1426.88794   594.20001   -21.39385
+MEPNumber MAPol_Num=6 MAPol_Bias_Fac=1 MAPol_Bias_On=OFF MAPol_Bias_Pos="Middle"
+  MAPol_Bias_Typ="Factor"
+ MAPol_Num=4
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(715)
+ _OK
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(165)
+ _QUIT
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(165)
+ _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/60737
+        / TO   EXTRUDE
+   GEOM/CU49M
+        / MESH STORENET
+    PID/ 16
+   EANF/ 60750
+   KANF/ 91867
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/60855 (2)
+        / TO   EXTRUDE
+   GEOM/CU54M
+        / MESH STORENET
+    PID/ 16
+   EANF/ 60861
+   KANF/ 92081
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/60868 (2)
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 16
+   EANF/ 60898
+   KANF/ 92189
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/60995 (2)
+        / TO   EXTRUDE
+   GEOM/CU62M
+        / MESH STORENET
+    PID/ 16
+   EANF/ 61009
+   KANF/ 92403
+  NSCHI/ 6
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/61224 (2)
+        / TO   EXTRUDE
+   GEOM/CU66M
+        / MESH STORENET
+    PID/ 16
+   EANF/ 61231
+   KANF/ 92776
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/61263 (2)
+        / TO   EXTRUDE
+   GEOM/CU70M
+        / MESH STORENET
+    PID/ 16
+   EANF/ 61268
+   KANF/ 92884
+  NSCHI/ 6
+GDelete/ANY/FA28M
+GDelete/ANY/SU14M
+GDelete/ANY/CU411M
+   CU412M
+   CU408M
+GDelete/ANY/CU410M
+GDelete/ANY/CU409M
+EColor
+ Color_index="10" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="3"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(16)
+ _OK
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ _OK
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="2"
+ _OK
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ PLabel_filter_sel="s"
+ Pid=SHOW PLabel_filter_sel=""
+ Pid=SHOW
+ Color_index="3"
+ Pid=(16)
+ _OK
+Background _QUIT
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_43_Solid16.bif" / ALL
+*BIF Output File = ... sion6_43_Solid16.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           49471        2500       93254
+*TRIA3            152       24039       60749
+*QUAD4           1742       23790       60748
+*PENTA           2063        3127       61489
+*HEXA           26366        3129       61488
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6848        2500       93254
+*
+*Geometry        1821
+*
+*CURVE            568
+*SURF             136
+*CONS             974
+*FACE             141
+*TOP                2
+*--------------------------------------------
+*
+*POLYCURV         473           1         715
+*MESHAREA         138           1         166
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Background bg_color="r012g025b076a255" _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/60697
+        / TO   EXTRUDE
+   GEOM/CU49M
+        / MESH STORENET
+    PID/ 17
+   EANF/ 61490
+   KANF/ 93257
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/61711 (2)
+        / TO   EXTRUDE
+   GEOM/CU54M
+        / MESH STORENET
+    PID/ 17
+   EANF/ 61736
+   KANF/ 93675
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/61795 (2)
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 17
+   EANF/ 61818
+   KANF/ 93885
+  NSCHI/ 3
+Background bg_color="r255g255b255a255" _OK
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="2"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=SHOW
+ Color_index="3"
+ Pid=(17)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_44_Solid17.bif" / ALL
+*BIF Output File = ... sion6_44_Solid17.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           50511        2500       94300
+*TRIA3            152       24039       60749
+*QUAD4           1742       23790       60748
+*PENTA           2133        3127       62063
+*HEXA           26870        3129       62059
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         6848        2500       94300
+*
+*Geometry        1821
+*
+*CURVE            568
+*SURF             136
+*CONS             974
+*FACE             141
+*TOP                2
+*--------------------------------------------
+*
+*POLYCURV         473           1         715
+*MESHAREA         138           1         166
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Background bg_color="r012g025b076a255" _OK
+MArea
+Geom
+Geom
+MArea
+GCPset GCPSETMethod="Nodes" GCPSETGeoSubMeth="Sample"
+  GCPSETElemSubMeth="All_Nodes" Sampling_distance=10
+ NMethod_sel="ID" NMode_sel="Collect" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(74094)
+ Nid=(86186)
+ Nid=(86187)
+ Nid=(86188)
+ Nid=(86189)
+ Nid=(86190)
+ Nid=(86172)
+ Nid=(86182)
+ Nid=(86181)
+ Nid=(86180)
+ Nid=(86179)
+ Nid=(86178)
+ Nid=(81536)
+ Nid=(81537)
+ Nid=(81538)
+ Nid=(81539)
+ Nid=(81540)
+ Nid=(81541)
+ Nid=(81542)
+ Nid=(81543)
+ Nid=(81544)
+ Nid=(81545)
+ Nid=(93898)
+ _OK
+ _OK
+Display/    90.0000       -90.0000        180.000     ,
+            8.46219       -1139.09        663.201       -46.5051
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="11"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="NDPS"
+ _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="11"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="CRV0169"
+ _OK
+GMBreak   /CRV0169 NAME1=CU498M NAME2=CU499M/
+   -1436.49304   597.20001   -23.99995 NDPS
+GMBreak   /CRV0132 NAME1=CU506M NAME2=CU507M/
+   -1449.96155   597.20001   -12.93300 NDPS
+@Background _QUIT
+@EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="2"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(17)
+ _OK
+FACE   / PLANAR NAME=FA46M       SURF=SU21M
+ RAND=NDPS/CU508M CU498M CRV0168 CRV0167 CRV0126 CRV0128
+ CRV0130 CU506M
+Background bg_color="r012g025b076a255" _OK
+MCreate MACrea_Typ="Geo_MA" MACrea_Geo_DefTyp="Face_Top" MADef_WDent=0
+  MADef_WHole=0 MADef_Angle=30 MADef_Prop=OFF MADef_Layer=OFF MADef_Idset=0
+  MADef_Idset_Lab=" " MADef_Geo_Freeze=OFF MADef_Geo_Angle=30 MADef_Geo_Prop=OFF
+  MADef_Geo_Layer=OFF MADef_Geo_Part=OFF MADef_Geo_PC_Angle=50
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="FA46M"
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(720)
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(717)
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(144)
+ Polid=(145)
+ Polid=(144)
+ Polid=(105)
+ Polid=(107)
+ Polid=(107)
+ Polid=(109)
+ Polid=(109)
+ Polid=(718)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(167)
+ _OK
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/62154
+        / TO   EXTRUDE
+   GEOM/CU60M
+        / MESH STORENET
+    PID/ 18
+   EANF/ 62190
+   KANF/ 94454
+  NSCHI/ 3
+Background _QUIT
+EColor
+ Color_index="2" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="3"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(18)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_45_Solid18.bif" / ALL
+*BIF Output File = ... sion6_45_Solid18.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           51214        2500       95057
+*TRIA3            156       24039       62189
+*QUAD4           1864       23790       62187
+*PENTA           2145        3127       62567
+*HEXA           27236        3129       62565
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         7152        2500       95057
+*
+*Geometry        1838
+*
+*CURVE            571
+*SURF             137
+*CONS             986
+*FACE             142
+*TOP                2
+*--------------------------------------------
+*
+*POLYCURV         476           1         720
+*MESHAREA         139           1         167
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Background bg_color="r012g025b076a255" _OK
+GCPset GCPSETMethod="Nodes" GCPSETGeoSubMeth="Sample"
+  GCPSETElemSubMeth="All_Nodes" Sampling_distance=10
+ NMethod_sel="ID" NMode_sel="Collect" NType_filter_sel="Any" NVisible_sel=OFF
+  NBoundary=OFF NNeighbour_sel=OFF NNode_filter_sel=OFF PickThShaded=OFF
+  NOperation_sel="Add" NFLocal_node_coord_system_sel=OFF
+  NFLocal_node_coord_system_ID_sel=OFF NFLocal_node_coord_system_ID=0
+  NFLocal_displ_coord_system_sel=OFF NFLocal_displ_coord_system_ID_sel=OFF
+  NFLocal_displ_coord_system_ID=0 NFScalar_elements_sel=OFF NFMPC_nodes_sel=OFF
+  NFSPC_nodes_sel=OFF NFNodal_forces_sel=OFF NFBar_beam_elements_sel=OFF
+  NFWeldspot_elements_sel=OFF NFProperty_limits_sel=OFF NFLabel_sel=OFF
+  NFLabel_text="*" NFNoLabel_sel=OFF NFBasNod_sel=OFF NFFiltermode="OR"
+  NFSuperId=0 NFSuper_sel=OFF NFMaxDist=0 NFMaxDist_sel=OFF Corner_nodes_=OFF
+  Edge_nodes_=OFF Center_face_nodes_=OFF Center_volume_nodes_=OFF
+  NGeo_dist_sel=0.1
+ Nid=(93221)
+ Nid=(93222)
+ Nid=(93223)
+ Nid=(93224)
+ Nid=(93225)
+ Nid=(93226)
+ Nid=(93227)
+ Nid=(93228)
+ Nid=(93229)
+ Nid=(93230)
+ Nid=(93203)
+ _OK
+ _OK
+Display/    10.5394       -99.8492        91.5745     ,
+            13.3818       -1620.42        491.832       -46.5046
+MESProject
+ Xcoor=0 Ycoor=0 Zcoor=0 PktMethod_sel="ID" PktMode_sel="Direct"
+  PktOperation_sel="Add"
+ Pktid=(312)
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(443)
+ _OK
+ _OK
+Display/    90.0000       -90.0000        180.000     ,
+            13.4469       -1621.89        491.013       -46.5046
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/54109
+        / TO   EXTRUDE
+   GEOM/CRV0351
+        / MESH STORENET
+    PID/ 100
+   EANF/ 62568
+   KANF/ 95060
+  NSCHI/ 7
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="10"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+Background bg_color="r255g255b255a255" _OK
+GInfo Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="11"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="NDPS"
+ _OK
+MNoShow Inv_Sel_Flag=OFF
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(74)
+ Mid=(73)
+ Mid=(80)
+ _OK
+Background bg_color="r012g025b076a255" _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(722)
+ _OK
+ Textual_attribute="Name" Graphical_attrib_="None" Graphic_color="11"
+  Output_to_graphics=OFF Define_Label_Offset=OFF x_offset_of_text=0
+  y_offset_of_text=0 z_offset_of_text=0 Size_of_text=1.5
+@GInfo GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1
+  GType_filter_sel=OFF GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF
+  GList_sel=OFF GOperation_sel="Add"
+ Gid="CU30M"
+ _OK
+GMBreak   /CU30M NAME1=CU511M NAME2=CU512M/
+   -1430.60083   613.09998   -24.38739 NDPS
+FACE   / PLANAR NAME=FA47M       SURF=SU22M
+ RAND=CU512M CRV0219 CRV0298 CU135M CU510M NDPS/CU513M
+MCreate MACrea_Typ="Geo_MA" MACrea_Geo_DefTyp="Face_Top" MADef_WDent=0
+  MADef_WHole=0 MADef_Angle=30 MADef_Prop=OFF MADef_Layer=OFF MADef_Idset=0
+  MADef_Idset_Lab=" " MADef_Geo_Freeze=OFF MADef_Geo_Angle=30 MADef_Geo_Prop=OFF
+  MADef_Geo_Layer=OFF MADef_Geo_Part=OFF MADef_Geo_PC_Angle=50
+  GMethod_sel="Name" GMode_sel="Direct" Sel_Geo_Col_Idx=-1 GType_filter_sel=OFF
+  GeoSelectionFilter=OFF GRelated_geo_elements_sel=OFF GList_sel=OFF
+  GOperation_sel="Add"
+ Gid="FA47M"
+ _OK
+MEPUseNode Mapol_Nod_Tol=0.1 Mapol_Nod_Tog=ON Mapol_Nod_MinEdge=0.1
+  Mapol_Nod_PCEnds_Tog=ON
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(725)
+ Polid=(725)
+ Polid=(722)
+ _OK
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(168)
+ _OK
+Background bg_color="r255g255b255a255" _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_46.bif" / ALL
+*BIF Output File = ... ifiedVersion6_46.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           51365        2500       95225
+*TRIA3            168       24039       62675
+*QUAD4           1918       23790       62668
+*PENTA           2159        3127       62605
+*HEXA           27264        3129       62609
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         7336        2500       95225
+*
+*Geometry        1853
+*
+*CURVE            574
+*SURF             138
+*CONS             996
+*FACE             143
+*TOP                2
+*--------------------------------------------
+*
+*POLYCURV         479           1         725
+*MESHAREA         140           1         168
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+GMBreak   /CRV0298 NAME1=CU516M NAME2=CU517M/
+   -1422.11230   613.09998   -18.69098
+MEPNumber MAPol_Num=4 MAPol_Bias_Fac=1 MAPol_Bias_On=OFF MAPol_Bias_Pos="Middle"
+  MAPol_Bias_Typ="Factor"
+ MAPol_Num=3
+ PolMethod_sel="ID" PolMode_sel="Direct" PolRelated_polycurves=OFF
+  PolList_sel=OFF PolOperation_sel="Add" PolType_sel="Any"
+ Polid=(728)
+ _OK
+MEUnMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(168)
+ _QUIT
+MEMesh
+ MMethod_sel="Name" MMode_sel="Direct" MFilter_sel="Off"
+  MRelated_mesh_areas_sel=OFF MList_sel=OFF MOperation_sel="Add"
+  MStatus_sel="Any" MFlange_sel="Any" MType_sel="Any"
+ Mid=(168)
+ _OK
+Background bg_color="r012g025b076a255" _OK
+EDelete Sel_Bound_Id=0 EMethod_sel="Property" EMode_sel="Direct"
+  Sel_Ele_Search_Pattern="*" Sel_Ele_Label_Toggle=OFF Sel_Ele_NoLabel_Toggle=OFF
+  EType_filter_sel=OFF EVisible_sel=OFF EBoundary_of_elements_sel=OFF
+  ENeighbour_sel=OFF Sel_Ele_Col_Idx=-1 EOperation_sel="Add" ElemFilter_sel=OFF
+  EFilter_mode="OR" EFDOF=0 EFDOF_sel=OFF Sel_Ele_PinA=0 Sel_Ele_PinA_Toggle=OFF
+  Sel_Ele_PinB=0 Sel_Ele_PinB_Toggle=OFF Sel_Ele_UMSet_Toggle=OFF
+  Sel_Ele_Mode_UMSet_Toggle="with" EGeo_dist_sel=0.1
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(100)
+ _OK
+NDFree/SHOW
+EDelete
+ _QUIT
+GDelete/ANY/CU405M
+   CU406M
+   CU414M
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/62731
+        / TO   EXTRUDE
+   GEOM/CU72M
+        / MESH STORENET
+    PID/ 19
+   EANF/ 62736
+   KANF/ 95305
+  NSCHI/ 6
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/63083 (2)
+        / TO   EXTRUDE
+   GEOM/CU68M
+        / MESH STORENET
+    PID/ 19
+   EANF/ 63096
+   KANF/ 95846
+  NSCHI/ 1
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/63145 (2)
+        / TO   EXTRUDE
+   GEOM/CU64M
+        / MESH STORENET
+    PID/ 19
+   EANF/ 63156
+   KANF/ 96002
+  NSCHI/ 6
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/63488 (2)
+        / TO   EXTRUDE
+   GEOM/CU58M
+        / MESH STORENET
+    PID/ 19
+   EANF/ 63516
+   KANF/ 96543
+  NSCHI/ 3
+EGVolume  / FROM FIXNET
+  ADD SEARCH ANGLE=30. SAME_PROP SAME_LAYER EID/63686 (2)
+        / TO   EXTRUDE
+   GEOM/CU54M
+        / MESH STORENET
+    PID/ 19
+   EANF/ 63696
+   KANF/ 96853
+  NSCHI/ 1
+Background bg_color="r255g255b255a255" _OK
+EColor
+ Color_index="10" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ Color_index="3"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=(19)
+ _OK
+EColor
+ Color_index="3" Ecolor_Copy=ON Auto_define_Toggle=OFF
+  Same_color_for_children=OFF Color_mode="Property"
+ PType_filter_sel="Any" PMethod_sel="ID" PMode_sel="Direct" POperation_sel="Add"
+  PList_sel=ON PLabel_filter_sel=""
+ Pid=SHOW
+ Color_index="2"
+ Pid=SHOW
+ Color_index="3"
+ Pid=(19)
+ _OK
+Write      "G:/Bachelor Thesis/FEM Calculation/Preprocessing/HNR17_02_10_Crucial/CP4226-2S0/CP4226-101/CP4226-101_SimplifiedVersion6_47_Solid19.bif" / ALL
+*BIF Output File = ... sion6_47_Solid19.bif
+*--------------------------------------------
+*PartCode           3
+*NODE           52974        2500       97006
+*TRIA3            159       24039       62735
+*QUAD4           1921       23790       62734
+*PENTA           2196        3127       63755
+*HEXA           28205        3129       63754
+*ELEM-SET          42        1545        1586
+*GEOM-SET           1        1544        1544
+*EXTENSIO          43           0           0
+*MDPARAM          115           0           0
+*GEONPCO         7336        2500       97006
+*
+*Geometry        1848
+*
+*CURVE            572
+*SURF             138
+*CONS             994
+*FACE             142
+*TOP                2
+*--------------------------------------------
+*
+*POLYCURV         480           1         729
+*MESHAREA         140           1         168
+*GEOGRAPH           0           0           0
+*--------------------------------------------
+*
+Quit / Ok
+* 
