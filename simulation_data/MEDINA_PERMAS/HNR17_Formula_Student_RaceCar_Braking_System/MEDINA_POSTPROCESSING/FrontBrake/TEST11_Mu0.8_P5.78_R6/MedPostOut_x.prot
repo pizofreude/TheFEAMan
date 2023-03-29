@@ -1,0 +1,23 @@
+* * --------------- MEDINA PostProcessing 8.5.1.4 - Protocol -------------
+* * Date 16/10/17 - Time 11:40:56 - Platform Windows NT 6.2 64 bit -------
+@Background bg_color="r012g025b076a255" _OK
+OutliCol/ RGB   20  20  20
+ReadMod   "G:/Bachelor Thesis/FEM Calculation/PostProcessing/FrontBrake/TEST11_Mu0.8_P5.78_R6/HNR17_02_09_Crucial_21_45.bif"
+ReadRes   "G:/Bachelor Thesis/FEM Calculation/PostProcessing/FrontBrake/TEST11_Mu0.8_P5.78_R6/HNR17_02_09_Crucial_21_45.bof"
+RSelect description_text="" Use_filters=OFF RSelIndexCol=ON RSelLoadCaseCol=ON
+  RSelLoadIncrementCol=ON RSelLoadFactorCol=ON RSelLayerCol=ON
+  RSelDescriptionCol=ON RSelCombineCol=ON RSelCAEKeyCol=ON RSelRecordCol=ON
+  RSelAnaTypeCol=ON RSelLoCaTitleCol=ON RSelSourceCol=ON RSelNamF=""
+  RSelWMode="Overwrite" RSelWriteDisplayed=ON RSelWriteCopy=OFF
+  RSelResData="Selected" RSelXY="None" RSelWriShow="All" RSelLocalSys="Local"
+  RSelMethod="Maximum" RSelFactor=1 RSelToggCom=ON
+ CAE_key_sel=(204) Load_case_sel=(5) Layer_sel=(0) Lincrement_sel=(5)
+  file_id_sel=(2) block_sel=(37) description_text_sel="Contact Pressure    "
+  load_sel _OK
+RSelect description_text="" Use_filters=OFF RSelIndexCol=ON RSelLoadCaseCol=ON
+  RSelLoadIncrementCol=ON RSelLoadFactorCol=ON RSelLayerCol=ON
+  RSelDescriptionCol=ON RSelCombineCol=ON RSelCAEKeyCol=ON RSelRecordCol=ON
+  RSelAnaTypeCol=ON RSelLoCaTitleCol=ON RSelSourceCol=ON RSelNamF=""
+  RSelWMode="Overwrite" RSelWriteDisplayed=ON RSelWriteCopy=OFF
+  RSelResData="Selected" RSelXY="None" RSelWriShow="All" RSelLocalSys="Local"
+  RSelMethod="Maximum" RSelFactor=1 RSelToggCom=ON

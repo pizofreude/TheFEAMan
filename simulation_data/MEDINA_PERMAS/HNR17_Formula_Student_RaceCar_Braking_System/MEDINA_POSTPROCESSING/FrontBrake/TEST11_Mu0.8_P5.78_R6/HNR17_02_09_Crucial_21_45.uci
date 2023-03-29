@@ -1,0 +1,43 @@
+DEFAULT SET NAMEPOLICY = NAME
+DEFAULT SHOW MODL
+!
+!
+ NEW    ! Start a new analysis
+!
+ INPUT
+        READ MEDINA FILE = HNR17_02_09_Crucial_21_45.bif
+        READ PERMAS FILE = LoadHistory.dat
+! export
+!        model
+!
+ EXEC                                 ! Part of calculation
+!
+                                      ! Cross Check input and commands
+!
+   TASK                               ! Task 1 starts
+!
+!      WEIGHT
+!     Perfom                linear Statics Analysis
+      Static
+      GENerate ELement STRESS
+      GENerate Nodal Point STRESS
+      GENerate Reac
+!
+! Write tabular results to RES-File
+!
+!  PRINT
+!      ITEM PRETENSION DEFINITION
+!      ITEM PRETENSION SYSTEM
+!      ITEM THREAD SYSTEM
+!      ITEM PRETENSION FORCE
+!       ITEM DISPlacement ; ITEM ELement STRESS
+!
+! Output results in DAT and Medina format
+ EXPORT
+        MODEL DESCRIPTION File=HNR17_02_09_Crucial_21_45
+        GO PERMAS
+        GO Medina
+!
+   TASK END     ! Task 1 ends
+!       Execute commands, if no error occured
+STOP
