@@ -101,6 +101,9 @@ Collection of learning materials that can help you master the numerical techniqu
 
 ### Software Applications
 
+* ANSYS: [Ansys Innovation Courses](https://courses.ansys.com/)
+* ANSYS: [Ansys Learning Forums](https://forum.ansys.com/)
+* ANSYS: [PyAnsys: Python APIs. Make your own GUI, handle results how you like or even connect Ansys to other tools; this allows you to interact with Ansys solvers in a way that's useful for you.](https://github.com/pyansys)
 * ANSYS: [Getting Started with Ansys Student](https://www.youtube.com/playlist?list=PLQMtm0_chcLx4NoPbUFkqLHoOomntN0Gr)
 * ANSYS: [Learn with Ansys Mechanical Tutorials](https://www.youtube.com/playlist?list=PLQMtm0_chcLxuLow8a0tl2S0DLGh5q1oP)
 * ANSYS: [Ansys Student Team Mechanical Tutorials](https://www.youtube.com/playlist?list=PLQMtm0_chcLwKt2NPwtUfbrP2s72hE47j)
