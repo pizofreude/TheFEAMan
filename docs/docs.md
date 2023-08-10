@@ -36,4 +36,6 @@ But it doesn't stop there. The FEA Man is built on the principles of open-source
 
 Join us on this exciting journey and unlock your potential in the world of CAE. Visit The FEA Man website, powered by MkDocs, and embark on a transformative learning experience. Together, let's shape the future of open-source CAE education.  <br>
 
-Remember, at The FEA Man, knowledge is power, and it belongs to everyone. Let's make CAE education accessible and open-source for all.  <br>
+Remember, at The FEA Man, knowledge is power, and it belongs to everyone.  <br>
+
+Let's make CAE education accessible and open-source for all.  <br>

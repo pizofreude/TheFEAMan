@@ -1,26 +1,26 @@
 # The FEA Man
 
-This repository contains lecture notes, code examples, calculation resources, and tutorials related to Technical Mechanics and Finite Element Analysis. It's designed to be a learning resource for students and professionals interested in these fields. The subject cover topics such as linear and nonlinear FEA, technical mechanics, and topology optimization. The resources section includes reference to books, papers, and websites that can help you deepen your knowledge of Technical Mechanics and Finite Element Analysis. We welcome contributions from the community, so please feel free to submit pull requests or issues if you'd like to add your own code or resources to the repository.
+This repository contains lecture notes, code examples, calculation resources, and tutorials related to Technical Mechanics and Finite Element Analysis. It's designed to be a learning resource for students and professionals interested in these fields. The subject cover topics such as linear and nonlinear FEA, technical mechanics, and topology optimization. The resources section includes reference to books, papers, and websites that can help you deepen your knowledge of Technical Mechanics and Finite Element Analysis. We welcome contributions from the community, so please feel free to submit pull requests or issues if you'd like to add your own code or resources to the repository.  <br>
 
-It serves as FEA knowledge database and Know-How [documentation](https://github.com/pizofreude/TheFEAMan/tree/main/docs) as well as community processes.
+It serves as FEA knowledge database and Know-How [documentation](https://github.com/pizofreude/TheFEAMan/tree/main/docs) as well as community processes.  <br>
 
-Finite Element Analysis (FEA) is a powerful tool for solving complex engineering problems. But sometimes, it can also be a source of frustration for engineers who struggle to set up the simulation correctly and obtain reliable results. Plus, FEA can be a frustrating process of trial and error to get the simulation to converge and produce accurate results. That’s why some people jokingly call FEA “Frustration Engineering Algorithm”. In this repository, we will share some tips and tricks to make FEA less frustrating and hopefully more rewarding.
+Finite Element Analysis (FEA) is a powerful tool for solving complex engineering problems. But sometimes, it can also be a source of frustration for engineers who struggle to set up the simulation correctly and obtain reliable results. Plus, FEA can be a frustrating process of trial and error to get the simulation to converge and produce accurate results. That’s why some people jokingly call FEA “Frustration Engineering Algorithm”. In this repository, we will share some tips and tricks to make FEA less frustrating and hopefully more rewarding.  <br>
 
 ## Contents Under Docs
 
-The "docs" directory typically contains documentation related to the Finite Element Analysis software, analysis methods, or code. This may include user guides, installation instructions, API documentation, release notes, and other resources that help users understand and use the FEA software & simulation effectively. The "docs" folder is structured in a way that allows users to easily navigate and find the information they need, and may include subfolders and markdown files for better organization and readability. Overall, the "docs" folder is an important part of TheFEAMan repository aiming to help users get started with and use the software effectively.
+The "docs" directory typically contains documentation related to the Finite Element Analysis software, analysis methods, or code. This may include user guides, installation instructions, API documentation, release notes, and other resources that help users understand and use the FEA software & simulation effectively. The "docs" folder is structured in a way that allows users to easily navigate and find the information they need, and may include subfolders and markdown files for better organization and readability. Overall, the "docs" folder is an important part of TheFEAMan repository aiming to help users get started with and use the software effectively.  <br>
 
 ### TM Formelsammlung
 
-Databank for applied technical mechanics 1-3 formulary.
+Databank for Applied Technical Mechanics 1-3 [Formulary](https://github.com/pizofreude/TheFEAMan/tree/main/docs/TM_Formelsammlung).  <br>
 
 ### Literature
 
-Lecture notes from various FEA Professors and materials from third party resources.
+Lecture notes from various FEA Professors and materials from third party [resources](https://github.com/pizofreude/TheFEAMan/tree/main/docs/Literature).  <br>
 
 ## Bibliography Recommendation: Methods and Applications
 
-Bibliography Recommendation is a curated list of resources related to Finite Element Analysis (FEA). This list include books, research papers, articles, and other publications that provide insights and guidance on various aspects of FEA, such as theory, numerical methods, simulation techniques, and applications. The list is compiled by experts in the field of FEA, and serves as a valuable resource for researchers, students, and professionals who want to stay up-to-date with the latest developments and best practices in FEA. The bibliography is organized according to user expertise levels, making it easy for users to find relevant resources quickly and efficiently. All in all, it is a useful source of references for anyone interested in advancing their knowledge and expertise in FEA.
+Bibliography Recommendation is a curated list of resources related to Finite Element Analysis (FEA). This list include books, research papers, articles, and other publications that provide insights and guidance on various aspects of FEA, such as theory, numerical methods, simulation techniques, and applications. The list is compiled by experts in the field of FEA, and serves as a valuable resource for researchers, students, and professionals who want to stay up-to-date with the latest developments and best practices in FEA. The bibliography is organized according to user expertise levels, making it easy for users to find relevant resources quickly and efficiently. All in all, it is a useful source of references for anyone interested in advancing their knowledge and expertise in FEA.  <br>
 
 ### Beginner Levels
 
@@ -64,7 +64,7 @@ Bibliography Recommendation is a curated list of resources related to Finite Ele
 
 ## FEA Online Resources
 
-Collection of learning materials that can help you master the numerical technique of finite element method (FEM). Whether you are an engineer, designer, hobbyist or student, you can find resources that suit your needs and goals. You can learn the basics of FEM theory, how to set up and solve problems using FEM software, how to interpret and validate the results, and how to apply FEM to various engineering domains. You can also access [online platform](https://www.simscale.com/blog/learn-finite-element-analysis-fea/) that provide interactive interfaces for FEM simulations. Finite Element Analysis Online Resources can help you reduce the number of physical prototypes and experiments, optimize your designs, and develop better products faster.
+Collection of learning materials that can help you master the numerical technique of finite element method (FEM). Whether you are an engineer, designer, hobbyist or student, you can find resources that suit your needs and goals. You can learn the basics of FEM theory, how to set up and solve problems using FEM software, how to interpret and validate the results, and how to apply FEM to various engineering domains. You can also access [online platform](https://www.simscale.com/blog/learn-finite-element-analysis-fea/) that provide interactive interfaces for FEM simulations. Finite Element Analysis Online Resources can help you reduce the number of physical prototypes and experiments, optimize your designs, and develop better products faster.  <br>
 
 ### Theory
 
@@ -146,8 +146,8 @@ Collection of learning materials that can help you master the numerical techniqu
 
 ## Contributing
 
-Contributions to this repository are welcome. If you find a bug or have a suggestion for improvement, please submit an issue or pull request.
+Contributions to this repository are welcome. If you find a bug or have a suggestion for improvement, please submit an issue or pull request.  <br>
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE file](LICENSE) for more information.
+This repository is licensed under the MIT License. See the [LICENSE file](https://github.com/pizofreude/TheFEAMan/blob/main/LICENSE) for more information.  <br>
