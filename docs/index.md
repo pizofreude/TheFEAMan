@@ -52,6 +52,8 @@ Bibliography Recommendation is a curated list of resources related to Finite Ele
 ### Expert Levels
 
 * [EN] "Nonlinear Finite Elements for Continua and Structures" by Ted Belytschko, Wing Kam Liu, and Brian Moran
+* [EN] "Noise, Vibration and Harshness (NVH)" by David C. Barton & John D. Fieldhouse
+* [EN] "Low- and high-frequency NVH CAE – test methods for development of a lightweight sedan design" by Yuksel Gur & David A. Wagner & Jian Pan
 * [EN] "Computational Contact and Impact Mechanics: Fundamentals of Modeling Interfacial Phenomena in Nonlinear Finite Element Analysis" by Tod A. Laursen
 * [EN] "Fluid-Structure Interactions: Slender Structures and Axial Flow" by Michael P. Paidoussis
 * [EN] "Fluid-Structure Interactions: Cross-Flow-Induced Instabilities" by Michael P. Païdoussis, Stuart J. Price, Emmanuel de Langre
@@ -98,6 +100,20 @@ Collection of learning materials that can help you master the numerical techniqu
 * [Greek alphabet in Finite-Element-Methods & Technical Mechanics Calculation](https://www.britannica.com/topic/Greek-alphabet)
 * [Understanding the Finite Element Method](https://youtu.be/GHjopp47vvQ)
 * [Plane Stress and Plane Strain in FEA](https://youtu.be/4VaKdvWPVOk)
+* [Online Masterclass on EV / HEV NVH Engineering](https://www.plm.automation.siemens.com/global/en/resource/masterclass-ev-nvh-engineering/92750)
+* [Introduction to vehicle NVH and Acoustics](https://www.plm.automation.siemens.com/media/global/en/1_Intro_NVH_Webinar_tcm27-2743.pdf)
+* [Vehicle NVH integration: how to combine test and simulation](https://blogs.sw.siemens.com/simcenter/vehicle-nvh-integration-how-to-combine-test-and-simulation/)
+* [NVH Applications](https://blogmech.com/nvh-noise-vibration-and-harshness-nvh-introduction/)
+* [Automotive Engineering - NVH Essentials](https://www.udemy.com/course/automotive-engineering-nvh-essentials/)
+* [Automotive Testing & Compliance Services for Cars](https://www.tuvsud.com/en/industries/mobility-and-automotive/automotive-and-oem/automotive-testing-solutions)
+* [NVH Analysis: Reducing Noise, Vibration, and Harshness](https://www.engineering-group.com/noise-vibration-and-harshness-nvh-analysis/)
+* [Test-based NVH engineering for automotive powertrains](https://www.plm.automation.siemens.com/media/global/en/Powertrain%20NVH%20Testing%20-%20Webinar_tcm27-78124.pdf)
+* [New rules for automotive product design and development](https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/smartphones-on-wheels-new-rules-for-automotive-product-development)
+* [Activating Agile Product-Life-Cycle Management in Automotive](https://www.bcg.com/publications/2019/agile-product-life-cycle-management-automotive)
+* [SAE Paper: CAE Analysis and Auralization of Driveline Clunk NVH](https://www.sae.org/publications/technical-papers/content/2021-01-1067/)
+* [LMS SCADAS](https://www.plm.automation.siemens.com/fr_fr/Images/Siemens-PLM-LMS-SCADAS-br_tcm68-221355.pdf)
+* [FFT Analyzer](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
+
 
 ### Software Applications
 
