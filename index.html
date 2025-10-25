@@ -1,0 +1,913 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="docs/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>The FEA Man</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#thefeaman" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="The FEA Man" class="md-header__button md-logo" aria-label="The FEA Man" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The FEA Man
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TheFEAMan
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+  
+    
+  
+  TheFEAMan
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="docs/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Documentation via MkDocs
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="The FEA Man" class="md-nav__button md-logo" aria-label="The FEA Man" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    The FEA Man
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    TheFEAMan
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    TheFEAMan
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contents-under-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contents Under Docs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contents Under Docs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tm_formelsammlung" class="md-nav__link">
+    <span class="md-ellipsis">
+      TM_Formelsammlung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#literature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Literature
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliography-recommendation-methods-and-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliography Recommendation: Methods and Applications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bibliography Recommendation: Methods and Applications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#beginner-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beginner Levels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intermediate-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intermediate Levels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expert-levels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expert Levels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fea-online-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      FEA Online Resources
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FEA Online Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      Theory
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software Applications
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fea-software-packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      FEA Software Packages
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      License
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="docs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Documentation via MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="thefeaman">TheFEAMan</h1>
+<p>This repository contains lecture notes, code examples, calculation resources, and tutorials related to Technical Mechanics and Finite Element Analysis. It's designed to be a learning resource for students and professionals interested in these fields. The subject cover topics such as linear and nonlinear FEA, technical mechanics, and topology optimization. The resources section includes reference to books, papers, and websites that can help you deepen your knowledge of Technical Mechanics and Finite Element Analysis. We welcome contributions from the community, so please feel free to submit pull requests or issues if you'd like to add your own code or resources to the repository.</p>
+<p>It serves as FEA knowledge database and Know-How <a href="https://github.com/pizofreude/TheFEAMan/tree/main/docs">documentation</a> as well as community processes.</p>
+<p>Finite Element Analysis (FEA) is a powerful tool for solving complex engineering problems. But sometimes, it can also be a source of frustration for engineers who struggle to set up the simulation correctly and obtain reliable results. Plus, FEA can be a frustrating process of trial and error to get the simulation to converge and produce accurate results. That’s why some people jokingly call FEA “Frustration Engineering Algorithm”. In this repository, we will share some tips and tricks to make FEA less frustrating and hopefully more rewarding.</p>
+<h2 id="contents-under-docs">Contents Under Docs</h2>
+<p>The "docs" directory typically contains documentation related to the Finite Element Analysis software, analysis methods, or code. This may include user guides, installation instructions, API documentation, release notes, and other resources that help users understand and use the FEA software &amp; simulation effectively. The "docs" folder is structured in a way that allows users to easily navigate and find the information they need, and may include subfolders and markdown files for better organization and readability. Overall, the "docs" folder is an important part of TheFEAMan repository aiming to help users get started with and use the software effectively.</p>
+<h3 id="tm_formelsammlung">TM_Formelsammlung</h3>
+<p>Databank for applied technical mechanics 1-3 formulary.</p>
+<h3 id="literature">Literature</h3>
+<p>Lecture notes from various FEA Professors and materials from third party resources.</p>
+<h2 id="bibliography-recommendation-methods-and-applications">Bibliography Recommendation: Methods and Applications</h2>
+<p>Bibliography Recommendation is a curated list of resources related to Finite Element Analysis (FEA). This list include books, research papers, articles, and other publications that provide insights and guidance on various aspects of FEA, such as theory, numerical methods, simulation techniques, and applications. The list is compiled by experts in the field of FEA, and serves as a valuable resource for researchers, students, and professionals who want to stay up-to-date with the latest developments and best practices in FEA. The bibliography is organized according to user expertise levels, making it easy for users to find relevant resources quickly and efficiently. All in all, it is a useful source of references for anyone interested in advancing their knowledge and expertise in FEA.</p>
+<h3 id="beginner-levels">Beginner Levels</h3>
+<ul>
+<li>[EN] "An Introduction to the Finite Element Method (FEM) for Differential Equations" by Mohammad Asadzadeh</li>
+<li>[EN] "Finite Element Procedures" by K.J. Bathe</li>
+<li>[EN] "A First Course in the Finite Element Method" by Daryl L. Logan</li>
+<li>[EN] "Finite Element Method: A Practical Course" by S. S. Bhavikatti</li>
+<li>[EN] "An Introduction to the Finite Element Method" by J. N. Reddy</li>
+<li>[EN] "The Finite Element Method: Its Basis and Fundamentals" by Olek C. Zienkiewicz and Robert L. Taylor</li>
+<li>[DE] "Finite-Elemente-Methoden" von K.J. Bathe</li>
+<li>[DE] "Technische Mechanik 1: Statik" von Dietmar Gross, Werner Hauger, Jörg Schröder und Wolfgang A. Wall</li>
+<li>[DE] "Technische Mechanik 2: Elastostatik" von Dietmar Gross , Werner Hauger , Jörg Schröder , Wolfgang A. Wall</li>
+<li>[DE] "Technische Mechanik 3: Kinetik" von Dietmar Gross, Werner Hauger, Jörg Schröder, und Wolfgang A. Wall</li>
+<li>[DE] "Technische Mechanik 4: Hydromechanik, Elemente der Höheren Mechanik, Numerische Methoden" von Dietmar Gross, Werner Hauger und Peter Wriggers</li>
+</ul>
+<h3 id="intermediate-levels">Intermediate Levels</h3>
+<ul>
+<li>[EN] "The Finite Element Method and Applications in Engineering Using ANSYS®" by Erdogan Madenci and Ibrahim Guven</li>
+<li>[EN] "Finite Element Analysis: Theory and Application with ANSYS" by Saeed Moaveni</li>
+<li>[EN] "Building Better Products with Finite Element Analysis" by Vince Adams and Abraham Askenazi</li>
+<li>[EN] "The Finite Element Analysis of Shells – Fundamentals" by D. Chapelle and K.J. Bathe</li>
+<li>[EN] "The Finite Element Method: Linear Static and Dynamic Finite Element Analysis" by Thomas J. R. Hughes</li>
+<li>[EN] "Finite Element Method: Basic Concepts and Applications" by Darrell W. Pepper and Juan C. Heinrich</li>
+<li>[EN] "Practical Finite Element Analysis for Mechanical Engineering-FEA Academy" by Dominique Madier</li>
+<li>[DE] "FEM-Praxis mit SolidWorks: Simulation durch Kontrollrechnung und Messung verifizieren" von Michael Brand</li>
+<li>[DE] "Strukturdynamik: Diskrete Systeme und Kontinua" von Robert Gasch, Klaus Knothe, und Robert Liebich</li>
+<li>[DE] "Methode der finiten Elemente für Ingenieure: Eine Einführung in die numerischen Grundlagen und Computersimulation" von Michael Jung und Ulrich Langer</li>
+</ul>
+<h3 id="expert-levels">Expert Levels</h3>
+<ul>
+<li>[EN] "Nonlinear Finite Elements for Continua and Structures" by Ted Belytschko, Wing Kam Liu, and Brian Moran</li>
+<li>[EN] "Computational Contact and Impact Mechanics: Fundamentals of Modeling Interfacial Phenomena in Nonlinear Finite Element Analysis" by Tod A. Laursen</li>
+<li>[EN] "Fluid-Structure Interactions: Slender Structures and Axial Flow" by Michael P. Paidoussis</li>
+<li>[EN] "Fluid-Structure Interactions: Cross-Flow-Induced Instabilities" by Michael P. Païdoussis, Stuart J. Price, Emmanuel de Langre</li>
+<li>[EN] "Finite Element Analysis on Badminton Racket Design Parameters" by Fakhrizal Azmy Nasruddin, Muhamad Noor Harun, Ardiyansyah Syahrom, Mohammed Rafiq Abdul Kadir, Abdul Hafidz Omar, Andreas Öchsner</li>
+<li>[EN] "Finite Element Analysis of Non-Newtonian Flow: Theory and Software" by Dr Hou-Cheng Huang, Dr Zheng-Hua Li, Dr Asif S. Usmani</li>
+<li>[DE] "Festkörpermechanik und Materialtheorie für nichtlineare FEM" von Frank Ihlenburg</li>
+<li>[DE] "Nichtlineare Finite-Elemente-Berechnungen mit ANSYS Workbench: Strukturmechanik, Kontakt, Material, große Verformungen" von Wilhelm Rust</li>
+<li>[DE] "Lineare und nichtlineare FEM: Eine Einführung mit Anwendungen in der Umformsimulation mit LS-DYNA®" von Marcus Wagner</li>
+<li>[DE] "Nichtlineare Finite-Element-Methoden" von Peter Wriggers</li>
+</ul>
+<h2 id="fea-online-resources">FEA Online Resources</h2>
+<p>Collection of learning materials that can help you master the numerical technique of finite element method (FEM). Whether you are an engineer, designer, hobbyist or student, you can find resources that suit your needs and goals. You can learn the basics of FEM theory, how to set up and solve problems using FEM software, how to interpret and validate the results, and how to apply FEM to various engineering domains. You can also access <a href="https://www.simscale.com/blog/learn-finite-element-analysis-fea/">online platform</a> that provide interactive interfaces for FEM simulations. Finite Element Analysis Online Resources can help you reduce the number of physical prototypes and experiments, optimize your designs, and develop better products faster.</p>
+<h3 id="theory">Theory</h3>
+<ul>
+<li><a href="https://open.umich.edu/find/open-educational-resources/engineering/introduction-finite-element-methods">Introduction to Finite Element Methods</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/">Finite Element Analysis of Solids and Fluids I</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-094-finite-element-analysis-of-solids-and-fluids-ii-spring-2011/">Finite Element Analysis of Solids and Fluids II</a></li>
+<li><a href="https://ocw.mit.edu/courses/res-2-002-finite-element-procedures-for-solids-and-structures-spring-2010/">Finite Element Procedures for Solids and Structures</a></li>
+<li><a href="https://ocw.mit.edu/courses/16-21-techniques-for-structural-analysis-and-design-spring-2005/">Techniques for Structural Analysis and Design</a></li>
+<li><a href="https://ocw.mit.edu/courses/16-225-computational-mechanics-of-materials-fall-2003/">Computational Mechanics of Materials</a></li>
+<li><a href="https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/">Classical Mechanics</a></li>
+<li><a href="https://ocw.mit.edu/courses/8-223-classical-mechanics-ii-january-iap-2017/">Classical Mechanics II</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-080j-structural-mechanics-fall-2013/">Structural Mechanics</a></li>
+<li><a href="https://ocw.mit.edu/courses/3-11-mechanics-of-materials-fall-1999/">Mechanics Of Materials</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-001-mechanics-materials-i-fall-2006/">Mechanics And Materials I</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-002-mechanics-and-materials-ii-spring-2004/">Mechanics And Materials II</a></li>
+<li><a href="https://ocw.mit.edu/courses/3-032-mechanical-behavior-of-materials-fall-2007/">Mechanical Behavior Of Materials</a></li>
+<li><a href="https://ocw.mit.edu/courses/3-064-polymer-engineering-fall-2003/">Polymer Engineering</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-032-dynamics-fall-2004/">Dynamics</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-800-tribology-fall-2004/">Tribology</a></li>
+<li><a href="https://fem-helden.de/">FEM Helden</a></li>
+<li><a href="http://feaforall.com/">FEA for All</a></li>
+<li><a href="http://ocw2.mit.edu/resources/res-2-002-finite-element-procedures-for-solids-and-structures-spring-2010/linear/">MIT Video Lectures: "Finite Element Procedures for Solids and Structures – Linear Analysis"</a></li>
+<li><a href="http://ocw2.mit.edu/resources/res-2-002-finite-element-procedures-for-solids-and-structures-spring-2010/nonlinear/">MIT Video Lectures: "Finite Element Procedures for Solids and Structures – Nonlinear Analysis"</a></li>
+<li><a href="https://ocw.mit.edu/courses/1-050-engineering-mechanics-i-fall-2007/">Engineering Mechanics I</a></li>
+<li><a href="https://ocw.mit.edu/courses/1-060-engineering-mechanics-ii-spring-2006/">Engineering Mechanics II</a></li>
+<li><a href="https://ocw.mit.edu/courses/2-086-numerical-computation-for-mechanical-engineers-fall-2014/">Numerical Computation for Mechanical Engineers</a></li>
+<li><a href="https://youtube.com/playlist?list=PLOAuB8dR35oe8lcGo-ic-f5HdxpXEanvb">Engineer4Free: Structural Analysis</a></li>
+<li><a href="https://www.edx.org/course/a-hands-on-introduction-to-engineering-simulations">A Hands-on Introduction to Engineering Simulations</a></li>
+<li><a href="https://feaforall.com/courses/fea-foundations-check-mechanical-product-design-linear-static/">How to check any mechanical product design with linear static</a></li>
+<li><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/index.html">HyperPhysics</a></li>
+<li><a href="https://www.britannica.com/topic/Greek-alphabet">Greek alphabet in Finite-Element-Methods &amp; Technical Mechanics Calculation</a></li>
+<li><a href="https://youtu.be/GHjopp47vvQ">Understanding the Finite Element Method</a></li>
+<li><a href="https://youtu.be/4VaKdvWPVOk">Plane Stress and Plane Strain in FEA</a></li>
+</ul>
+<h3 id="software-applications">Software Applications</h3>
+<ul>
+<li>ANSYS: <a href="https://courses.ansys.com/">Ansys Innovation Courses</a></li>
+<li>ANSYS: <a href="https://forum.ansys.com/">Ansys Learning Forums</a></li>
+<li>ANSYS: <a href="https://github.com/pyansys">PyAnsys: Python APIs. Make your own GUI, handle results how you like or even connect Ansys to other tools; this allows you to interact with Ansys solvers in a way that's useful for you.</a></li>
+<li>ANSYS: <a href="https://www.youtube.com/playlist?list=PLQMtm0_chcLx4NoPbUFkqLHoOomntN0Gr">Getting Started with Ansys Student</a></li>
+<li>ANSYS: <a href="https://www.youtube.com/playlist?list=PLQMtm0_chcLxuLow8a0tl2S0DLGh5q1oP">Learn with Ansys Mechanical Tutorials</a></li>
+<li>ANSYS: <a href="https://www.youtube.com/playlist?list=PLQMtm0_chcLwKt2NPwtUfbrP2s72hE47j">Ansys Student Team Mechanical Tutorials</a></li>
+<li>ANSYS: <a href="https://www.ansys.com/academic/students/ansys-onscale">Ansys OnScale – 10 Free Monthly Core Hours</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/getting-started-with-ansys-mechanical/">Getting Started with Ansys Mechanical</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/fundamental-topics-in-contact/">Fundamental Topics in Contact</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/topics-in-metal-plasticity/">Topics in Metal Plasticity</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/linear-elastic-materials/">Linear Elastic Materials</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/volumetric-and-deviatoric-behavior/">Volumetric and Deviatoric Behavior</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/stress-analysis/">Stress Analysis in Solid Mechanics</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/mechanical-strain/">Strain in Deformation Analysis</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/bolted-connections-2/">Preloaded Bolted Joint Analysis</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/heat-transfer/">Intro to Heat Transfer in Mechanical Structures</a></li>
+<li>ANSYS: <a href="https://courses.ansys.com/index.php/courses/solid-modeling-with-ansys-spaceclaim/">Solid Modeling With Ansys SpaceClaim</a></li>
+</ul>
+<h2 id="fea-software-packages">FEA Software Packages</h2>
+<table>
+<thead>
+<tr>
+<th>FEA Software</th>
+<th>Company</th>
+<th>Platform</th>
+<th>Commercial/Open Source</th>
+<th>Features</th>
+<th>Availability for Educational/Research/Free Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ANSYS Workbench</td>
+<td>ANSYS Inc.</td>
+<td>Windows, Linux, Unix</td>
+<td>Commercial</td>
+<td>Static and dynamic analysis, Multiphysics simulation, heat transfer, structural mechanics, electromagnetics, meshing tools, optimization</td>
+<td>Available for educational and research use with limitations through ANSYS Academic Program</td>
+</tr>
+<tr>
+<td>MEDINA/PERMAS</td>
+<td>T-Systems / INTES GmbH</td>
+<td>Windows, Linux, Unix</td>
+<td>Commercial</td>
+<td>Nonlinear analysis, contact analysis, dynamic analysis, heat transfer, fluid-structure interaction, multiphysics, optimization, meshing tools</td>
+<td>PERMAS is available for research and academic purposes with a limited number of elements. MEDINA only commercially available.</td>
+</tr>
+<tr>
+<td>z88</td>
+<td>z88.de</td>
+<td>Windows, Linux, Unix</td>
+<td>Open Source</td>
+<td>Linear and nonlinear analysis, structural mechanics, optimization</td>
+<td>Free for non-commercial use, source code available</td>
+</tr>
+<tr>
+<td>Salome-Meca (Pre-,Post-processing) / Code_Aster</td>
+<td>EDF</td>
+<td>Windows, Linux, Unix</td>
+<td>Open Source</td>
+<td>Pre-processing, Meshing, Solver, Post-processing, Coupled Multiphysics Analysis / Solver, Nonlinear Analysis, Dynamic Analysis, Heat Transfer, Contact Analysis, Material Models</td>
+<td>Available for Educational/Research/Free Use</td>
+</tr>
+<tr>
+<td>VisPER/PERMAS</td>
+<td>INTES GmbH</td>
+<td>Windows, Linux, Unix</td>
+<td>Commercial</td>
+<td>Nonlinear analysis, contact analysis, dynamic analysis, heat transfer, fluid-structure interaction, multiphysics, optimization, meshing tools</td>
+<td>Available for research and academic purposes with a limited number of elements</td>
+</tr>
+<tr>
+<td>CloudCalc</td>
+<td>CloudCalc Inc.</td>
+<td>Web-based</td>
+<td>Commercial</td>
+<td>Structural analysis, code compliance, optimization, real-time collaboration</td>
+<td>Free trial available, educational discounts offered</td>
+</tr>
+<tr>
+<td>Simuleon</td>
+<td>Simuleon B.V.</td>
+<td>Windows</td>
+<td>Commercial</td>
+<td>Nonlinear analysis, structural mechanics, heat transfer, electromagnetics, multiphysics, optimization, meshing tools</td>
+<td>Free for educational institutions and research purposes with a limited number of elements</td>
+</tr>
+<tr>
+<td>OnScale</td>
+<td>OnScale Inc.</td>
+<td>Windows, Linux, Cloud-based</td>
+<td>Commercial</td>
+<td>Multiphysics simulation, structural mechanics, acoustics, electromagnetics, thermal analysis</td>
+<td>Free Community Plan available for non-commercial use, educational discounts offered</td>
+</tr>
+<tr>
+<td>Abaqus</td>
+<td>Dassault Systemes</td>
+<td>Windows, Linux</td>
+<td>Commercial</td>
+<td>Nonlinear analysis, contact analysis, dynamic analysis, heat transfer, fluid-structure interaction, multiphysics, optimization, meshing tools</td>
+<td>Available for educational and research use with limitations through SIMULIA Academic Program</td>
+</tr>
+<tr>
+<td>COMSOL</td>
+<td>COMSOL Inc.</td>
+<td>Windows, Linux, Unix</td>
+<td>Commercial</td>
+<td>Multiphysics simulation, heat transfer, structural mechanics, electromagnetics, acoustics, chemical reactions, meshing tools, optimization</td>
+<td>Available for educational and research use with limitations through COMSOL Academic Program</td>
+</tr>
+<tr>
+<td>LS-DYNA</td>
+<td>Livermore Software Technology Corp.</td>
+<td>Windows, Linux, Unix</td>
+<td>Commercial</td>
+<td>Nonlinear analysis, explicit dynamics, crashworthiness, impact analysis, fluid-structure interaction, multiphysics, optimization</td>
+<td>Available for educational and research use with limitations through LSTC Academic Program</td>
+</tr>
+<tr>
+<td>Nastran/Patran (Pre-/Postprocessing)</td>
+<td>Siemens PLM Software</td>
+<td>Windows, Linux, Unix</td>
+<td>Commercial</td>
+<td>Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, multiphysics, optimization, meshing tools</td>
+<td>Available for educational and research use with limitations through Siemens Academic Program</td>
+</tr>
+<tr>
+<td>SolidWorks Simulation</td>
+<td>Dassault Systemes</td>
+<td>Windows</td>
+<td>Commercial</td>
+<td>Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, multiphysics, optimization, meshing tools</td>
+<td>Available for educational and research use with limitations through SOLIDWORKS Academic Program</td>
+</tr>
+<tr>
+<td>Femap</td>
+<td>Siemens PLM Software</td>
+<td>Windows</td>
+<td>Commercial</td>
+<td>Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, meshing tools, optimization</td>
+<td>Available for educational and research use with limitations through Siemens Academic Program</td>
+</tr>
+<tr>
+<td>SimScale</td>
+<td>SimScale GmbH</td>
+<td>Web-based</td>
+<td>Commercial/Open Source</td>
+<td>Multiphysics simulation, heat transfer, structural mechanics, electromagnetics, acoustics, meshing tools, optimization</td>
+<td>Free plan available for non-commercial use, with limited simulation time and features</td>
+</tr>
+<tr>
+<td>HyperWorks</td>
+<td>Altair Engineering Inc.</td>
+<td>Windows, Linux</td>
+<td>Commercial</td>
+<td>Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics, optimization, meshing tools</td>
+<td>Available for educational and research use with limitations through Altair Academic Program</td>
+</tr>
+<tr>
+<td>Autodesk Nastran</td>
+<td>Autodesk Inc.</td>
+<td>Windows</td>
+<td>Commercial</td>
+<td>Static and dynamic analysis, structural mechanics, heat transfer, electromagnetics</td>
+<td>Available for educational and research use with limitations through Autodesk Education Community</td>
+</tr>
+<tr>
+<td>CalculiX</td>
+<td>CalculiX</td>
+<td>Windows, Linux</td>
+<td>Open Source</td>
+<td>Linear and nonlinear analysis, heat transfer, fluid-structure interaction, contact analysis, optimization</td>
+<td>Open source and free to use for all purposes</td>
+</tr>
+<tr>
+<td>Elmer</td>
+<td>CSC - IT Center for Science Ltd.</td>
+<td>Windows, Linux, Unix</td>
+<td>Open Source</td>
+<td>Multiphysics simulation, fluid dynamics, heat transfer, electromagnetics, structural mechanics</td>
+<td>Open source and free to use for all purposes</td>
+</tr>
+<tr>
+<td>ADINA</td>
+<td>ADINA R&amp;D Inc.</td>
+<td>Windows, Linux, Unix</td>
+<td>Commercial</td>
+<td>Multiphysics simulation, linear and nonlinear analysis, heat transfer, fluid dynamics, structural mechanics, electromagnetics, optimization</td>
+<td>Available for educational and research use</td>
+</tr>
+<tr>
+<td>FEAScript</td>
+<td>FEAScript</td>
+<td>API, WebApp</td>
+<td>Open Source</td>
+<td>General form PDE solver, Linear system solvers: Frontal, Jacobi, LU, Newton-Raphson method for nonlinear systems</td>
+<td>Open source and free to use for all purposes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="contributing">Contributing</h2>
+<p>Contributions to this repository are welcome. If you find a bug or have a suggestion for improvement, please submit an issue or pull request.</p>
+<h2 id="license">License</h2>
+<p>This repository is licensed under the MIT License. See the <a href="LICENSE">LICENSE file</a> for more information.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="https://github.com/pizofreude"  target="_blank" rel="noopener">Pizofreude</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/pizofreude" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/HafeezHaqq" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/ahafeezs/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
