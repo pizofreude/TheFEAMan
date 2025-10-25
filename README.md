@@ -143,6 +143,7 @@ Collection of learning materials that can help you master the numerical techniqu
 | CalculiX | CalculiX | Windows, Linux | Open Source | Linear and nonlinear analysis, heat transfer, fluid-structure interaction, contact analysis, optimization | Open source and free to use for all purposes |
 | Elmer | CSC - IT Center for Science Ltd. | Windows, Linux, Unix | Open Source | Multiphysics simulation, fluid dynamics, heat transfer, electromagnetics, structural mechanics | Open source and free to use for all purposes |
 | ADINA | ADINA R&D Inc. | Windows, Linux, Unix | Commercial | Multiphysics simulation, linear and nonlinear analysis, heat transfer, fluid dynamics, structural mechanics, electromagnetics, optimization | Available for educational and research use |
+| FEAScript | FEAScript | API, WebApp | Open Source | General form PDE solver, Linear system solvers: Frontal, Jacobi, LU, Newton-Raphson method for nonlinear systems | Open source and free to use for all purposes |
 
 ## Contributing
 
