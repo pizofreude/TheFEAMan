@@ -21,4 +21,11 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: cp README.md docs/index.md
+      - name: Commit synced index.md
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/index.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: sync README.md to docs/index.md [skip ci]"
+          git push
       - run: mkdocs gh-deploy --force
